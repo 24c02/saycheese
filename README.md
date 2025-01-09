@@ -2,9 +2,8 @@
 
 # Say Cheese
 
-> WARNING!! This project is a work in progress
 
-Say Cheese is a (hopeful) You Ship We Ship program
+Say Cheese is a You Ship We Ship program
 focused on creating games and programs that can fit inside a single QR code.
 
 The QR code standard is a collection of many different versions,
