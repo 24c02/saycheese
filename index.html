@@ -1,382 +1,369 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Hack Club's You Ship We Ship (YSWS) pushing high-school students to explore real-world size constrains by fitting an entire computer program inside of a QR-code." />
-    
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="Hack Club's You Ship We Ship (YSWS) pushing high-school students to explore real-world size constrains by fitting an entire computer program inside of a QR-code." />
+
         <title>Say Cheese!</title>
-    
-        <link rel="icon" type="image/x-icon" href="/favicon.ico">
-    <link rel="stylesheet" href="nav.css">
-    <link rel="stylesheet" href="global.css">
-    <style>
-        .center {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100vw;
-            height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
 
-        .opener {
-            aspect-ratio: 1/1;
-            max-width: calc(min(80vw, 60vh));
-            max-height: calc(min(80vw, 60vh));
-            width: 100%;
-            height: 100%;   
-            border: #000 solid 4px;
-            animation: 500ms scan-container forwards 200ms, 500ms out forwards 700ms;
-        }
-
-        @keyframes scan-container {
-            0% {
-                border: none;
-            }
-            20% {
-                border: #000 solid 4px;
-            }
-            40% {
-                border: none;
-            }
-            60% {
-                border: #000 solid 4px;
-            }
-            80% {
-                border: none;
-            }
-            100% {
-                border: #000 solid 4px;
-            }
-        }
-
-        @keyframes out {
-            from {
-                transform: scale(100%);
-                opacity: 1;
+        <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="stylesheet" href="nav.css" />
+        <link rel="stylesheet" href="global.css" />
+        <style>
+            .center {
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100vw;
+                height: 100vh;
+                display: flex;
+                justify-content: center;
+                align-items: center;
             }
 
-            to {
-                transform: scale(300%);
-                opacity: 0;
-            }
-        }
-
-        .opener > img {
-            position: relative;
-            height: 100%;
-            width: 100%;
-            animation: 750ms scan-img forwards 200ms;
-        }
-
-        @keyframes scan-img {
-            from {
-                top: 0px;
-                left: 0px;
+            .opener {
+                aspect-ratio: 1/1;
                 max-width: calc(min(80vw, 60vh));
                 max-height: calc(min(80vw, 60vh));
+                width: 100%;
+                height: 100%;
+                border: #000 solid 4px;
+                animation: 500ms scan-container forwards 200ms, 500ms out forwards 700ms;
             }
-            to {
-                top: 10%;
-                left: 10%;
-                max-width: calc(min(80vw, 60vh) - 20%);
-                max-height: calc(min(80vw, 60vh) - 20%);
+
+            @keyframes scan-container {
+                0% {
+                    border: none;
+                }
+                20% {
+                    border: #000 solid 4px;
+                }
+                40% {
+                    border: none;
+                }
+                60% {
+                    border: #000 solid 4px;
+                }
+                80% {
+                    border: none;
+                }
+                100% {
+                    border: #000 solid 4px;
+                }
             }
-            
-        }
 
-        .header {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-        }
+            @keyframes out {
+                from {
+                    transform: scale(100%);
+                    opacity: 1;
+                }
 
-        .header > img {
-            width: 30%;
-            height: auto;
-        }
-
-        .header > h1 {
-            font-size: 5rem;
-            padding: 0;
-            margin: 0;
-        }
-
-        .content {
-            width: 100vw;
-            position: relative;     
-            top: 3rem;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-            opacity: 0;
-            animation: 500ms content-in forwards 700ms;
-        }
-
-        @keyframes content-in {
-            from {
-                transform: scale(0);
-                opacity: 0;
+                to {
+                    transform: scale(300%);
+                    opacity: 0;
+                }
             }
-            to {
-                transform: scale(100%);
-                opacity: 1;
+
+            .opener > img {
+                position: relative;
+                height: 100%;
+                width: 100%;
+                animation: 750ms scan-img forwards 200ms;
             }
-        }
 
-        .hidden {
-            display: none;
-        }
+            @keyframes scan-img {
+                from {
+                    top: 0px;
+                    left: 0px;
+                    max-width: calc(min(80vw, 60vh));
+                    max-height: calc(min(80vw, 60vh));
+                }
+                to {
+                    top: 10%;
+                    left: 10%;
+                    max-width: calc(min(80vw, 60vh) - 20%);
+                    max-height: calc(min(80vw, 60vh) - 20%);
+                }
+            }
 
-        .steps {
-            width: 35rem;
-            max-width: 100%;
-            display: flex;
-            flex-direction: column;
-            margin-top: 1rem;
-            margin-bottom: 3rem;
-        }
-
-        .steps > div {
-            display: flex;
-            flex-direction: row;
-            width: 100%;
-            justify-content: space-around   ;
-        }
-
-        .arrow {
-            height: 2.25rem;
-            width: auto;
-            image-rendering: crisp-edges;
-        }
-
-        .rot-x-180 {
-            transform: rotateX(180deg);
-        }
-
-        .step {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-            width: 10rem;
-        }
-
-        .flex-between {
-            justify-content: space-between !important;
-        }
-
-        main {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            overflow-x: hidden  ;
-        }
-        
-        main > p {
-            text-align: center;
-            font-size: 1.25rem;
-        }
-
-        a:link {
-            color: #777;
-        }
-
-        .flex {
-            display: flex;
-        }
-
-        .flex-between {
-            justify-content: space-around;
-        }
-
-        .flex-row-column {
-            align-items: center;
-        }
-
-        h2 {
-            width: 100%;
-            text-align: center;
-            margin: 0;
-            padding: 0;
-            line-height: 1;
-        }
-
-        .nopad {
-            margin: 0;
-            padding: 0;
-        }
-
-        h2 {
-            font-size: 20px;
-        }
-
-        p {
-            font-size: 18px;
-        }
-
-        ul {
-            list-style: circle;
-            padding-left: 1rem;
-        }
-
-        li {
-            font-size: 18px;
-        }
-
-        .max-100 {
-            max-width: 100%;
-        }   
-
-        .inverse {
-            color: white;
-            background-color: #000;
-            padding: 1.25rem;
-        }
-
-        
-
-        @media (orientation:landscape) {
             .header {
-                width: 60vw;    
-            }
-
-            main {
-                width: 60vw;
-            }
-
-            .flex-row-column {
-                flex-direction: row;
-            }
-
-            .max-45-90 {
-                max-width: 45%;
-            }
-        }
-
-        @media (orientation:portrait) {
-            .header {
-                width: 90vw;
-            }
-
-            main {
-                width: 90vw;
-            }
-
-            .flex-row-column {
+                display: flex;
                 flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
             }
 
-            .max-45-90 {
-                max-width: 90%;
+            .header > img {
+                width: 30%;
+                height: auto;
             }
-        }
-    </style>
-</head>
-<body>
-    <div class="center">
-        <div class="opener" aria-hidden="true">
-            <img src="./static/say-cheese-qr.png" />
-        </div>  
-    </div>
-    <header>
-        <div class="navbar">
-            <a class="navbar-link" href="/gallery.html">gallery</a>
-            <a class="navbar-link" href="https://forms.hackclub.com/say-cheese-submission">submit</a>
-            <a class="navbar-link" href="/tutorial.html">tutorial-ish</a>
 
-        </div>
-        <div class="links">
-            <a href="https://github.com/commonkestrel/saycheese" target="_blank">
-                <img src="./static/github-mark.svg" alt="github logo">
-            </a>
-        </div>
-    </header>
-    <div class="content">
-        <div class="header">
-            <img src="./static/say-cheese.png" alt="say cheese logo"/>
-            <h1>say cheese!</h1>
-        </div> 
-        <main>
-            <p class="inverse"> storage is too cheap nowadays. why not make it convenient instead?</p>
+            .header > h1 {
+                font-size: 5rem;
+                padding: 0;
+                margin: 0;
+            }
 
-            <div class="steps">
-                <div>
-                    <img src="./static/arrow.png" class="arrow" alt="right arrow">
-                    <div></div>
-                    
-                </div>
-                <div class="flex-between"> 
-                    <div class="step">
-                        <p>build a program</p>
-                    </div>
-                    <div class="step">
-                        <p>fit it in a QR code</p>
-                    </div>
-                    <div class="step">
-                        <p>profit???</p>
-                    </div> 
-                </div>
-                <div>
-                    <div></div>
-                    <img src="./static/arrow.png" class="arrow rot-x-180" alt="right arrow">
-                </div>
+            .content {
+                width: 100vw;
+                position: relative;
+                top: 3rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                opacity: 0;
+                animation: 500ms content-in forwards 700ms;
+            }
+
+            @keyframes content-in {
+                from {
+                    transform: scale(0);
+                    opacity: 0;
+                }
+                to {
+                    transform: scale(100%);
+                    opacity: 1;
+                }
+            }
+
+            .hidden {
+                display: none;
+            }
+
+            .steps {
+                width: 35rem;
+                max-width: 100%;
+                display: flex;
+                flex-direction: column;
+                margin-top: 1rem;
+                margin-bottom: 3rem;
+            }
+
+            .steps > div {
+                display: flex;
+                flex-direction: row;
+                width: 100%;
+                justify-content: space-around;
+            }
+
+            .arrow {
+                height: 2.25rem;
+                width: auto;
+                image-rendering: crisp-edges;
+            }
+
+            .rot-x-180 {
+                transform: rotateX(180deg);
+            }
+
+            .step {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                width: 10rem;
+            }
+
+            .flex-between {
+                justify-content: space-between !important;
+            }
+
+            main {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                overflow-x: hidden;
+            }
+
+            main > p {
+                text-align: center;
+                font-size: 1.25rem;
+            }
+
+            a:link {
+                color: #777;
+            }
+
+            .flex {
+                display: flex;
+            }
+
+            .flex-between {
+                justify-content: space-around;
+            }
+
+            .flex-row-column {
+                align-items: center;
+            }
+
+            h2 {
+                width: 100%;
+                text-align: center;
+                margin: 0;
+                padding: 0;
+                line-height: 1;
+            }
+
+            .nopad {
+                margin: 0;
+                padding: 0;
+            }
+
+            h2 {
+                font-size: 20px;
+            }
+
+            p {
+                font-size: 18px;
+            }
+
+            ul {
+                list-style: circle;
+                padding-left: 1rem;
+            }
+
+            li {
+                font-size: 18px;
+            }
+
+            .max-100 {
+                max-width: 100%;
+            }
+
+            .inverse {
+                color: white;
+                background-color: #000;
+                padding: 1.25rem;
+            }
+
+            @media (orientation: landscape) {
+                .header {
+                    width: 60vw;
+                }
+
+                main {
+                    width: 60vw;
+                }
+
+                .flex-row-column {
+                    flex-direction: row;
+                }
+
+                .max-45-90 {
+                    max-width: 45%;
+                }
+            }
+
+            @media (orientation: portrait) {
+                .header {
+                    width: 90vw;
+                }
+
+                main {
+                    width: 90vw;
+                }
+
+                .flex-row-column {
+                    flex-direction: column;
+                }
+
+                .max-45-90 {
+                    max-width: 90%;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="center">
+            <div class="opener" aria-hidden="true">
+                <img src="./static/say-cheese-qr.png" />
             </div>
-            
-            <div class="max-100 flex flex-row-column flex-between">
-                <div class="max-45-90">
-                    
-                    <h2>what counts?</h2>
-                    <p>
-                        any program inside a qr code!
-                        this is platform agnostic,
-                        which means your program can run on x64 Linux, ARM Windows, or a Nintendo DS.
-                        as long as it's small enough to fit in a qr code, it counts!
-                    </p>
-
-                    <h2>what do i get?</h2>
-                    <ul>
-                        <li>my undying love and affection</li>
-                        <li>a portable printer to print qr codes to your heart's content! <s>it may or may not be cat themed</s></li>
-                        <li>the best project gets a blåhaj!</li>
-                    </ul>
-                </div>
-                <div class="max-45-90">
-                    <h2>how do?</h2>
-                    <p>
-                        start by checking the 
-                        <a href="https://hackclub.slack.com/archives/C07QKKZPVD0">#saycheese</a>
-                        on slack for the FAQ and to chat with others working on similar projects!
-                        after that, read through the tutorial and scan the gallery 
-                        to get an overview of what a project might look like.
-                    </p>
-                    <p class="">
-                        size optimization is the real challenge here!
-                        there are a few ways you can fit a program this small into a qr code,
-                        but the best ways are programming in an assembly language
-                        (any assembly language counts), or creating a webpage in HTML+JS.
-                    </p>
-                </div>
+        </div>
+        <header>
+            <div class="navbar">
+                <a class="navbar-link" href="/gallery.html">gallery</a>
+                <a class="navbar-link" href="https://forms.hackclub.com/say-cheese-submission">submit</a>
+                <a class="navbar-link" href="/tutorial.html">tutorial-ish</a>
             </div>
-        </main>
-    </div>
+            <div class="links">
+                <a href="https://github.com/commonkestrel/saycheese" target="_blank">
+                    <img src="./static/github-mark.svg" alt="github logo" />
+                </a>
+            </div>
+        </header>
+        <div class="content">
+            <div class="header">
+                <img src="./static/say-cheese.png" alt="say cheese logo" />
+                <h1>say cheese!</h1>
+            </div>
+            <main>
+                <p class="inverse">storage is too cheap nowadays. why not make it convenient instead?</p>
 
-    <!-- :3 -->
-    <img src="./static/blahaj.png" class="hidden blahaj" />
+                <div class="steps">
+                    <div>
+                        <img src="./static/arrow.png" class="arrow" alt="right arrow" />
+                        <div></div>
+                    </div>
+                    <div class="flex-between">
+                        <div class="step">
+                            <p>build a program</p>
+                        </div>
+                        <div class="step">
+                            <p>fit it in a QR code</p>
+                        </div>
+                        <div class="step">
+                            <p>profit???</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div></div>
+                        <img src="./static/arrow.png" class="arrow rot-x-180" alt="right arrow" />
+                    </div>
+                </div>
 
-    <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            document.addEventListener('scroll', () => {
-                const scroll = window.scrollY / window.innerHeight;
-                document.body.style.setProperty('--scroll', scroll);
-            })
-        });
-    </script>
-</body>
+                <div class="max-100 flex flex-row-column flex-between">
+                    <div class="max-45-90">
+                        <h2>what counts?</h2>
+                        <p>
+                            any program inside a qr code! this is platform agnostic, which means your program can run on x64 Linux, ARM Windows, or a Nintendo DS. as long as it's small enough to fit in a qr code, it counts!
+                        </p>
+
+                        <h2>what do i get?</h2>
+                        <ul>
+                            <li>my undying love and affection</li>
+                            <li>a portable printer to print qr codes to your heart's content! <s>it may or may not be cat themed</s></li>
+                            <li>the best project gets a blåhaj!</li>
+                        </ul>
+                    </div>
+                    <div class="max-45-90">
+                        <h2>how do?</h2>
+                        <p>
+                            start by checking the
+                            <a href="https://hackclub.slack.com/archives/C07QKKZPVD0">#saycheese</a>
+                            on slack for the FAQ and to chat with others working on similar projects! after that, read through the tutorial and scan the gallery to get an overview of what a project might look like.
+                        </p>
+                        <p class="">
+                            size optimization is the real challenge here! there are a few ways you can fit a program this small into a qr code, but the best ways are programming in an assembly language (any assembly language counts), or
+                            creating a webpage in HTML+JS.
+                        </p>
+                    </div>
+                </div>
+            </main>
+        </div>
+
+        <!-- :3 -->
+        <img src="./static/blahaj.png" class="hidden blahaj" />
+
+        <script>
+            document.addEventListener("DOMContentLoaded", () => {
+                document.addEventListener("scroll", () => {
+                    const scroll = window.scrollY / window.innerHeight;
+                    document.body.style.setProperty("--scroll", scroll);
+                });
+            });
+        </script>
+    </body>
 </html>
