@@ -1,265 +1,279 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="generator" content="pandoc" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
-  <meta name="description" content="A quick tutorial on the best way to create a project for Hack Club's Say Cheese YSWS" />
-  <link rel="icon" type="image/x-icon" href="/favicon.ico">
-  <link rel="stylesheet" href="nav.css">
-  <link rel="stylesheet" href="global.css">
-  <title>Say Cheese: Tutorial</title>
-  <style>
-    html {
-      color: #1a1a1a;
-      background-color: #fdfdfd;
-    }
-    main {
-      margin: 0 auto;
-      max-width: 36em;
-      padding-left: 50px;
-      padding-right: 50px;
-      padding-top: 50px;
-      padding-bottom: 50px;
-      hyphens: auto;
-      overflow-wrap: break-word;
-      text-rendering: optimizeLegibility;
-      font-kerning: normal;
-    }
+    <head>
+        <meta charset="utf-8" />
+        <meta name="generator" content="pandoc" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+        <meta name="description" content="A quick tutorial on the best way to create a project for Hack Club's Say Cheese YSWS" />
+        <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="stylesheet" href="nav.css" />
+        <link rel="stylesheet" href="global.css" />
+        <title>Say Cheese: Tutorial</title>
+        <style>
+            html {
+                color: #1a1a1a;
+                background-color: #fdfdfd;
+            }
+            main {
+                margin: 0 auto;
+                max-width: 36em;
+                padding-left: 50px;
+                padding-right: 50px;
+                padding-top: 50px;
+                padding-bottom: 50px;
+                hyphens: auto;
+                overflow-wrap: break-word;
+                text-rendering: optimizeLegibility;
+                font-kerning: normal;
+            }
 
-    @media (max-width: 600px) {
-      body {
-        font-size: 0.9em;
-        padding: 12px;
-      }
-      h1 {
-        font-size: 1.8em;
-      }
-    }
-    @media print {
-      html {
-        background-color: white;
-      }
-      body {
-        background-color: transparent;
-        color: black;
-        font-size: 12pt;
-      }
-      p, h2, h3 {
-        orphans: 3;
-        widows: 3;
-      }
-      h2, h3, h4 {
-        page-break-after: avoid;
-      }
-    }
-    p {
-      margin: 1em 0;
-    }
-    a {
-      color: #1a1a1a;
-    }
-    a:visited {
-      color: #1a1a1a;
-    }
-    img {
-      max-width: 100%;
-    }
-    svg {
-      height: auto;
-      max-width: 100%;
-    }
-    h1, h2, h3, h4, h5, h6 {
-      margin-top: 1.4em;
-    }
-    h5, h6 {
-      font-size: 1em;
-      font-style: italic;
-    }
-    h6 {
-      font-weight: normal;
-    }
-    ol, ul {
-      padding-left: 1.7em;
-      margin-top: 1em;
-    }
-    li > ol, li > ul {
-      margin-top: 0;
-    }
-    blockquote {
-      margin: 1em 0 1em 1.7em;
-      padding-left: 1em;
-      border-left: 2px solid #e6e6e6;
-      color: #606060;
-    }
-    code {
-      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
-      font-size: 85%;
-      margin: 0;
-      hyphens: manual;
-    }
-    pre {
-      margin: 1em 0;
-      overflow: auto;
-    }
-    pre code {
-      padding: 0;
-      overflow: visible;
-      overflow-wrap: normal;
-    }
-    .sourceCode {
-     background-color: transparent;
-     overflow: visible;
-    }
-    hr {
-      background-color: #1a1a1a;
-      border: none;
-      height: 1px;
-      margin: 1em 0;
-    }
-    table {
-      margin: 1em 0;
-      border-collapse: collapse;
-      width: 100%;
-      overflow-x: auto;
-      display: block;
-      font-variant-numeric: lining-nums tabular-nums;
-    }
-    table caption {
-      margin-bottom: 0.75em;
-    }
-    tbody {
-      margin-top: 0.5em;
-      border-top: 1px solid #1a1a1a;
-      border-bottom: 1px solid #1a1a1a;
-    }
-    th {
-      border-top: 1px solid #1a1a1a;
-      padding: 0.25em 0.5em 0.25em 0.5em;
-    }
-    td {
-      padding: 0.125em 0.5em 0.25em 0.5em;
-    }
-    header {
-      margin-bottom: 4em;
-      text-align: center;
-    }
-    #TOC li {
-      list-style: none;
-    }
-    #TOC ul {
-      padding-left: 1.3em;
-    }
-    #TOC > ul {
-      padding-left: 0;
-    }
-    #TOC a:not(:hover) {
-      text-decoration: none;
-    }
-    code{white-space: pre-wrap;}
-    span.smallcaps{font-variant: small-caps;}
-    div.columns{display: flex; gap: min(4vw, 1.5em);}
-    div.column{flex: auto; overflow-x: auto;}
-    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    /* The extra [class] is a hack that increases specificity enough to
+            @media (max-width: 600px) {
+                body {
+                    font-size: 0.9em;
+                    padding: 12px;
+                }
+                h1 {
+                    font-size: 1.8em;
+                }
+            }
+            @media print {
+                html {
+                    background-color: white;
+                }
+                body {
+                    background-color: transparent;
+                    color: black;
+                    font-size: 12pt;
+                }
+                p,
+                h2,
+                h3 {
+                    orphans: 3;
+                    widows: 3;
+                }
+                h2,
+                h3,
+                h4 {
+                    page-break-after: avoid;
+                }
+            }
+            p {
+                margin: 1em 0;
+            }
+            a {
+                color: #1a1a1a;
+            }
+            a:visited {
+                color: #1a1a1a;
+            }
+            img {
+                max-width: 100%;
+            }
+            svg {
+                height: auto;
+                max-width: 100%;
+            }
+            h1,
+            h2,
+            h3,
+            h4,
+            h5,
+            h6 {
+                margin-top: 1.4em;
+            }
+            h5,
+            h6 {
+                font-size: 1em;
+                font-style: italic;
+            }
+            h6 {
+                font-weight: normal;
+            }
+            ol,
+            ul {
+                padding-left: 1.7em;
+                margin-top: 1em;
+            }
+            li > ol,
+            li > ul {
+                margin-top: 0;
+            }
+            blockquote {
+                margin: 1em 0 1em 1.7em;
+                padding-left: 1em;
+                border-left: 2px solid #e6e6e6;
+                color: #606060;
+            }
+            code {
+                font-family: Menlo, Monaco, Consolas, "Lucida Console", monospace;
+                font-size: 85%;
+                margin: 0;
+                hyphens: manual;
+            }
+            pre {
+                margin: 1em 0;
+                overflow: auto;
+            }
+            pre code {
+                padding: 0;
+                overflow: visible;
+                overflow-wrap: normal;
+            }
+            .sourceCode {
+                background-color: transparent;
+                overflow: visible;
+            }
+            hr {
+                background-color: #1a1a1a;
+                border: none;
+                height: 1px;
+                margin: 1em 0;
+            }
+            table {
+                margin: 1em 0;
+                border-collapse: collapse;
+                width: 100%;
+                overflow-x: auto;
+                display: block;
+                font-variant-numeric: lining-nums tabular-nums;
+            }
+            table caption {
+                margin-bottom: 0.75em;
+            }
+            tbody {
+                margin-top: 0.5em;
+                border-top: 1px solid #1a1a1a;
+                border-bottom: 1px solid #1a1a1a;
+            }
+            th {
+                border-top: 1px solid #1a1a1a;
+                padding: 0.25em 0.5em 0.25em 0.5em;
+            }
+            td {
+                padding: 0.125em 0.5em 0.25em 0.5em;
+            }
+            header {
+                margin-bottom: 4em;
+                text-align: center;
+            }
+            #TOC li {
+                list-style: none;
+            }
+            #TOC ul {
+                padding-left: 1.3em;
+            }
+            #TOC > ul {
+                padding-left: 0;
+            }
+            #TOC a:not(:hover) {
+                text-decoration: none;
+            }
+            code {
+                white-space: pre-wrap;
+            }
+            span.smallcaps {
+                font-variant: small-caps;
+            }
+            div.columns {
+                display: flex;
+                gap: min(4vw, 1.5em);
+            }
+            div.column {
+                flex: auto;
+                overflow-x: auto;
+            }
+            div.hanging-indent {
+                margin-left: 1.5em;
+                text-indent: -1.5em;
+            }
+            /* The extra [class] is a hack that increases specificity enough to
        override a similar rule in reveal.js */
-    ul.task-list[class]{list-style: none;}
-    ul.task-list li input[type="checkbox"] {
-      font-size: inherit;
-      width: 0.8em;
-      margin: 0 0.8em 0.2em -1.6em;
-      vertical-align: middle;
-    }
-    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
-  </style>
-</head>
-<body>
-    <header>
-        <div class="navbar">
-            <a class="navbar-link" href="/">home</a>
-            <a class="navbar-link" href="/gallery.html">gallery</a>
-            <a class="navbar-link" href="https://forms.hackclub.com/say-cheese-submission">submit</a>
+            ul.task-list[class] {
+                list-style: none;
+            }
+            ul.task-list li input[type="checkbox"] {
+                font-size: inherit;
+                width: 0.8em;
+                margin: 0 0.8em 0.2em -1.6em;
+                vertical-align: middle;
+            }
+            .display.math {
+                display: block;
+                text-align: center;
+                margin: 0.5rem auto;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <div class="navbar">
+                <a class="navbar-link" href="/">home</a>
+                <a class="navbar-link" href="/gallery.html">gallery</a>
+                <a class="navbar-link" href="https://forms.hackclub.com/say-cheese-submission">submit</a>
+            </div>
+            <div class="links">
+                <a href="https://github.com/commonkestrel/saycheese" target="_blank">
+                    <img src="./static/github-mark.svg" alt="github logo" />
+                </a>
+            </div>
+        </header>
+        <main>
+            <h1 id="tutorial-ish">Tutorial-ish</h1>
+            <p>
+                Starting a project like this can be daunting, which is why I've put together a semi-tutorial that gives a quick introduction to optimizing for size! The limits of QR codes require our entire program to fit inside a binary
+                that is less than 3 kilobytes large. Size optimization on this scale brings a whole slew of challenges, namely the fact that most high-level languages are unable to fit in such a small size. Even a simple hello world program
+                in C takes up a whopping 297kB!
+            </p>
 
-        </div>
-        <div class="links">
-            <a href="https://github.com/commonkestrel/saycheese" target="_blank">
-                <img src="./static/github-mark.svg" alt="github logo" />
-            </a>
-        </div>
-    </header>
-    <main>
-        <h1 id="tutorial-ish">Tutorial-ish</h1>
-        <p>Starting a project like this can be daunting, which is why I've put
-        together a semi-tutorial that gives a quick introduction to optimizing
-        for size! The limits of QR codes require our entire program to
-        fit inside a binary that is less than 3 kilobytes large. Size
-        optimization on this scale brings a whole slew of challenges, namely the
-        fact that most high-level languages are unable to fit in such a small
-        size. Even a simple hello world program in C takes up a whopping 297kB!</p>
+            <p>
+                There are a few different ways to get around this, namely using languages that allow you either fine-grain control of the binary size, or offload much of the processing to the host device. This makes either a form of
+                assembly language ideal for binaries, or HTML+JavaScript for a web app!
+            </p>
 
-        <p>There are a few different ways to get around this, namely using
-        languages that allow you either fine-grain control of the binary size,
-        or offload much of the processing to the host device. This makes either
-        a form of assembly language ideal for binaries, or HTML+JavaScript for a
-        web app!</p>
+            <p>
+                For both of these methods, you'll need a way for your users to actually use your program <del>obviously</del>. Although you could just use a binary QR-code, this adds lots of extra steps for your users. The method I
+                recommend is to use the <a href="https://developer.mozilla.org/en-US/docs/Web/URI/Schemes/data"> Data URI Scheme</a>. This scheme is able to accomodate both webpages and native binaries (with the "text/html" and
+                "application/octet-stream" media types respectively). This does reduce the total size of your program from 3kB to 2kB, a pretty substantial reduction, but it allows your users to simply scan your QR code and have you program
+                either automatically opened or downloaded without any additional steps!
+            </p>
 
-        <p>For both of these methods, you'll need a way for your users to actually
-        use your program <del>obviously</del>. Although you could just use a 
-        binary QR-code, this adds lots of extra steps for your users. The method
-        I recommend is to use the <a
-        href="https://developer.mozilla.org/en-US/docs/Web/URI/Schemes/data">
-        Data URI Scheme</a>. This scheme is able to accomodate both webpages and
-        native binaries (with the "text/html" and "application/octet-stream"
-        media types respectively). This does reduce the total size of your program
-        from 3kB to 2kB, a pretty substantial reduction, but it allows your users
-        to simply scan your QR code and have you program either automatically
-        opened or downloaded without any additional steps!</p>
+            <h2 id="assembly">Assembly</h2>
 
-        <h2 id="assembly">Assembly</h2>
+            <p>
+                Assembly is just about the only way to build native binaries small enough to fit inside a QR code, unless you're prepared to do some major fiddling with your preferred compiler while avoiding breaking your program. An
+                important aspect of assembly is that it is often architecture (and operating-system) specific. This is both a blessing and a curse, since you will only be able to create a program for a single system, but you are also able
+                to create a program for any system you can dream of.
+            </p>
 
-        <p>Assembly is just about the only way to build native binaries small
-        enough to fit inside a QR code, unless you're prepared to do some major
-        fiddling with your preferred compiler while avoiding breaking your
-        program. An important aspect of assembly is that it is often
-        architecture (and operating-system) specific. This is both a blessing
-        and a curse, since you will only be able to create a program for a
-        single system, but you are also able to create a program for any system
-        you can dream of.</p>
+            <p>
+                Say Cheese is platform agnostic, meaning you're allowed to build a program for anything, be it a common platform like x64 Windows, or something outlandish like the TI-84 Graphing Calculator or the Nintendo GameBoy. Whatever
+                you desire, you can build for!
+            </p>
 
-        <p>Say Cheese is platform agnostic, meaning you're allowed to build a
-        program for anything, be it a common platform like x64 Windows, or
-        something outlandish like the TI-84 Graphing Calculator or the Nintendo
-        GameBoy. Whatever you desire, you can build for!</p>
+            <p>
+                A consequence of this, however, is that I can't possibly tell you how to optimize for every single platform. Although, if you're looking for a way to get into Assembly programming, make sure to check out Hack Club's own
+                <a href="https://github.com/hackclub/some-assembly-required">Some Assembly Required</a>, an approchable introduction to assembly.
+            </p>
 
-        <p>A consequence of this, however, is that I can't possibly tell you how
-        to optimize for every single platform. Although, if you're looking for a
-        way to get into Assembly programming, make sure to check out Hack Club's
-        own <a href="https://github.com/hackclub/some-assembly-required">Some
-        Assembly Required</a>, an approchable introduction to assembly.</p>
+            <p>
+                If you're building for Linux and you're stuck on getting the ELF file smaller than 3kB, take a look at this <a href="https://www.muppetlabs.com/~breadbox/software/tiny/teensy.html"> incredible guide</a> to ELF size
+                optimization!
+            </p>
+            <h2 id="htmljavascript">HTML+JavaScript</h2>
 
-        <p>If you're building for Linux and you're stuck on getting the ELF file 
-        smaller than 3kB, take a look at this <a 
-        href="https://www.muppetlabs.com/~breadbox/software/tiny/teensy.html">
-        incredible guide</a> to ELF size optimization!</p>
-        <h2 id="htmljavascript">HTML+JavaScript</h2>
+            <p>
+                JavaScript is what's called an interpretted language, which means that much of the actual work is done by another program. For JS, this is typically a browser <del>or Node/Bun/Deno if you're feeling silly</del>. The ability
+                of JavaScript to offload it's functionality allows it to fit in much smaller file sizes than a typical binary.
+            </p>
+            <p>
+                This offloading, however, does not fully counter the heavy size constraints of a QR code. Even the <a href="https://waka.hackclub.com">Hackatime dashboard</a>, used for <a href="httpps://highseas.hackclub.com">High Seas</a>,
+                has a single base (<code>base.js</code>) that is 33kB, 10x bigger than we can fit!
+            </p>
 
-        <p>JavaScript is what's called an interpretted language, which means
-        that much of the actual work is done by another program. For JS, this is
-        typically a browser <del>or Node/Bun/Deno if you're feeling silly</del>.
-        The ability of JavaScript to offload it's functionality allows it to fit
-        in much smaller file sizes than a typical binary.</p>
-        <p>This offloading, however, does not fully counter the heavy size
-        constraints of a QR code. Even the <a
-        href="https://waka.hackclub.com">Hackatime dashboard</a>, used for <a
-        href="httpps://highseas.hackclub.com">High Seas</a>, has a single base
-        (<code>base.js</code>) that is 33kB, 10x bigger than we can fit!</p>
-
-        <p>The main way to combat size in JavaScript and HTML is something
-        called "minifying". Essentially, getting rid of all unnecesarry blank
-        space and long variable names. This makes the code much less readable,
-        but also shrinks the size considerably! I'm much too lazy to make a
-        custom minifyer for this site, so I reccomend just searching for one on
-        your favorite search engine.</p>
-    </main>
-</body>
+            <p>
+                The main way to combat size in JavaScript and HTML is something called "minifying". Essentially, getting rid of all unnecesarry blank space and long variable names. This makes the code much less readable, but also shrinks
+                the size considerably! I'm much too lazy to make a custom minifyer for this site, so I reccomend just searching for one on your favorite search engine.
+            </p>
+        </main>
+    </body>
 </html>
