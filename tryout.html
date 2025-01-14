@@ -86,8 +86,30 @@
             #qr-wrapper[data-empty="true"] h1 {
                 display: none;
             }
+
+            #qr-wrapper[data-empty="true"] ~ #copy-option {
+                display: none;
+            }
+
+            #copy-option {
+                margin-top: 2em;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            #copy-option button {
+                padding: .5em 1em;
+                font-size: 1em;
+                background-color: black;
+                color: white;
+                border: none;
+                cursor: pointer;
+            }
         </style>
         <script>
+            var uri = ""
+
             function handleUpload(input) {
                 const formData = new FormData()
                 formData.append("file", input.files[0])
@@ -107,11 +129,22 @@
                             const qrWrapper = document.getElementById("qr-wrapper")
                             qrWrapper.setAttribute("data-empty", "false")
                             qrWrapper.href = qrData
+
+                            uri = qrData
                         }
                     })
                     .catch(error => {
                       console.error("Error:", error)
                     })
+            }
+
+            function copy() {
+                if (uri) {
+                    navigator.clipboard.writeText(uri)
+                    alert("Copied to clipboard!")
+                } else {
+                    alert("No QR code to copy!")
+                }
             }
         </script>
     </head>
@@ -148,6 +181,10 @@
               <h1>click me!</h1>
               <img src="#" alt="your QR code" id="qr" />
             </a>
+            <div id="copy-option">
+                <button onclick="copy()">...or copy and paste into a new tab in your browser</button>
+                <small>(do this if your project is a webpage)</small>
+            </div>
         </main>
     </body>
 </html>
