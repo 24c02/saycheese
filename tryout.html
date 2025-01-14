@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="A place to try out your QR codes to make sure they work as intended" />
+        <title>Say Cheese: Tryout</title>
+        <link rel="icon" type="image/x-icon" href="/favicon.ico">
+        <link rel="stylesheet" href="nav.css">
+        <link rel="stylesheet" href="global.css">
+        <style>
+            main {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                padding-top: 2rem;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            #about,
+            #upload-text {
+                text-align: center;
+            }
+
+            #file-upload {
+                height: 100px;
+                width: 30%;
+                margin: 2em;
+
+                border: 2px dashed black;
+                border-radius: .5em;
+            }
+
+            #folder-icon {
+                height: 50%;
+                width: 50%;
+                fill: black;
+            }
+
+            #file-label {
+                height: 100%;
+                width: 100%;
+
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+
+                cursor: pointer;
+            }
+
+            #file-label p {
+                font-size: .85em;
+            }
+
+            #qr {
+                height: 100%;
+            }
+
+            #qr-wrapper {
+                height: 50%;
+                aspect-ratio: 1;
+
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+
+                color: black;
+                text-decoration: none;
+            }
+
+            #qr-wrapper[data-empty="false"] {
+                cursor: pointer;
+            }
+
+            #qr-wrapper h1 {
+                font-size: 1.5em;
+                margin: 0;
+            }
+
+            #qr-wrapper[data-empty="true"] h1 {
+                display: none;
+            }
+
+            #qr-wrapper[data-empty="true"] ~ #copy-option {
+                display: none;
+            }
+
+            #copy-option {
+                margin-top: 2em;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            #copy-option button {
+                padding: .5em 1em;
+                font-size: 1em;
+                background-color: black;
+                color: white;
+                border: none;
+                cursor: pointer;
+            }
+        </style>
+        <script>
+            var uri = ""
+
+            function handleUpload(input) {
+                const formData = new FormData()
+                formData.append("file", input.files[0])
+
+                fetch("https://api.qrserver.com/v1/read-qr-code/", {
+                    method: "POST",
+                    body: formData
+                })
+                    .then(response => response.json())
+                    .then(data => {
+                        if (data[0].symbol[0].error) {
+                            alert("Invalid QR code")
+                        } else {
+                            document.getElementById("qr").src = URL.createObjectURL(input.files[0])
+
+                            const qrData = data[0].symbol[0].data
+                            const qrWrapper = document.getElementById("qr-wrapper")
+                            qrWrapper.setAttribute("data-empty", "false")
+                            qrWrapper.href = qrData
+
+                            uri = qrData
+                        }
+                    })
+                    .catch(error => {
+                      console.error("Error:", error)
+                    })
+            }
+
+            function copy() {
+                if (uri) {
+                    navigator.clipboard.writeText(uri)
+                    alert("Copied to clipboard!")
+                } else {
+                    alert("No QR code to copy!")
+                }
+            }
+        </script>
+    </head>
+
+    <body>
+        <header>
+            <div class="navbar">
+                <a class="navbar-link" href="/index.html">home</a>
+                <a class="navbar-link" href="/gallery.html">gallery</a>
+                <a class="navbar-link" href="https://forms.hackclub.com/say-cheese-submission">submit</a>
+                <a class="navbar-link" href="/tutorial.html">tutorial-ish</a>
+
+            </div>
+            <div class="links">
+              <a href="https://github.com/commonkestrel/saycheese" target="_blank">
+                <img src="./static/github-mark.svg" alt="github logo">
+              </a>
+            </div>
+        </header>
+        <main>
+            <h1>try out</h1>
+            <small id="about">try out your QR code to make sure it works! (real programmers DON'T test in prod)</small>
+            <div id="file-upload">
+              <label for="file" id="file-label">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"
+                  id="folder-icon">
+                  <path d="M2 6a2 2 0 012-2h5l2 2h5a2 2 0 012 2v6a2 2 0 01-2 2H4a2 2 0 01-2-2V6z"></path>
+                </svg>
+                <p id="upload-text">upload your QR code here</p>
+              </label>
+            </div>
+            <input type="file" id="file" accept="image/*" style="display: none;" onchange="handleUpload(this)">
+            <a id="qr-wrapper" data-empty="true">
+              <h1>click me!</h1>
+              <img src="#" alt="your QR code" id="qr" />
+            </a>
+            <div id="copy-option">
+                <button onclick="copy()">...or copy and paste into a new tab in your browser</button>
+                <small>(do this if your project is a webpage)</small>
+            </div>
+        </main>
+    </body>
+</html>
