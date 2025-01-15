@@ -210,7 +210,7 @@
                 <a class="navbar-link" href="/">home</a>
                 <a class="navbar-link" href="/gallery.html">gallery</a>
                 <a class="navbar-link" href="https://forms.hackclub.com/say-cheese-submission">submit</a>
-                <a class="try your qr" href="/tutorial.html">try your qr</a>
+                <a class="navbar-link" href="/tutorial.html">try your qr</a>
             </div>
             <div class="links">
                 <a href="https://github.com/commonkestrel/saycheese" target="_blank">
@@ -236,6 +236,10 @@
                 recommend is to use the <a href="https://developer.mozilla.org/en-US/docs/Web/URI/Schemes/data"> Data URI Scheme</a>. This scheme is able to accomodate both webpages and native binaries (with the "text/html" and
                 "application/octet-stream" media types respectively). This does reduce the total size of your program from 3kB to 2kB, a pretty substantial reduction, but it allows your users to simply scan your QR code and have you program
                 either automatically opened or downloaded without any additional steps!
+            </p>
+
+            <p id="make-your-qr">
+                To make your QR code, first get a <a href="#datauri">Data URI</a>. Then, use <a href="https://www.dcode.fr/qr-code">this QR code generator</a> to generate your QR code (paste your data URI as the data to write in the QR code). Download your QR code and make sure it works as intended on the <a href="/tryout.html">tryout page!</a>.
             </p>
 
             <h2 id="assembly">Assembly</h2>
@@ -275,6 +279,17 @@
                 The main way to combat size in JavaScript and HTML is something called "minifying". Essentially, getting rid of all unnecesarry blank space and long variable names. This makes the code much less readable, but also shrinks
                 the size considerably! I'm much too lazy to make a custom minifyer for this site, so I reccomend just searching for one on your favorite search engine.
             </p>
+
+            <h2 id="datauri">Using a Data URI generator</h2>
+            <p>
+                For this tutorial, we'll be using the Data URI generator <a href='https://www.antvaset.com/data-uri-generator'>here</a>
+            </p>
+            <ol>
+                <li>For the source type, choose "Select File" and upload your file</li>
+                <li>For the Media type, write the <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/MIME_types">MIME Type</a> of your file (<code>application/octet-stream</code> for binaries, <code>text/html</code> for HTML)</li>
+                <li>Check the Base64-encode box</li>
+                <li>Copy the Data URI</li>
+            </ol>
         </main>
     </body>
 </html>
