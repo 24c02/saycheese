@@ -361,7 +361,18 @@
                 document.getElementById("modal-demo").src = base + submission.demo;
                 document.getElementById("modal-qr").src = base + submission.qr.image;
                 if (submission.qr.type == "Url") {
-                    document.getElementById("modal-qr-anchor").href = submission.qr.url;
+                    const qrAnchor = document.getElementById("modal-qr-anchor")
+                    qrAnchor.removeEventListener("click", window?.qrAnchorClick);
+                    if (submission.qr.url.startsWith('data:text/html')) {
+                        // Browsers do not let you navigate to data urls, so we have to copy the url to the clipboard
+                        qrAnchor.href = "javascript:void(0)";
+                        qrAnchor.addEventListener("click", window.qrAnchorClick = () => {
+                            navigator.clipboard.writeText(submission.qr.url);
+                            alert("Copied URL to clipboard! Paste it into a new tab to view the project.");
+                        })
+                    } else {
+                        qrAnchor.href = submission.qr.url;
+                    }
                 }
 
                 document.getElementById("modal-back").classList.add("open");
