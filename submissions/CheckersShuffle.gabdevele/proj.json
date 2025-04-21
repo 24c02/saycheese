@@ -1,0 +1,14 @@
+{
+  "name": "Checkers Shuffle",
+  "author": "gabdevele",
+  "qr": {
+    "image": "qr.png",
+    "type": "Url",
+    "url": "data:text/html;charset=utf-8,%3Cbody%3E%3Cscript%3Enew%20Response(Uint8Array.from(atob(%22lVXrjuM0FH4VK6OVEnJp0ukMM0kcWFaLQAKEYJGQovxwnNPErGMH271R8ij848l4EpRLO%2B3Q%2FYGitj4Xn9v35TRtwRBEG6I0GPzLh6%2F9pyyddFIYEAZb377HUNVgocaYzoffN2yLf%2FV%2Feeu%2Fk21HDCs5vL6yY5VpcAVbRsEfBY8JZhjhvqaEA44sJEgLeMtg10llstQwwyF71wD9CEqjD6TkkC4mbarNgUMWdF65MUaKI90oLVXcSSYMqJ6c9ZJLFd%2BFYdjf1cgMMU6mUu593ZBK7uIQrbo9eur2SNUlsUNveILI6UtZHbwmOrZE1UzE4ag4Vkx3nBziNYd9Mnz5FVNADZMippJvWpH8ttGGrQ%2F%2BPICYwlBXQjirhc8MtPqkWkth%2FDVpGT%2FEbxUj3NNEaF%2BDYuukJPRjreRGVDFnAojya0UqBsLY0SqqoPbu6Ofl8vkehd4dWT%2FD0wN6XL3x7p5XT9HjI4rC8I0zdl55QXe8XdV5MsdSqgpUfN%2FtkZacVWgYXDJpfSo5J52G%2BHSY4h5HNOP74AHapAFWN2YWTmNiYqjdH6d1YwBz0ugqaR9Qvz2%2BtO%2FPQD4%2BrpbL58FannF87WSIGBx2N67DfUUoHaw37t0to%2BHpg%2B6McMkl%2FXgawDD5jY4fwjfJ3HPY7c8tD%2BdLYvS6I%2BJoYG%2F8senTsAd1LKSxg86ZeeWX0hjZxsuw2%2FcBPXakqpio4%2BjxVcz%2FQ6ubtKxJF0fLbt%2FPsztnWnb7ExBCCnjV8mgeiarZHzDVNYq7qfnPwzAxigjNxmSvJ4uCe%2B2N9rVU7SDN%2BeNGbkHdQIJGz%2BSxTM534nFJ2FEQPjh9E53rXl3VtYS2%2F7KFihFkt2Q%2F7Zn4cYDGOV6SdXUB3GocejdblheWEY5TQE0VgEBEVJexV%2BF%2FYr8mxUvs6OHFMpz7Pl1MeyxtovOiSxdNlKUDS7IPDdNoB6VmBlANAhQxoNGwneelOL62aMdMg0wDqGNAQSMmBokpNK9Y1MkJGR2kpcq%2BOiDKGf3IRD3emrDw0EFuECUC6WazXnO4jKiIqGTLD2jXMA6oJUwYwsQQgaAtGd5aKsWa1RtFhkRBuhg7SCu2RZQTrTGdBFbhOksXFdtm6ZQYSTGWg%2Be8tpP9PJ3SxeRx8h9DtqSaO%2F7nr79ReUApQY2CNR7%2BjHS8WNTMNJsyoLJd1KSsYAscFij78iykC5Kd6tNUsc5kVAptkMF5Hnmhd%2FEpvPxK9qLCu%2Blz9XxCs%2FQuPoWXX8k3fQpP4q1kFQo9UlU%2FjmBg28HZcapY4krSTQvCBL9vQB1%2BBg7USGVbIzMsJ1lLZXMwiOIwecpoQl3XOelg1EECruvMAQWWgZI7ndMioMC5zqFI2NoWARMC1Dcfvv8OW5YXYYxNToscij%2F%2FXL4Izn%2FrogqIgfccBsm2hrFbTiKDkRU%2FDH%2F5Vocs174I%2BYVFfWHFFvV3luOJgHQdiOpdw3hlS6fve2%2BmylulyAEbnB1PLUlsAg6iNo0fJTILE%2Bn7p6Io%2Fp6YJlhzKZU9Hida285ntnQjx0lyk8vCG6oocD78eIOieEl4Pfu88CjOi8QEa6neE9rYtvFg8LjSiEFj2%2BAK580S4%2FALGVMn6Da6sY3TO71z1Y4tX8nUSWawPIHDM6B8BI8n%2FAJQPep0ol3XMTkvcl1gm7v6lDcH1y1imgvXLZIzoWynT%2ByLxswnwTuRygQazFtjFCs3BmxrZEpHKBO15Vmh5Xi3POalPXkkL4gNNctEvpCQYhMwoUGZn%2BTOfnE1o6tJjOs6dPZ4B5zbzgWbbOmauV%2BL%2Bu1Io9LqP%2FWe3NWWc0WwARLb8S6mky7mLfEv%22)%2C(e%3D%3Ee.charCodeAt(0)))).body.pipeThrough(new%20DecompressionStream(%22deflate-raw%22)).getReader().read().then(((%7Bvalue%3Ae%7D)%3D%3E(document.open()%2Cdocument.write((new%20TextDecoder).decode(e))%2Cdocument.close()))).catch(console.error)%3C%2Fscript%3E\n"
+  },
+  "demo": "demo.png",
+  "os": "Browser",
+  "arch": "JavaScript",
+  "description": "This website generates a checkers table with the pieces in their initial position\nand by clicking the button you can shuffle the pieces randomly but with a valid configuration.\n",
+  "repo": "https://github.com/gabdevele/CheckersQrCode"
+}

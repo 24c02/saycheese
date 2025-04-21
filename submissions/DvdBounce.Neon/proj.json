@@ -1,0 +1,14 @@
+{
+  "name": "Dvd bounce",
+  "author": "Neon",
+  "qr": {
+    "image": "qr.png",
+    "type": "Url",
+    "url": "data:text/html;base64,PCFkb2N0eXBlaHRtbD48aHRtbCBsYW5nPSJlbiI+PG1ldGEgY2hhcnNldD0iVVRGLTgiPjxtZXRh\nIG5hbWU9InZpZXdwb3J0ImNvbnRlbnQ9IndpZHRoPWRldmljZS13aWR0aCxpbml0aWFsLXNjYWxl\nPTEiPjx0aXRsZT5EVkQgbG9nbzwvdGl0bGU+PHN0eWxlPmJvZHksaHRtbHtiYWNrZ3JvdW5kLWNv\nbG9yOiMxZTFlMmV9PC9zdHlsZT48Y2FudmFzIGlkPSJjYW52YXMiPjwvY2FudmFzPjxzY3JpcHQ+\nbGV0IGNhbnZhcz1kb2N1bWVudC5nZXRFbGVtZW50QnlJZCgiY2FudmFzIiksY3R4PWNhbnZhcy5n\nZXRDb250ZXh0KCIyZCIpLGZvbnRTaXplPShjYW52YXMud2lkdGg9d2luZG93LmlubmVyV2lkdGgt\nMTAsY2FudmFzLmhlaWdodD13aW5kb3cuaW5uZXJIZWlnaHQtMTAsNTApLHg9TWF0aC5yYW5kb20o\nKSooY2FudmFzLndpZHRoLWZvbnRTaXplKSx5PU1hdGgucmFuZG9tKCkqKGNhbnZhcy5oZWlnaHQt\nZm9udFNpemUpLGR4MD02LGR5MD02O2Z1bmN0aW9uIGFuaW1hdGUoKXtjdHguY2xlYXJSZWN0KDAs\nMCxjYW52YXMud2lkdGgsY2FudmFzLmhlaWdodCksY3R4LmZvbnQ9Zm9udFNpemUrInB4IHNhbnMt\nc2VyaWYiLGN0eC50ZXh0QWxpZ249ImNlbnRlciIsY3R4LnRleHRCYXNlbGluZT0ibWlkZGxlIixj\ndHguZmlsbFRleHQoIvCfk4AiLHgseSksKHgrZm9udFNpemUvMj5jYW52YXMud2lkdGh8fHgtZm9u\ndFNpemUvMjwwKSYmKGR4MD0tZHgwKSwoeStmb250U2l6ZS8yPmNhbnZhcy5oZWlnaHR8fHktZm9u\ndFNpemUvMjwwKSYmKGR5MD0tZHkwKSx4Kz1keDAseSs9ZHkwLHJlcXVlc3RBbmltYXRpb25GcmFt\nZShhbmltYXRlKX1hbmltYXRlKCk8L3NjcmlwdD4=\n\n"
+  },
+  "demo": "demo.png",
+  "os": "Browser",
+  "arch": "JavaScript",
+  "description": "a cool bouncing dvd emoji\n",
+  "repo": "https://github.com/NeonGamerBot-QK/saycheese"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "barcode from a qr code !!",
+  "author": "mr tea",
+  "qr": {
+    "image": "qr.png",
+    "type": "Url",
+    "url": "data:text/html;charset=utf-8,%3Cbody%3E%3Cscript%3Enew%20Response(Uint8Array.from(atob(%22lVVtb6NGEP4rm7R3QG%2FBxiTXhrc250a9SE2vUq6qGsuV1stgVoZdtAyOXcv%2FvVrAdi4XKbovwDMvz7zsMBufZYrjtgZSYFWmMQosIf3ANFcZkN9AgmaodDzqFXExSe9YBmSxJZ%2BvSa40%2BTgl%2F9z%2FfU9c0rAtLwAaIOGv8aiYpHGD2xLShcq2O4QNuqwUSxlykAg6ypVEN2eVKLfhVFWCk3smG3J3v%2FcWfXyXK4lMSNC7BeOrpVatzMLv8jyPapZlQi7DybjeRBXTSyG7b8JaVFEmmrpk21DIUkhwF6XiqxOrke0KEMsCw0vj%2F1gIBLepGYdQqkfN6s549xJNtAaNgrNyKAZVfWI2RX5Lpb2mEf9B6L8%2FFuKiqkN%2FXG%2F2ixZRSSpk3eJuqNIojuVf1pu9h0Ju%2B9C1agQKJcNcbCCLFgpRVcYo0l21ne8pZnCEQ3LXWrCSNkw2bgNa5JGqGRe4DccRk6JiPTfL4FZ%2BapEEDREyF1IgEFYiaMkQ9r%2BsYJtrVkFDjqa78ZvdkWvvj59Af7%2BPR%2F2gxIX%2F0ugVfhrX6Y1pJTFlElRk2auBMDI0P4xHdRp3rSIiSwbpbYcrtilBLrFI%2FDGpS8ahUGUGOjl%2Fwmpfuw%2BUjN0r5zyN%2B84TJXkp%2BCo5hBuys510yA%2FiUW%2BaxplYPwn8qcW6xTQeZWKdxg3XosaUK9kggWSH4WxCfepT87yY07HBkw4H1J9Tv8eDbE4nJ%2F3E4CCc%2BfSC9hzBnF70fMHB%2FvLA39nM6fsed%2BxG%2F%2BMpfmDwT%2BFs8O35rgz2h%2FjBnKo%2BfnCI1x7yCXosDthIgjmtDA4G%2B8l8H%2BWt5GZ6yFed3PVNwSRTvK1AorcEvCnBfH7Y3ma29fQoLcdbs7IFD9VfdQ16yhqwHSpf9e7Pw3IikdvSE1KC%2Fvj57vfEsugZehVDXtijf2fX7sPYvZq%2F%2B37kOBqw1ZKslci%2BdLljKyBNq4FgwZBsVasPU0jaBhpy7T4QJjMzTGdnJA1ty4n6MvUpUa6BIQy52lYm1pYTaY%2BXrGn%2BYBUk1ldr0BpY1Css6iUWs8MsqkFmoP9kaH5XGzykyolype0SkEiicoIOzOT87dtnljM5N6bP%2FSsj7LPir2TFX8rK%2FHoW5Z55T5VEkJgg1R6ra5DZtBBlZivnmYA7VH4h0M7%2BOGHPMqR4GDGZBBF4udI3jBe2DVQ6Sbo7nIt8M0mSMf3W1lpUed328h5FhkUS%2FADvzuvN%2BVHcXzSJZW6ak%2FHpPpuqUulE%2F2wtSsZXVmihZrKpmQaJFsVnjdg7Zlv226TbOF02yfEKSEu1BtKSFTSooezXz%2F8%3D%22)%2C(e%3D%3Ee.charCodeAt(0)))).body.pipeThrough(new%20DecompressionStream(%22deflate-raw%22)).getReader().read().then(((%7Bvalue%3Ae%7D)%3D%3E(document.open()%2Cdocument.write((new%20TextDecoder).decode(e))%2Cdocument.close()))).catch(console.error)%3C%2Fscript%3E\n"
+  },
+  "demo": "demo.jpeg",
+  "os": "Browser",
+  "arch": "x64",
+  "description": "a barcode generator directly inside a qr code. very tiny file :D\n",
+  "repo": "https://github.com/Cookiesgobrr/barcodeqrysws"
+}

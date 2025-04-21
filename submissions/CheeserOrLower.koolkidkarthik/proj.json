@@ -1,0 +1,14 @@
+{
+  "name": "cheeser-or-lower",
+  "author": "kool kid karthik",
+  "qr": {
+    "image": "qr.png",
+    "type": "Url",
+    "url": "data:text/html,<!DOCTYPE html><html lang=\"en\"><head><meta charset=\"UTF-8\"><title>Cheeser or Lower Game</title><style>body{font-family:Arial,sans-serif;text-align:center;margin-top:50px;background-color:rgb(240,240,240)}button{padding:10px 20px;margin:5px;font-size:16px;cursor:pointer}.result{margin-top:20px;font-weight:bold}</style></head><body><h1>Cheeser or Lower?</h1><p>Guess if the next number is higher or lower than the current number.</p><div id=\"game\"><p id=\"currentNumber\">Number: 5</p><button onclick=\"guess('higher')\">Higher</button><button onclick=\"guess('lower')\">Lower</button><p class=\"result\"></p></div><script>let current=5;function getRandom(){return Math.floor(Math.random()*10)+1}function guess(e){let t=getRandom(),n=\"\";(\"higher\"===e&&t>current||\"lower\"===e&&t<current)?n=\"You guessed right! Next number was \"+t+\".\":n=\"Wrong! Next number was \"+t+\".\",current=t,document.getElementById(\"currentNumber\").textContent=\"Number: \"+current,document.getElementsByClassName(\"result\")[0].textContent=n}</script></body></html>\n"
+  },
+  "demo": "demo.png",
+  "os": "Windows",
+  "arch": "x64",
+  "description": "a really small website which allows you to guess numbers and check if they are cheeser (higher) or lower.\n",
+  "repo": "https://github.com/emergenitro/saying-cheese"
+}

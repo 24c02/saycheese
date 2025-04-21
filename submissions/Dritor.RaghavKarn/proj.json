@@ -1,0 +1,14 @@
+{
+  "name": "Dritor: Drag to draw to write!",
+  "author": "Raghav Karn",
+  "qr": {
+    "image": "qr.png",
+    "type": "Url",
+    "url": "data:text/html;charset=utf-8,%3Cbody%3E%3Cscript%3Enew%20Response(Uint8Array.from(atob(%22nVXrbts2FH4VRkELqaFl2W7SRJY0oE23BlsxYGvRDcN%2B0OKRRUQmNZKyrBoG9hB7wj3JDiU58Vq0A%2FYjMfXxXL5zZXLGVW67GkhpN1WWuP%2BkYnKdgswSK2wF2a0WVumY3Gq2JlYRrlnrflvE4SyZDlLJBiwjecm0AZu%2Bf%2Fft5PqIKWlB2tRrBbdlymErcpj0Hx6RbAPpVkBbK22zxNgOba0U76ijsu%2Bl4lkUPVmWINalHc4bptdCxtFSbUEXlWrjUnAO8hCuWH6%2F1qqRfP94jCshgenJWjMukIo%2FixbhzYzDmp7Pn88Wiysyn4XR7Ak9X8zm15eXxHkJls4C16qeFKKyoONV1WjUrXfB8uNESA67ODo4snHpiBBTM9nzPvnec2HqinWorPL7Q87klpl93miDOc21MqZkQj%2FYmx96pQJzNinYRlRdvFFSIZjDskeN%2BAjxcySxrJURVigZF2IHfGlVHV9iciooLAo8WeaqQh%2FnV%2Bxqcc3HnE2c1KRXH4FefDKPHHRksTgk06EUCRdbklfMmPQxn1kyhEEET4dTlkyPB8ffXQhZqPGrN5WesL9EX5%2FSvOEvrvIiS1afiV86aqMUYzcvOBt7Mpmusi%2F3pXON5nT2siM%2FsXXJtuR7pqVDEvGZk%2FmJkxu4ucrn2Z00Vje5S7H5txtKNBQaTOmAvMLeCpOpyI4%2BTa5FbbMt00RRoDLdY6PQLm4xu6oNhZSg3%2FTtPJ0fqE0jKtIFZfjLU%2B8NaCDCEEYqYXGykKnSHbnDuJQFSlRBalA1XjTyXqpWEiY5aUtsM9DGXZeqhpDcSWJLILypcKKdL2JKJaEHV7oHONP3Eowhf%2F%2F5FzEKp7UUEoMsmUUV4GQFODe2pDjDFSdYcKdcIhT%2BiKCwZMM6VMSWIAW7R3KrxqIMst9g2d1sc%2FKywhvSorIENxSs0EzwJXGLoWWaEyEJzsi6EQYNMOTGtkAcU2RROJ4heTMYqJSxTtyxaJXihpIOc2%2FIqlv3Ci4RKFf0jEbBEgVD8sHFJByHnXVFa7A7MSREOuiBFWYGEcdAQusWWW3dCJcM87eCEu9Cj5pjKSOq4rPZYVk0sm8Q9CasH%2BxVigu12eCSCddgX1fgji%2B7O%2B57w4B4AYVUuctXbi%2FurO%2FNOYIqHNbjaY98cAjeDKsv%2Fbx98I5x%2FnqLPn4QBrcsaN%2FbqMbABheQR%2FvjWzzSs1nwZWG0KkfhWzx%2BXbipR9H39dcFVWP%2FW5KvqrwS%2Bb1HuWpWFbxyH730GK2SOGc4oCmk2f5%2FJelweCjSQz58FexNuMNC1GwNv1ATduP5V%2BoG3A8elYbvvSh8E6JaP9UpdqxlMgdfUhO48b1Q0zmOMP%2FN%2Fk6b1BW2J%2BYzKoIl6qqsGXTL9C2OVMhQfY4Wu4kMO%2FS%2Fw198VyB0KykVF169I3cbXPuYRARFVf3cbyzvPL9mBdw41OCk%2BNhPodVMmopZpBPuKBp0IK4Lh5TBqP%2FONRujEY36W3B7xalfXNjseXT99KmPmyhA7V2Kfxc9y1wZNPCscTYR7QbUCNmjh5PUPiQEN94QqMR9hhaXGmyjcRukgEEqx%2B9ZKvEGMHaFsQ8m%2F9DWlxe%2BfZbaIPikYq4ph4qp9CzqGR4LJ08L96XJc0%2BRF4T9yg%2FH9zj1JK4M7xNP7%2BsHP7OT2B5b08fgjl04%2Fj7KPVZdURnsx8DHksq%2BpN%2BBwleXeSc1%2BQbCDTDTaOgrpILBbIxlxSuBQLxVgpPoMOwYfGWG9yWZ4uOc%2FQM%3D%22)%2C(e%3D%3Ee.charCodeAt(0)))).body.pipeThrough(new%20DecompressionStream(%22deflate-raw%22)).getReader().read().then(((%7Bvalue%3Ae%7D)%3D%3E(document.open()%2Cdocument.write((new%20TextDecoder).decode(e))%2Cdocument.close()))).catch(console.error)%3C%2Fscript%3E\n"
+  },
+  "demo": "demo.png",
+  "os": "Browser",
+  "arch": "JavaScript",
+  "description": "Welcome to Dritor: Drag to draw to write! This website lets to draw whatever your mind wishes to, and in the meanwhile it would tell you a ballad (that I wrote myself) as you draw. Sounds fun?\n",
+  "repo": "https://github.com/raghav-karn/Dritor"
+}

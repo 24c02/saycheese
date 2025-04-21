@@ -1,0 +1,14 @@
+{
+  "name": "Minitron",
+  "author": "Robert C(M1)",
+  "qr": {
+    "image": "qr.png",
+    "type": "Url",
+    "url": "data:text/html;charset=utf-8,%3C!doctypehtml%3E%3Chtml%20lang%3Den%3E%3Cmeta%20charset%3DUTF-8%3E%3Ctitle%3Eqrtron%3C%2Ftitle%3E%3Ccanvas%20height%3D300%20id%3Dm%20width%3D300%3E%3C%2Fcanvas%3E%3Cscript%3Evar%20canvas%3Ddocument.getElementById(%22m%22)%3Bconst%20ctx%3Dcanvas.getContext(%222d%22)%2Cplayers%3D%5B%5B%22orange%22%2C%22u%22%2C150%2C200%2C%5B%5D%5D%2C%5B%22blue%22%2C%22d%22%2C150%2C100%2C%5B%5D%5D%5D%3Bctx.fillStyle%3D%22black%22%2Cctx.fillRect(0%2C0%2Ccanvas.width%2Ccanvas.width)%3Bconst%20mainloop%3DsetInterval((()%3D%3E%7Bfor(let%20e%20of%20players)%7Bconst%20a%3D%5Be%5B2%5D%2Ce%5B3%5D%5D%3Bswitch(e%5B1%5D)%7Bcase%22u%22%3Ae%5B4%5D.push(a)%2Ce%5B3%5D--%3Bbreak%3Bcase%22d%22%3Ae%5B4%5D.push(a)%2Ce%5B3%5D%2B%2B%3Bbreak%3Bcase%22l%22%3Ae%5B4%5D.push(a)%2Ce%5B2%5D--%3Bbreak%3Bcase%22r%22%3Ae%5B4%5D.push(a)%2Ce%5B2%5D%2B%2B%7Dctx.fillStyle%3De%5B0%5D%2Cctx.fillRect(e%5B2%5D%2Ce%5B3%5D%2C3%2C3)%3Bfor(let%20a%20of%20e%5B4%5D)ctx.fillRect(a%5B0%5D%2Ca%5B1%5D%2C2%2C2)%7Dvar%20e%3D%5Bplayers%5B0%5D%5B2%5D%2Cplayers%5B0%5D%5B3%5D%5D%2Ca%3D%5Bplayers%5B1%5D%5B2%5D%2Cplayers%5B1%5D%5B3%5D%5D%3Bfor(coord%20of%20players%5B0%5D%5B4%5D)e%5B0%5D%3D%3Dcoord%5B0%5D%26%26e%5B1%5D%3D%3Dcoord%5B1%5D%26%26window.alert(%22player%201%20has%20crashed%22)%3Bfor(coord%20of%20players%5B1%5D%5B4%5D)e%5B0%5D%3D%3Dcoord%5B0%5D%26%26e%5B1%5D%3D%3Dcoord%5B1%5D%26%26window.alert(%22player%201%20has%20crashed%22)%3Bfor(coord%20of%20players%5B0%5D%5B4%5D)a%5B0%5D%3D%3Dcoord%5B0%5D%26%26a%5B1%5D%3D%3Dcoord%5B1%5D%26%26window.alert(%22player%202%20has%20crashed%22)%3Bfor(coord%20of%20players%5B1%5D%5B4%5D)a%5B0%5D%3D%3Dcoord%5B0%5D%26%26a%5B1%5D%3D%3Dcoord%5B1%5D%26%26window.alert(%22player%202%20has%20crashed%22)%7D)%2C100)%3BaddEventListener(%22keydown%22%2C(e%3D%3E%7Bswitch(e.key)%7Bcase%22i%22%3A%22d%22!%3Dplayers%5B0%5D%5B1%5D%26%26(players%5B0%5D%5B1%5D%3D%22u%22)%3Bbreak%3Bcase%22j%22%3A%22r%22!%3Dplayers%5B0%5D%5B1%5D%26%26(players%5B0%5D%5B1%5D%3D%22l%22)%3Bbreak%3Bcase%22k%22%3A%22u%22!%3Dplayers%5B0%5D%5B1%5D%26%26(players%5B0%5D%5B1%5D%3D%22d%22)%3Bbreak%3Bcase%22l%22%3A%22l%22!%3Dplayers%5B0%5D%5B1%5D%26%26(players%5B0%5D%5B1%5D%3D%22r%22)%3Bbreak%3Bcase%22w%22%3A%22d%22!%3Dplayers%5B1%5D%5B1%5D%26%26(players%5B1%5D%5B1%5D%3D%22u%22)%3Bbreak%3Bcase%22a%22%3A%22r%22!%3Dplayers%5B1%5D%5B1%5D%26%26(players%5B1%5D%5B1%5D%3D%22l%22)%3Bbreak%3Bcase%22s%22%3A%22u%22!%3Dplayers%5B1%5D%5B1%5D%26%26(players%5B1%5D%5B1%5D%3D%22d%22)%3Bbreak%3Bcase%22d%22%3A%22l%22!%3Dplayers%5B1%5D%5B1%5D%26%26(players%5B1%5D%5B1%5D%3D%22r%22)%7D%7D))%3B%3C%2Fscript%3E\n"
+  },
+  "demo": "demo.png",
+  "os": "Browser",
+  "arch": "JavaScript",
+  "description": "it's tron, but tiny and made on the literal last day of this ysws\n",
+  "repo": "https://github.com/nerdwithcomputers/minitron/"
+}

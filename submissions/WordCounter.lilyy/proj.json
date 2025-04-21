@@ -1,0 +1,14 @@
+{
+  "name": "Word Counter",
+  "author": "lilyy",
+  "qr": {
+    "image": "qr.png",
+    "type": "Url",
+    "url": "data:text/html;base64,PCFET0NUWVBFIGh0bWw+DQo8aHRtbD4NCg0KPGhlYWQ+IA0KPHRpdGxlPiBMYWlsYSdzIHByb2plY3QgPC90aXRsZT4NCjxzdHlsZT4gDQpib2R5IHsNCmZvbnQtZmFtaWx5OiBBcmlhbCwgSGVsdmV0aWNhLCBzYW5zLXNlcmlmOw0KYmFja2dyb3VuZC1jb2xvcjphenVyZQ0KfQ0KDQoNCnRleHRhcmVhIHsNCndpZHRoOiAxMDAlOw0KbWF4LXdpZHRoOiA2MDBweDsNCnBhZGRpbmc6IDEwcHg7DQpmb250LXNpemU6IDE2cHg7DQptYXJnaW46IDIwcHggYXV0bzsNCmJvcmRlci1yYWRpdXM6IDhweDsNCm1hcmdpbi1ib3R0b206IDIwcHg7DQp9DQpwIHsNCmZvbnQtc2l6ZTogMTZweDsgICAgDQp9DQo8L3N0eWxlPg0KPC9oZWFkPg0KPGJvZHk+DQoNCjxoMT4gV29yZCBDb3VudGVyPC9oMT4NCjx0ZXh0YXJlYSBpZD0iVGV4dElucHV0IiBQbGFjZWhvbGRlcj0iUGxlYXNlIHB1dCB5b3VyIHRleHQgaGVyZSEiIHJvd3M9IjEyIj48L3RleHRhcmVhPg0KDQo8cD4NClRvdGFsIHdvcmRzOiA8c3BhbiBpZD0iV3JkQ250Ij4wPC9zcGFuPiANCjwvcD4NCg0KPHA+DQpUb3RhbCBjaGFyYWN0ZXJzIChpbmNsdWRpbmcgc3BhY2VzKTogPHNwYW4gaWQ9IkNockNudCI+MDwvc3Bhbj4NCjwvcD4NCg0KPHNjcmlwdD4NCiAgICANCmNvbnN0IFRleHRJbnB1dCA9IGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKCJUZXh0SW5wdXQiKTsNCmNvbnN0IFdyZENudCA9IGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKCJXcmRDbnQiKTsNCmNvbnN0IENockNudCA9IGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKCJDaHJDbnQiKTsNCg0KVGV4dElucHV0LmFkZEV2ZW50TGlzdGVuZXIoImlucHV0IiwgKCkgPT4gew0KDQpjb25zdCB0ZXh0ID0gVGV4dElucHV0LnZhbHVlOyANCg0KQ2hyQ250LnRleHRDb250ZW50ID0gdGV4dC5sZW5ndGg7DQoNCmNvbnN0IHdvcmRzID0gdGV4dC50cmltKCkuc3BsaXQoL1xzKy8pLmZpbHRlcih3b3JkID0+IHdvcmQubGVuZ3RoID4gMCk7DQoNCldyZENudC50ZXh0Q29udGVudCA9IHdvcmRzLmxlbmd0aDsNCg0KfSk7DQo8L3NjcmlwdD4NCg0KPC9ib2R5Pg0KPC9odG1sPg==\n"
+  },
+  "demo": "demo.png",
+  "os": "Browser",
+  "arch": "JavaScript",
+  "description": "A Word and character counter ~1Kb \n",
+  "repo": "https://github.com/laila-1/1kb-word-counter"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Snakess",
+  "author": "meghna ",
+  "qr": {
+    "image": "qr.png",
+    "type": "Url",
+    "url": "data:text/html;charset=utf-8,%3Cbody%3E%3Cscript%3Enew%20Response(Uint8Array.from(atob(%22pVZtb9s2EP4ragJEZCPRtJO2mWRqyLK2KNCgwNJ9KvqBESmLiEQKJG1Ls%2FXfB4qS47xsGDDYkHh35D3PHXk8Ld8wlduu4UFp6ypbumdQUbkiXGbLmlsa5CXVhlvy5%2FdP8dWkU9JyacnJVjBbEsY3IufxIERCCitoFZucVpzMTwJJa042gm8bpW22tMJWPLtVjGsZ3En6wIPPtObLmTcsje0qnt0r1u2YME1Fu6SoeJu6R8yE5rkVSia5qta1TGklVjIWltcmybm0XKf3NH9YabWWLM5VpXRyOv8FzxeXaaGkjQtai6pLrrWgVWSoNLHhWhQ9WtGaxy4wKiTXu5rqlZCxVU2ywE3b51RuqNndK824jjVlYm2SOW7a9F61sSkpU9sEBzhwukCv7inAkfuhOUz9qmTRtIFRlWDBaVFMkEIWakQbkDxNI%2F7iyeKyadMxBrdgOfPJWTKxCfKKGkMOLrKlaajM7nKleRIMQiAYMU7O8HI2WA8vJjYvvBxiz5Y%2B2KDkYlVa8gFj58pNuvEGv%2B3vMc6WMz938mlyLRqb5UoaG1iywJEh83c4Em52VJKLiJPQbaqQqzDSJGzo2nAWRpKEDuDbhuswHVgFaje40evcKg3gzpbCIEuGlwAwGgaHE0F2bTKPugT33lA%2BKnoB4G6i9OPnQCktlAYVt4EgOL3IRCrOz6FFzdqUYNcmJhZRl5gepprbtZaB7Wu14cCONI5gEUIesE89hnnU2R%2F4Z58a1J6Tp8tQGxnUvdB2owtBDGoJIRY1ygi%2F4OzMoO6prjuwG8DQWppSFBYYGIn9flQ2qgEwEr06SsKB3OQAZxa1%2B71FbUYu8H7v5M7JnZdHX6YSOQdziIyqOTAkm2gesetgX7k8TcnYKMECnD6PnxASe8xnKfCGbr8H4z5a2Pf%2BRNDXTsSUDR%2FUGsB%2BfRTpBR5D3LXJLbUlKiqlNBiGmkqmagDfWhh1%2F2btJwL5awR8BRCm8nXNpUUrbj9W3A1%2F674wED4WTjge2pocLXTzb9yF2loQLtg0p%2Flnh0NRT%2FM2BPuBsdRywr1wTSTfBsoLt4NAvfAwVc4NgP3DUaZ2n5Ndm%2BCoS%2BJ5H32bhHkf%2Fe7G8VhcX5LHukoPFCljHzdc2q%2FCWC65BuED75jayjAyJNvZHwY98O7n2ZlnhyowqWAP%2B3XDqOVTPn0ghPCzMzBO97U3xAIn7eaczMfQG%2BSydzN2JW99EvoY8jVS4LDew0gIe6bpdgKvUV5xqv%2FguR0u8OON8g3uWONvyGlXUSGq6s5d0SQ8LQqMMQ6PTYNTT%2Buort%2Fa6Lmue2uj%2BVU0vzrwtqhQ%2BiPNSwBMJKBL6XNITAgRv4anGL%2B%2FxDhM3OjqVQpmADVHMD2MnqRejhv1FcD%2B62NqjuIbO1ww%2FtGHd%2FAl0P9J4LYUlj%2B6VNKS8PKqaYOhdR8MbuOv3UcACX3%2Ff8Li%2B1BU7vsicJ3lTfiSzmzxCqHZAj5Fdq34GfLB%2F8knIWkVjK335Pz4%2FP0HpPNLDPsbAHeG2y8ugg2tADhs8VQbY7sbjmofGdj3WyGZ2iIlK0UZcSvcWc%2BXs7EJ%2Fw0%3D%22)%2C(e%3D%3Ee.charCodeAt(0)))).body.pipeThrough(new%20DecompressionStream(%22deflate-raw%22)).getReader().read().then(((%7Bvalue%3Ae%7D)%3D%3E(document.open()%2Cdocument.write((new%20TextDecoder).decode(e))%2Cdocument.close()))).catch(console.error)%3C%2Fscript%3E\n"
+  },
+  "demo": "demo.png",
+  "os": "Windows",
+  "arch": "JavaScript",
+  "description": "i made a simple snake game that can fit into a QR code!!! this is an interactive game players can easily play it. i am a beginner to HTML and java-scriot so it took long to finish it.\n",
+  "repo": "http://127.0.0.1:5500/index.html"
+}

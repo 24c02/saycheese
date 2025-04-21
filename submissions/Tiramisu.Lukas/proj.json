@@ -1,0 +1,14 @@
+{
+  "name": "Tiramisu Recipe Website",
+  "author": "Lukáš",
+  "qr": {
+    "image": "qr.png",
+    "type": "Url",
+    "url": "data:text/html,%3C!DOCTYPE%20html%3E%3Chtml%3E%3Chead%3E%3Cmeta%20charset%3D%22utf-8%22%3E%3Cmeta%20name%3D%22viewport%22%20content%3D%22width%3Ddevice-width%22%3E%3Ctitle%3ETiramisu%3C/title%3E%3Cstyle%3Ebody%7Bbackground%3Alinear-gradient(135deg,%236a11cb,%232575fc);font-family:%27Segoe%20UI%27,sans-serif;color:%23f0f0f0;text-align:center;margin:0;padding:0%7D.container%7Bbackground:%231e1e2f;margin:40px%20auto;padding:15px;border-radius:10px;box-shadow:0%203px%206px%20rgba(0,0,0,.3);width:80%25;max-width:600px%7Dh1%7Bcolor:%23fff;font-size:1.8em;margin-bottom:10px%7Dp,ul,ol%7Bmargin:0%20auto;max-width:500px;color:%23ccc;font-weight:bold%7Dul%7Blist-style:none;padding:0%7Dul%20li::before%7Bcontent:%22%E2%80%A2%22;color:%23ff79c6;margin-right:10px%7Dol%7Blist-style:none;padding:0%7Dol%20li::before%7Bcontent:counter(step)%22.%22;color:%237fdbff;font-weight:bold;position:absolute;left:0%7Dol%20li%7Bcounter-increment:step;position:relative;padding-left:25px;margin-bottom:10px;color:%23e0e0e0%7D%3C/style%3E%3C/head%3E%3Cbody%3E%3Cdiv%20class%3D%22container%22%3E%3Ch1%3ETiramisu%3C/h1%3E%3Cp%3EA%20classic%20dessert.%3C/p%3E%3Cul%3E%3Cli%3E357g%20cream%3C/li%3E%3Cli%3E227g%20mascarpone%3C/li%3E%3Cli%3E67g%20sugar%3C/li%3E%3Cli%3E4g%20vanilla%3C/li%3E%3Cli%3E355g%20espresso%3C/li%3E%3Cli%3E45g%20liqueur%3C/li%3E%3Cli%3ELadyfingers%3C/li%3E%3Cli%3ECocoa%20powder%3C/li%3E%3C/ul%3E%3Cp%3EInstructions%3A%3C/p%3E%3Col%3E%3Cli%3EBeat%20cream,%20sugar,%20vanilla%20until%20stiff.%20Fold%20in%20mascarpone.%3C/li%3E%3Cli%3EDip%20ladyfingers%20in%20coffee%20and%20layer%20in%20pan.%3C/li%3E%3Cli%3ESmooth%20half%20cream%20over%20ladyfingers.%20Repeat%20layers.%3C/li%3E%3Cli%3EDust%20with%20cocoa.%20Chill%20for%203-4%20hours.%3C/li%3E%3C/ol%3E%3C/div%3E%3C/body%3E%3C/html%3E\n"
+  },
+  "demo": "demo.png",
+  "os": "Browser",
+  "arch": "JavaScript",
+  "description": "The Tiramisu Recipe website is a website that helps you make a tiramisu. Enjoy!\n",
+  "repo": "https://github.com/lukasn9/qr_website"
+}

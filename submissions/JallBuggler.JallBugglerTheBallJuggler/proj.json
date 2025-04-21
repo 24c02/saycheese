@@ -1,0 +1,14 @@
+{
+  "name": "Jall Buggler",
+  "author": "Jall Buggler The Ball Juggler",
+  "qr": {
+    "image": "qr.png",
+    "type": "Url",
+    "url": "data:text/html;charset=utf-8,%3Cbody%3E%3Cscript%3Enew%20Response(Uint8Array.from(atob(%22fVZtb6M4EP4rLFtVdjEUaLk9JTHVtopOe2pvq%2FZO2lUVdXkxwY3BWTBNomy%2B3vfT%2FcP7JTeGNKHV5YQww%2FDM2PPix4zepTJRqzkzclWIcKS4Eiz8NRLCuGymU8Gq0WmnG9VqBY9Ypqt1JktlZ1HBxWqQRaWK6tUwjpLZtJJNmQ7e%2B4mfnf08TKSQ1eB9lmXDlNdzEQFasOVQD3bKK5YoLssBwJqiHEaCT0ubK1bUg4SVilWb3FsXUTXlpR1LpWQxCObLTdyAWK77852fn%2Fcm2yIGuXxm1Ruct0mi8jmq17GsUlYNPHA4Ou1CG%2BXem8hBMUr5czjqPBo8pY%2BRIctE8GQGIsLhP3%2F%2BPUWei0enHeYVNt5j4xb7183HL8blx%2Bvr%2B4M2yd4m6Ww03rg7aJDuDdLO4OqPu%2FvPd%2F9jwvYmrDO5%2FTS%2BuxofNMj2Btk2kM%2B%2Fjb8exD%2Ft8U%2BA%2F%2BXjzeX1eI88bZM619A6vE9kxQZu91qERyCFtxWra2NG6nm0KI0YikJmjM2NJ10ZXk5Hp%2FNw1FXSyBmf5ooGfqAdfDcWPFU59XzXhYk6DDRvUvG5ChNZ1spQFJq%2BKaDHnClTY8G0eLn6lCLzu4mJpK3%2BCpqcLRUy%2FdTEQ8GUUVLPJRF1zgKS0ocJYdQlnHqkob5LFvQnl%2BSgKeC%2BAW0GdwWygLsG%2BYg%2BlGR3Tcj0zfuMusNufc%2F0wXyMTGI%2BxnpI9JDqgekh08OTORlmTdluIOMRKbwWNp0%2BqAk5gqGT9EBvIpU7CeMCeU5wolWYPDuZrMZRkiOkiMQ0PJQOhR2dgjYT5eGsvYY5FYOtnjD0DR2tjx7kZIO%2FES1POxljskR4s1s9vKwP1qM2Xy%2FB7LrFtCpy0KZ4a3NkWmI%2F3xiCLklEUsLwWjp1HqVycaXZg5rVNI6QHwTE2A%2Bu8wGb5AV4KZpKl1s6MQNiuoX0ImgZhwnB5zXb%2BXbh8k%2Fa7N9%2B0oCMC3GveYay7VtrlwhZs52X3hzufsUxUtBDErrPxeuKqaYqjdZzJqSsUCtWUZnKAuETJG1leRhbarPgoFs4jxFFUOS1CKEv3MnxMYpOqOf4AXlELsYb8oKLezhP47hFfQB5fVDSA%2Fka1FhUe%2FL7oLQHOtOgRQc664NYD3SuQVk33XkflPVAgQbVHSjog546EM8QbKCMVwUyrzrhwsR4%2FbLrY%2BQSncOhoH6oLkA8EQMV%2Bu6FCgM9fAgu3MF%2Bx0CKTgTuKz68UXgdpG3ozb4jozQdP4NwzWvoQFYhc8ZWsNIS%2BoiG5sykVDqgOj5%2BljxFPGQQWOrMmzpH6%2BUghpzC4ohyWi6zGztwMVlpvd3pO86zGkt%2FUIOHGNnAIZjA0wuIXeIJkYNv0M2w7XTU0MiQrgMybE8%2BaEizwYRZFob9%2BV8RFLKpWQFHahvDNqdlR5WX%2BngFWr4SHGzu4FxHeJhT3d1a8cUuHcEyBdT4ovoKKiXnm%2F%2BZq8tXW9gbmpF0R1pqN72kua2cJXByAc8VsHJbmkhFpY8ioDagaPhuKYd3WzGRNUoxkDagQdt02pqXoB22cr6aS4WYnRNuF3hEF1YAtVGOol2Sbd9t09xJE1JZFhEWrXULkBvbhnRCULutC0f4umbqd14w2SjURtPnAjMGqpyZW0ZoM6eZY1v5XaVxL3wkodKtGwW71KIRQdJZjqTDf%2FwAIXzpGlBgWLqGuZMTanuaYFaAa7Zab3s6RHG9fcct5MUDwGYQXerArxsHPi8JuJhRqps1gv8jOBov4WSujawpYsHSd3B2VpRROMh0NlpnS4t2C9COO9nTMqeN9Wpyd4JPffjQvP3g6Q8b%2FLr%2BwOFQdl1yKC3cDdwSJhyjnBRkAVePygO3u10nwLBEKMkGMrhB8Ouy%2FS34Fw%3D%3D%22)%2C(e%3D%3Ee.charCodeAt(0)))).body.pipeThrough(new%20DecompressionStream(%22deflate-raw%22)).getReader().read().then(((%7Bvalue%3Ae%7D)%3D%3E(document.open()%2Cdocument.write((new%20TextDecoder).decode(e))%2Cdocument.close()))).catch(console.error)%3C%2Fscript%3E\n"
+  },
+  "demo": "demo.png",
+  "os": "Browser",
+  "arch": "JavaScript",
+  "description": "Jall Buggler is an incremental game about Jall, the protagonist, and his desire to juggle balls. You play as Jall, in order to help him fulfill his goals.\n",
+  "repo": "https://github.com/CodeOS99/JallBuggler"
+}

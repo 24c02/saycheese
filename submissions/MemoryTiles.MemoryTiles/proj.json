@@ -1,0 +1,14 @@
+{
+  "name": "Memory Tiles",
+  "author": "Memory Tiles",
+  "qr": {
+    "image": "qr.png",
+    "type": "Url",
+    "url": "data:text/html;charset=utf-8,%3Cbody%3E%3Cscript%3Enew%20Response(Uint8Array.from(atob(%22lVNNb9w2EP0rcgysxJqS5bWdOvoKEiNFA9SnGCgKQQcuNVqx5pIsOXJ2K%2By5CJDk0J4L91L07%2FknFFqt13adAu2FQ1Ez7715HGZ7tea4MuC1uJBF5nAloZjpetU3WmHYsIWQq%2BSVFUxSx5QLHVjRpAhLDJkUc5VwUAg2nTF%2BNbe6U3XItdQ22W%2Fi5qxp0gWzc6GSODWsroWaJ%2FG6nfbbnOPj421CiNok09gs1%2FszzWzd18IZyVbJ3Io6HZYQYWEkQxgIuoVyiQUDDIMT%2Bjw2S5LOmUmOYrNMf%2BwcimYVcq0QFN5J3CoZSDzWoV7POkSt%2BveixjYZMNIWxLzFcb8xwImfIZmemOUXWpZCQbitOPqCAWdfc4BZemdH06QzbWuwydQsPaelqL39I3gR736EltWic8mZWaa8s07bxGix4ULLlBMotEr%2BSeRFx45u%2FjfaLrxo6raNJa2%2BBts%2FFXby%2FGw6O7nLYhzFNfQ7hMRxJiGIXpyS9b5Dhp3rH9zRxuEt0Onp6To7HIcma6fF7c1ff3gXsNB25V0KCS47bKdFVotrT9T55l6L7LAW10VmhpMRvfhGCuOh9t4hs7iXHZoic9wKgwXXyqGHeenf3nz67NMhfBzDb2P4ZQyfNuHP38evD2P41a9SCejxvKyoHhaVx2nTKT4Y6bm2axoJAZK%2B0TYYMzGSoObYhkcpL%2BKUhyHpRxU6v2DYRo3U2gabrWWq1ouAfBXwgyNC0hJLXlEsdVXl5RDocFCt1ztKboEhvB6MCEiv8pjyvIyiCOmwVPROEifpHWmtebcAhdEc8I2EYft69bYO%2FI2dPkl1JJQC%2B%2B3lxXe571MeNdq%2BYbwNAqSc5MVWvrpHGlVswQJ%2FnAOfpCoahvx8fDW5%2F9KnKtKKS8Gv8oDkRSOFOR%2BkKzpAUx0xY0DV562QdaDImtx3ustFyqki%2FbTQW2cnk71BMpddDS5QZDIJ8BExpzoynWsDReg0z%2FP7Qt4Cv7pgyNuAPOB6eDx2WwLtqlynvIQqz3NedtXLQB0c0H91cxxFnzxS8mwDCi7xnh0oqvJ8Nx6TSfD%2FoPzbm88fvB90530v1J5PNvNIEgd4KRagOwwGh%2Fsd6E8d2NU7kMBR21dS3l9TCdWTe%2FovZd3TskHDmp7GMVk%2FmszscPv%2B%2FgY%3D%22)%2C(e%3D%3Ee.charCodeAt(0)))).body.pipeThrough(new%20DecompressionStream(%22deflate-raw%22)).getReader().read().then(((%7Bvalue%3Ae%7D)%3D%3E(document.open()%2Cdocument.write((new%20TextDecoder).decode(e))%2Cdocument.close()))).catch(console.error)%3C%2Fscript%3E\n"
+  },
+  "demo": "demo.png",
+  "os": "Browser",
+  "arch": "JavaScript",
+  "description": "🎮 Memory Tiles - 2KB of Pure Brain Training\n\nWhat if you could fit an entire memory game inside a QR code? That's exactly what Memory Tiles accomplishes in just 2KB of HTML, CSS, and JavaScript!\n\n🌟 Features in a Tiny Package\n8 fruity pairs to match\nSleek animations that fit in bytes, not megabytes\nResponsive design that works on any device\nZero dependencies, pure vanilla code\nFits inside a single QR code (< 3KB)\n\n🔧 Technical Specs\nSize: 2.4KB (not minified)\nStack: HTML5, CSS3, Vanilla JS\nCompatibility: Works in any modern browser\nQR Code Version: 25 (L error correction)\n\n🏆 Performance Metrics\nFirst paint: < 100ms\nTotal game state: 24 bytes\nAnimation smoothness: 60fps\n",
+  "repo": "https://github.com/DevSrijit/saycheese"
+}

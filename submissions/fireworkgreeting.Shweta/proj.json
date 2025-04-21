@@ -1,0 +1,14 @@
+{
+  "name": "firework greeting",
+  "author": "Shweta",
+  "qr": {
+    "image": "qr.png",
+    "type": "Url",
+    "url": "data:text/html;charset=utf-8,%3Cbody%3E%3Cscript%3Enew%20Response(Uint8Array.from(atob(%22xZVdU%2BM2FIb%2FyinMzrYdkujTspw40y3LlgvoRWf7cauN5UTFsTKycEiZ%2FPeO%2FJVAYYDecCPpPT6S%2FT4%2BkmbfZXbhdxsNK78u5rPQQqHKZarL%2BWytvYLFSrlK%2B%2FT3r19GcR%2BzpdelT0%2B2JvOrNNO1WehRI85MabxRxahaqEKn%2BARKtdZpbfR2Y52fz7zxhZ5%2FMU7Dn9bdVLNJG5lVflfo%2BY%2F3a%2BWWpkzQdKOyzJTLBO2%2F2Wx3%2F00tbpbO3pbZaGEL65JThNDU1trlhd0mK5NlutyPc%2BP0NizcL8Tr1TQz1aZQuyQv9N10pc1y5ROB6tX079vKm3w36hwl1UYt9EjXuix2h7UwVPUSNsqv7huTCUH19nidJ1NzUxSJd6qsNsrp0k8r7%2ByNTk7zHHXjllnCe5mpaqWcU7uEI3QctHlead9EVWnWyhtbJl7f%2BU%2B9AlaBVpUemXJkbz2YMg%2B%2FQkNu3Va5rDp8I3m9HfKyndrYQvt3NURfb4i%2B4v8glL%2BrHfZ6O%2BwVdiTSWr5vxfHXO%2BIvO3I6ew83P93oXe7UWlfwYOY9%2BnD%2F5Kv2MfrwHxN7jJ7MR%2Fv9eOm09qZc3j84r1qPGAVkj8%2BrhS69dtPcln5UmX90IpxeT7vzMUd5nOftw1ytTbFLftHWLY06%2B%2FjVBB%2B%2F6i38Zteq%2FHjWBM4q7Ux%2BhGhta%2F2YjCq8dqXyemB0jCbMCEQay7l169Z8obz%2B6%2FsRQ%2FX2h%2BH7crTnz6WiIQ2hvIX2ZN7xik5n%2B%2F1s0t4ks8zUsChUVaXDnfBUEM9noeLCf0pLW2poyzJlFEG4tn62d%2BkJAgSEMWAUnUB76wV5ty7KKl15v0kmk%2B12O97SsXXLCUEITap6OZ%2BFQoYsPbkmVAIj8pxEFHAcQSwh6trrpr0iHDChncBYQDyMEWDGexUxiPs5MYOIjTkh4goDQ12UCyB9NiPA5LDQYWYkAFNxAm0lpqcX8WdJORzvq5TDZD5rfUwyUz9FjzxHT8QP6WHKgYm4pxfkG%2BhhSoAJcY6pAMKDjTGSKAZC0JhFAiIEgl437RUByrohxhiI7AUDjHgvCAWM%2B7woBjxM4hRwN4wZ4GFZeRjTCDDu143l0Urhv0XdSy7lAS%2Fl558u4jfjpc%2FgpVI%2BwospUCkHvJi%2BqTg5UBmfSwRYCmAcItm2100bkPJuyCPA3TDQpbSpvi4iJGBChseAUdQJiUAe4v2Q4qN8GYXq7F8oomN4PP4f8Nhztckf16aMgPFDbcroLfAYMC7ORwIIwhD2aqimprtuuytBQfZjLDlwOihCws7oJScgD5lMAunEH4dojIDw45xQ1If5bBCxAEziY4oXccTeTJE%2FS1E8pEhxoCh6ikG%2BgSJtKLIGIsFxgNh21213FQ5NzHpFUQyyFyTsU3LIlBIwx4NkHIQYclkMpBOXFEdDPOxpyodJAjWncS85B8aPT0vK6UsV%2BZhof73PL3VR2Pbxvw%3D%3D%22)%2C(e%3D%3Ee.charCodeAt(0)))).body.pipeThrough(new%20DecompressionStream(%22deflate-raw%22)).getReader().read().then(((%7Bvalue%3Ae%7D)%3D%3E(document.open()%2Cdocument.write((new%20TextDecoder).decode(e))%2Cdocument.close()))).catch(console.error)%3C%2Fscript%3E\n"
+  },
+  "demo": "demo.png",
+  "os": "Browser",
+  "arch": "JavaScript",
+  "description": "a greeting with firecrackers to brighten up the day\n",
+  "repo": "https://github.com/ShwetaShaw76/Fireworks"
+}

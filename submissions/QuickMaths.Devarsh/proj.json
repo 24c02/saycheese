@@ -1,0 +1,14 @@
+{
+  "name": "Quick Maths",
+  "author": "Devarsh",
+  "qr": {
+    "image": "qr.png",
+    "type": "Url",
+    "url": "data:text/html,<script>let e=atob(\"jVZtb9s2EP4rDNEapCXLctL0g96CvXRYgXZYl2DAMAwoLZ5tLhQpk6cknuv/PujFb+3S9YMF+rmHd8fn7ihlF9KWuKmBrLDSRTY8QcgiQ4Uaig+NKu/Je4Ern017KPO40VDMrdxsF9bgZCEqpTdJZY31tSghlcrXWmyShYantH1MpHJQorImKa1uKpP+3XhUi82ktAbBYFKCQXCp0GppJgqh8gO0U6ZucPuoJK6S2bWDKq2FlMosJxoWmMzi+umAOLVcDdDcOglu4oRUjU+uD0gSXddPxFut5C5ab2vrVZeXmHurG4QUbZ1cxy/Tznu7QCeMX1hXJd1KCwQ2uY5fhu2D76I1GW8r4ZbKTNq9XfROF6/+geSVg2oXrU4Zlyf5df/3CZ0L97lEnbaTOeAjgEkHQeL45S5akfH2GPEyumxjZtO+Ttm0r2dbryJbzU5LStit2JAfVgAeLng2Xc2KTKoHomRO1xUlpRbe53RNj7AyNS0yXwvTsxrwrX60yKYtWJCsKxhpuyqnCE9IO6Iw/hFcS5PqoXc3eF+d+qudXZ74OuCoKqBFnMTxYBv87L0JbZe9m/3mbO6GX4NoDbGm1Kq8z6m2pWhTjhxoKyTjtPhViw0RS6FMNu3pnefBaelUjUVpjUfiUTi8y38UCJGxj4yni8Z0nU1Kocs7VQHj254LeStytNDWOsaOWya9Ez6dwRUP8ZQF09cxD01+i06ZJYPJ63iMPKqFvG33sMuQxpSnDrBxhmCEdmDygCY0MLtjNg4EwoehPIecbP2bMLIP6YSRtmI81dAawAm0LhSn+cyux2dUHlyG8zPC7AvCPrs+VBZd3rC985xOaSjG+Zwne+urm6NxTA/w6xsmgnwevAqP5gnlyYmrgIZnoYvoajRiYpxfcR5u103y8cVW7MiL7X5Lu57vPobC+AQehGYd4cTemXmE9if1BJLN+G7nAd+211BLZ4znxVbasqnAYLRuwG1uQUOJ1jHatwvlka3BfPrEDrwl4BsN7fL7zVvJ+lbmkTIG3B08YX5sHL7j4SyOedoXaz9cPv/OObFhVzGPFkprFvOoEjU7r3Ffx7JxDgzuwTw+NqgH/KIfID8E+fOzrX+lzx7hMPXDMX6+e/8uh2jdRA5qLUpgbaHpSKoHJSGl/IiPW7yVwKeUB5TkhIbPxhkuDR49CN1ATr9C7S6OM1XPTxPMAkqm5CqmuzMdOtFqqwz6PH7+xIdMhJRvHsDgO+URDDhG72FTO/CehgzyYvtLU83BMYjuYcNPBvQizztsNGIQ9SPye3eqOISodtA6/REWotHYNQL/Bln+MxlpH82Qi1ow+qZtXzoE59vnyx0J4/N8SP8bS8JHo167IAg/F/wLpMiv4hv29fkh7d19Vkf6h23IQhnlVyAJruA4FkQZQoPj+ASUCCPJ0iKhwZAXHYp7QUMP2PJsg/0o/+8k+5V9fG+l0IzzcMZ5ctY5ux3n2XR4O2TT/v067T6h/gU=\"),t=new Uint8Array(e.length);for(let r=0;r<e.length;r++)t[r]=e.charCodeAt(r);new Response(new ReadableStream({start(e){e.enqueue(t),e.close()}}).pipeThrough(new DecompressionStream(\"deflate-raw\"))).text().then((e=>document.write(e)))</script>\n"
+  },
+  "demo": "demo.png",
+  "os": "Browser",
+  "arch": "JavaScript",
+  "description": "A quick game that strengthens your mental arithmetic skills!\n",
+  "repo": "https://github.com/webdev03/quick-maths-saycheese"
+}

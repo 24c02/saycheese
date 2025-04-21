@@ -1,0 +1,14 @@
+{
+  "name": "Catch The Raccoon",
+  "author": "Catch The Raccoon",
+  "qr": {
+    "image": "qr.png",
+    "type": "Url",
+    "url": "data:text/html;charset=utf-8,%3Cbody%3E%3Cscript%3Enew%20Response(Uint8Array.from(atob(%22lVZtr9o2FP4rbrqNZDcJJnAZgiQfWrVbpVWT2n6Zpkk1ziHx6tiZfcLLru5%2Fn5wAl9yW21YIYvs5OW%2FPY5v0WaE5HhogFdYyT1GghPwlQ16RDxWQd4xzrVU67oHUciMaJNbwrEJs7HI85oWKkQm5E6rg1sZc13k67g3z1OJBQv6c3TXaChRaLdnaatkirNAwdVxD3ZD41oYSNugGK94aq82y0UIhmNVOFFgtb2mzX1Ugygq78X067t2na10cCJfM2szbSNgTgVDbiIN7m%2FzTWhSbw2m6LqPSsEKAwgh1ZMjG6DpqWtNIiG4pJVVkuQFQBHXED0xFc0q9PC3E9hTD6FYVUESydN52lUAgTbQgBiRDsQViK1boXZTspUe6HLNTCRc1TN0kT6vJyS3CHk9ZbrTCaK1lQbrV6V72g9KwQ7RwCX2BpWoySLPGaEa%2B1o9BZRcZ5GlzbqnLxUItHvLp0viF0n7myhRFhvkHUcNyQr%2F%2FVZu%2F59rAkqbjJk%2FXLaJWgzLWZbSWbU%2FQRvPWLnWLUiiIlFZAKr0FszwZzSklzT6ak%2BYQJeSCrS5kx1cXdZ2%2FR2YwHfcB89Ruy2PUShQFKNJTlc1nzpyRrYDdC73PPEoomc%2FIfOaRjllnsa%2Blst2%2BWI7Hu90u3k1jbcpxQikd222Zp1wYLoHwfTZNCD9kyYxshJTZ8wV1H2KySULGedowrEiReW8TSpKE02hOJkn3QygZzLaz3xK6jWb%2FeUdPlFLn4SFSMu8iJUf89evXxGTToc108XWbR35cHJNN4tsnPV2xSqizmiweVz8bms1m32T2yFufffKkqy%2FaHDlZDHJ%2FxMeCTB0fCZm5b8fGeXykoNOjRaM%2FQe%2BkH0e9TibOX6%2BGocovVPoFfT%2Bo%2BUHC%2FUkGoPpT6yjY00boEbcTaoz%2Bmtw2%2B787zZv8Hdih6r9ntzpvs85RmafjQmyHv8dzXwISyCY0xIyGPGQrrpVFUmSF5m0NCuMS8JUEN3xxeFP4IxwFob4O21EQmuvwehSE4jrMRkFYX4fNKAjldbgcBWH7AP%2Fbgjm8BwkctfFH8ekGGAVhlXm39EcvtP1ztWkVdxcc6Rr%2BK6vBD%2B7OfSli19OXWiEozLzu7CTeDYR6CPQnI%2FFuMJRDxAtN3FH3u7AYs6LwR70MXDsuEAO13sIFWD%2FxWndfxaibrDrP3MWc2ZBLYOaNux22TPo8CHlmAc8LfpDldxBF1yujeQY%2F%2FeR%2F7mewwIbZDxOsn6pr2J%2BPruPkjy2YZ%2BRP3RLO2rLCyytzSX64w3uCogbfBh%2BfrD64DycwDULlByEb1K064P7MtvKDu17wkLVOTi%2Fc3haqfCndv453wNEPQszEVYxnbxlWsWGq0LUf%2FOxD3B0fEfZPl8FnFv1dFeFxEKwG%2BfMbr9l7gwpZt3RvXIdfbUGhayooMP6IS8E%2FjcKzbh0jV6063vHm5gnhKj%2B4d9x9Q6Tzn8f%2FAQ%3D%3D%22)%2C(e%3D%3Ee.charCodeAt(0)))).body.pipeThrough(new%20DecompressionStream(%22deflate-raw%22)).getReader().read().then(((%7Bvalue%3Ae%7D)%3D%3E(document.open()%2Cdocument.write((new%20TextDecoder).decode(e))%2Cdocument.close()))).catch(console.error)%3C%2Fscript%3E\n"
+  },
+  "demo": "demo.jpeg",
+  "os": "Windows",
+  "arch": "x64",
+  "description": "A fun, browser-based game embedded in a QR code! Scan it, catch the raccoon in 10 seconds, and enjoy the challenge. Built with HTML, CSS, and JavaScript.\n",
+  "repo": "https://github.com/MNTadros/Catch-The-Raccoon/blob/main/qrcode/mini.html"
+}

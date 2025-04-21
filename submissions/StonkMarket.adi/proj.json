@@ -1,0 +1,14 @@
+{
+  "name": "Stonk Market",
+  "author": "adi (vipremigini)",
+  "qr": {
+    "image": "qr.png",
+    "type": "Url",
+    "url": "data:text/html;charset=utf-8,%3Cbody%3E%3Cscript%3Enew%20Response(Uint8Array.from(atob(%22fVVbj5s4FP4rlFErnAAxyaQXbt3tXrR9qNRtK%2B1D1QdjDuCNsaltZkjT%2FPeVIclkMjMrpMjH5zvfuTvps1JSs%2B3AaUzL81SbLYe8kOXWtxe7lqiaiRgnHSlLJuoYJ7esNE0cYfw8aYDVjZnOJdMdJ9u44jAk%2F%2FbasGobUCkMCBNTEAZUQjirRcAMtPp4JW9AVVzexg0rSxBJQeimVrIXZXxVXdsvqaQwQUVaxrfxr4oR7msidKBBsSohgrXEMCnionYi7TBRMcEMOIQbUIIY2P%2BygW2lSAvaKeodfr6756N6Q97Afrm%2BuCYlptf79SW6oEso9q8u0CR6Tctob%2BvwGPn%2BSu4KqUpQgSIl63Uc4W5ICjkEuiGlvI2xc90Njr11VF0QD%2Fv2C5foVPeltZhK%2FwY%2FT1oyBJP0GlvNoRNWNdKyH9bo4LSQw%2F26VtX9dtmfoGQK6FhJKnnfike6tW%2Biw0QEhTRGtlNYVHKp4qvVajX1SrMfEC%2BvuyExMJhg5DkyXGlDjN6dDdH%2FDo7uCIWgAHMLIJKHvg98Tsludg%2BcnUUTvb6Lc71en5k5uiNidwyi4JJuzrOw%2BY3i7VThVxgfeTDG%2B6I3Rgqfia43u2Ovxu4eNmd9tJ%2FCeDn2%2FXwU1qebOOoGR0vOSueKUnrgvjdQGL8qquoYgO3jwVRIAQntlZYq7iQbszeKCM2m3ThxOOFKO0A0HOjjxm7ghZP1y2K1v6p3D1d9PQ7YZfyHvhjZTU1JF9M7ktr6sjKTedpE%2Bd%2BfnM9Gio3zgagNmHTRRCfE2I5Ryn%2BXfcGlFDpObWustsgjjHG6sHKeLixqhI50OnZOQJ0%2FgvqoGIU7si6PLkB30HRspEV9dzpOKDSSl6Ay9y9567REbB09unzrOmOG2aFCa7u59hnNRN8WoPJ0qq4jBeWMbrKNF0Qof9dvpxLodDEBHgFGKP8MnD8ATlFSIm6IthHWebqYpKNOU8U6k3MwDmQRrHyTYV9kEfZl9oGYJlRElLL1afY1wt98lZWS9i0IE9Zg%2FuBgj%2B%2B270vPrV1k736zWzgYz12WLvKrDPv8aZvCRT57Wq1d5LdPqzsX%2BeRp9XcXJVUvxvfJ2XgS7WyWNJuT8IbwHhJWeTjP6M%2BfzyhSYHolEotQGZ2JSSnRjlWeyuGohyBTvpln1K%2FmmdoD12ARNDcnxNwiAosIMjrzqoVBex4yIUB9gcFkEBr5Jxug9JbIZ2cKsz9F23toJ6b6t2TwIt8Tc285kx4KIoTOCJDfnjGIc2oadr1uPGFPHERtmnyFX7ygoW5YZTzklx6681h6aKdCyoGoT0DN%2BG%2BiwmlWwnFi78Rpr5GvwgJqJj4S03gomUboArQ45RCGIUWJClt5A1%2Bkhy%2FpAvoVf5sBSiqpPMtlsigx6TH2xMznSIWcCWttZt794BYrjB5hNCOjCrVRcgOfx%2FUzOX5rZiKv3rq1AhBu7Coo3dgtOKEb15%2Bc%2FGNZs6V%2FtPXQ%2Fr7Hp%2BdOuiiUVaXBjCTB9YNcs3A9uyiuBvPevsA3hHu9v8YYpYvDbv4H%22)%2C(e%3D%3Ee.charCodeAt(0)))).body.pipeThrough(new%20DecompressionStream(%22deflate-raw%22)).getReader().read().then(((%7Bvalue%3Ae%7D)%3D%3E(document.open()%2Cdocument.write((new%20TextDecoder).decode(e))%2Cdocument.close()))).catch(console.error)%3C%2Fscript%3E\n"
+  },
+  "demo": "demo.png",
+  "os": "Browser",
+  "arch": "JavaScript",
+  "description": "Capitalism in a QR code. Buy and sell stonks forever. Become the richest. \n",
+  "repo": "https://github.com/Vipremigini/stonks-qr/blob/main/final.html"
+}

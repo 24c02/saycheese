@@ -1,0 +1,14 @@
+{
+  "name": "Pigeon Fact Generator",
+  "author": "Lauren",
+  "qr": {
+    "image": "qr.png",
+    "type": "Url",
+    "url": "data:text/html;base64,PCFET0NUWVBFIGh0bWw+PGh0bWw+PGJvZHk+PGgxPlBJR0VPTiBGQUNUUyhmcm9tIGEgcGlnZW9uIGxvdmVyKTwvaDE+PGJ1dHRvbiBvbmNsaWNrPSJnZW5lcmF0ZSgpIj5HZW5lcmF0ZSBQaWdlb24gRmFjdDwvYnV0dG9uPjxoMiBpZD0icCI+Y2xpY2sgdGhlIGJ1dHRvbjwvaDI+PC9odG1sPjxzY3JpcHQ+Y29uc3QgZmFjdHM9WydQaWdlb25zIGRlbGl2ZXJlZCB0aGUgcmVzdWx0cyBvZiB0aGUgdmVyeSBmaXJzdCBvbHltcGljcyEhJywnSW4gMTkzMSwgYSBwaWdlb24gdHJhdmVsbGVkIDExLDYwMGttKDcsMjAwIG1pbGVzKSBmcm9tIEZSQU5DRSB0byBWSUVUTkFNJywiUGlnZW9ucz1kb3ZlcyBiZWNhdXNlIHRoZXkncmUgcGFydCBvZiB0aGUgc2FtZSBzY2llbnRpZmljIGZhbWlseShjb2x1bWJpZGFlKSIsIkVtcGVyb3IgQWtiYXIgb2YgdGhlIE11Z2hhbCBFbXBpcmUgaGFkIDIwLDAwMCBwaWdlb25zIiwiSW4gMjAyMCwgYSByYWNpbmcgcGlnZW9uIG5hbWVkIE5ldyBLaW0gd2FzIHNvbGQgZm9yIDEuOSBNSUxMSU9OIGRvbGxhcnMiLCJPd25pbmcgYSBwZXQgcGlnZW9uIGlzIGxlZ2FsIGluIE5ldyBZb3JrIENpdHkiLCJEb24ndCBmZWVkIHRoZSBwaWdlb25zLWl0IGxlYWRzIHRvIG92ZXJwb29wdWxhdGlvbihnZXQgaXQ/KSIsIlBhc3NlbmdlciBwaWdlb24gdXNlZCB0byBiZSBhIG1haW4gc291cmNlIG9mIGZvb2QsIGhvd2V2ZXIgdGhleSB3ZW50IGV4dGluY3QgZHVlIHRvIG92ZXJodW50aW5nLiJdCiAgICBmdW5jdGlvbiBnZXRSYW5kb21OdW1iZXIoaSx4KXtyZXR1cm4gTWF0aC5mbG9vcihNYXRoLnJhbmRvbSgpKih4LWkrMSkpK2l9CiAgICBmdW5jdGlvbiBnZW5lcmF0ZSgpe2xldCByPWdldFJhbmRvbU51bWJlcigwLDcpO2RvY3VtZW50LmdldEVsZW1lbnRCeUlkKCJwIikudGV4dENvbnRlbnQ9KGZhY3RzW3JdKX08L3NjcmlwdD48L2JvZHk+PC9odG1sPjxzdHlsZT5ib2R5e2Rpc3BsYXk6ZmxleDtmbGV4LWRpcmVjdGlvbjpjb2x1bW47cGFkZGluZzoyJTtiYWNrZ3JvdW5kLWNvbG9yOnJnYmEoMTc3LDE3NywxNzcsMC45MzEpO3RleHQtYWxpZ246Y2VudGVyfQogICAgYnV0dG9ue2JhY2tncm91bmQtaW1hZ2U6bGluZWFyLWdyYWRpZW50KHJnYig2OSwxNzEsMTgzKSxyZ2IoMjA1LDExMCwyMzIpKTtwYWRkaW5nOjIlO2JvcmRlci1yYWRpdXM6MTJweDtmb250LXNpemU6MjAwJTtmb250LWZhbWlseTogIlRpbWVzIE5ldyBSb21hbiIsIFRpbWVzLCBzZXJpZjttYXJnaW46MTAlfTwvc3R5bGU+\n"
+  },
+  "demo": "demo.png",
+  "os": "macOS",
+  "arch": "JavaScript",
+  "description": "This is a pigeon fact generator but in a QR code!! Made using html, js, and css. I then minified the code so it could fit in a QR code using minifier.org. Finally, converted into a QR code using a Data URI generator and an online QR code generator. Enjoy the pigeon facts :D\n",
+  "repo": "https://github.com/lycheegreentea/PigeonFactGeneratorQR/tree/main"
+}

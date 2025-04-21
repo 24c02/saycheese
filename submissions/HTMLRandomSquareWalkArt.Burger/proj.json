@@ -1,0 +1,14 @@
+{
+  "name": "HTML Random Sqaure Walk Art",
+  "author": "Burger",
+  "qr": {
+    "image": "qr.png",
+    "type": "Url",
+    "url": "data:text/html;charset=utf-8,%3Cbody%3E%3Cscript%3Enew%20Response(Uint8Array.from(atob(%22pVLfb9MwEP5XwkBrDG6aBSqhJo40qk0gwcsGKrzNta%2BNVefcOdeUqur%2Fjpw0Y%2ByVt%2Ft%2B2Of7zsUr7RQdthBVVNuyqIFkpCrpGyDx4%2Fvt%2BOPAOSRAEhd7o6kSGlqjYNwBbtCQkXbcKGlBXF1EKGsQrYH91nkqCzJkobyTqF0d3T%2FupIdoIe0muvZUTHq1aOhgoVw6fTjW0q8NztLcteBX1u1nldEaMF9KtVl7t0M9Vs46P3udpulJSWxlc9Sm2Vp5mC2tU5tTMekvLHo1Mlr4xbyVTVlMeqosGuXNlkrlsKHICe3UrgakZA10YyGUnw5fdDzqD44YJ%2BGCOA9Z%2FKZ4lOkRy13SR7I3qN0%2BMYjgF10uLqnArCv6R%2FrcUbkFiqQ4n51kHMXgnmR5%2FyItpvlqh4qMw2gN1Ac4D4PH7Di8unVGRymnoZDnIvdAO48Pfr2M3xy%2FSaqSlXXOx9l0%2BraDvrsvZuzEo%2F93sIfT02N7Nqw4ZkdKVsba%2B7AN8XIK3ot3oCiWHHnGM%2FY0%2FbN%2BH150y1MhhL68jOU7MWX8akDjgLIzwk57P6BOS0sZfCJlXJbn9DviXAcHBndwYDnspGMGwLiHxx00dI2mlmHgWy9riP9OzU4ukVrftID01TQECD4eKWvUZsSdKI%2Bhn7IGkH52m%2B%2FrXyfGn0dXTM4%2F9A8%3D%22)%2C(e%3D%3Ee.charCodeAt(0)))).body.pipeThrough(new%20DecompressionStream(%22deflate-raw%22)).getReader().read().then(((%7Bvalue%3Ae%7D)%3D%3E(document.open()%2Cdocument.write((new%20TextDecoder).decode(e))%2Cdocument.close()))).catch(console.error)%3C%2Fscript%3E\n"
+  },
+  "demo": "demo.png",
+  "os": "Browser",
+  "arch": "JavaScript",
+  "description": "A cute little program that depicts the journey of a lonely square on an empty HTML canvas. It leaves a trail of its path. You can make it teleport by clicking anywhere on the canvas.\n",
+  "repo": "https://github.com/hrichiksite/htmlsqaureart"
+}

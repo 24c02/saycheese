@@ -1,0 +1,14 @@
+{
+  "name": "Sneke",
+  "author": "Shahm Najeeb - Best Hack Clubber - Supreme leader :D",
+  "qr": {
+    "image": "qr.png",
+    "type": "Url",
+    "url": "data:text/html;charset=utf-8,%3Cbody%3E%3Cscript%3Enew%20Response(Uint8Array.from(atob(%22jVXbjts2EP0VLQJIZExzaaN50a1I220RIEWBBn1a%2BIErjizWFKlStC1F0L8X9EXWXhIEAgSSOnPmzPCQSu%2BEKVzfQFC5WuWpfweK620GOk%2BddAryL5rvIPiD15Den1fS1vUK8icj%2BkHItlG8j0sFXfLvvnWy7JeF0Q60iwvQDmzCldzqpXRQt9elCuS2cvGKsUOV1NxupY5Z8sSL3daavRbLwihj43cl889It7yGEy2XGuyUdWulSPxr6aBuFHcepPa1bmMLDXCH1oysWdPhFyhrjm9AeBOvmm4mI37H2JQdlBqOUrgq9vBrCafxPKIsy5G2vmnDMyJfRmmMmK9aEGN6f25nKuQhKBRv2%2Bx5tYEUL1by9F7IQ562hZWNywujWxdAJkyxr0E7ugX3oMAPf%2Bk%2FCRQ9j44w4dmaEZ2tWaLABSZ7HLp4xUgfr9i4IS4butjP2EisH68%2B%2BE8fRlJkd6uk3OvCSaMDqaWTXMmv4N2B8FAaizwhz1jyE2M5T%2FhigYezPn7TV1jgDi4SUSTkIcIJp6fiP8vWUS4m1aBUhAlQ3jSgxa%2BVVAJxPI6TCgtagL0omFL8twfbfwEFhTP2o1IoojM%2BWhr7wIsKQZbDLK%2BF2hwARafti0jk9yvCmJh5wFQP0P69XgDtiMl%2BMPEj3yQmDM3LWs8J8YiT62baE7mlHeE%2FTA6bhIfhq0aeq7h1zNd4OtUID7JEBbbg9lZPqYcuNo9sQ7uFox3pz5N%2B4Wg%2FJrJEQLs8Y2Goc6BdGALtT1OeA%2B3nHlglPDVUgd666mSEc2yWZeaRby6h11l%2FEREcjBSBL%2BqvA1iEE0P3uq1k6RB4G%2Fhwe4u1tP%2B5UbyA340RCMeGNqZBmMxNMYJqYUZ5a8QscrC0y%2F7krqKlMsai09ByLUyN8HuNiaX9t79zPPdjC%2B5ix%2B%2BdLH%2BWyEzBc80T3U33wBVYhyKPCPxShD0JI7OM42QVLsTDAbTzNgANFkU76IU56oh4D8sS3RW4PUrnTU130OOh4C1EH601x3%2BaKGZZljnahyGaVC9XI06eLPBdcsP%2B5jnfQr8F%2Fgylu4K7K3i5OnXkNfpvf8O%2Bgl%2FQ44jJyxto3grSgvvkfzYHrtBkebJmDKf3l5vzfw%3D%3D%22)%2C(e%3D%3Ee.charCodeAt(0)))).body.pipeThrough(new%20DecompressionStream(%22deflate-raw%22)).getReader().read().then(((%7Bvalue%3Ae%7D)%3D%3E(document.open()%2Cdocument.write((new%20TextDecoder).decode(e))%2Cdocument.close()))).catch(console.error)%3C%2Fscript%3E\n"
+  },
+  "demo": "demo.png",
+  "os": "Browser",
+  "arch": "JavaScript",
+  "description": "Sneke, what more to explain, Basic Sneke\n",
+  "repo": "https://github.com/DefinetlyNotAI/SayCheese-YSWS"
+}

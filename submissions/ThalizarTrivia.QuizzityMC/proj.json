@@ -1,0 +1,14 @@
+{
+  "name": "Thalizar Trivia",
+  "author": "QuizzityMC",
+  "qr": {
+    "image": "qr.png",
+    "type": "Url",
+    "url": "data:text/html;charset=utf-8,%3Cbody%3E%3Cscript%3Enew%20Response(Uint8Array.from(atob(%22pZYNb9s2EIb%2FCusWiI3E31bTSjK7Nk2xAm22JQWGoSgQijxZRCieQlL%2BiOH%2FPujDTaJYS4FBgGFQ5Ht370NSF74QyN0mA5K4VNHQSaeAfkuYknfMkPM0kwbIX7m8C4fVu9C6jQIaodhsY9SuH7NUqo1vmbZ9C0bGQcrMQmp%2FMsrWQcT4zcJgrkWfo0Ljv4xPiydQUkM%2FAblInD8evN4l462DteszJRfa56AdmKBeMp1Oa9F%2BhM5hWmrvsu3jwbGXrYMnIrsYTbo9kEccBxkTQupFnSoaAaZvmJC59d%2BUI%2Bu%2BTZjAlT8ik2xNZtmamEXEuqOT4hmMe0HK1v2VFC7xX48Klbr4EWG5wx2qrZLW9UvT%2BoXRvgAuU6b2sfsKYlfVo%2BT2QJVSZ7n7XiydF6nhj%2F0kU3pX1myYtkWZvuVMQXc8mPR2ikWgtkLaTLGNL3VpeKSQ3zS8LBSWYJzkTNXOpVIIBbsodw71Ae88Hr3xeHDAyfEoW5MSRGWnr1FDw9pZtg54biwaP0NZgi53kpV34I9fZ%2Btgn%2FXDdEs3SleDyu9Yuj5H7UC7OlM%2FwSWYA%2FnOOIMZ3%2F2WgpCMdBvMettyN9dhigqqPfOzJi9bFyQfESsHnxArR58hNj1EbM%2Fr3ojBWw%2FS3W7A0RjgbluVsjAAurJrVR2e09FoN5D68TQD4smklwZsrpx9EGM8mEDanLjfHg6z6mA8PVLhsLoFwmTcclkkYxpm9BtYRzaYG3KjcaVALICwCHNHXAKksfIF%2BZYAYdquwFjisJhjgdzmYJ1EbQlnmkRA4oIsYc4nISOJgXieOJdZfzhcyRs54Ewzs%2BGGxW6AZjHkmGtnJNihS6Dv6ph9KGMOCf0fi8Mho2FBkUgxv83l3Sc0KQ1R0VBJ%2BncieUIwruuQljCSGVxKzaEeblrwLowMDcv9U0qOGdEshfntmNxvJ7JkKoc5oyQs9wyJ0RRT6QUuWTgsx2hTKGoXihpCEb1kulWItwvxhhCn5wYWaKBNS7RriYaWoBdohHycVlbJfAIQxZmvXWeOrJgt7S3k91ZXzIgr3h%2BwvlxTbi0QJDaYNllM9iwmz7KYMHoBK4e6pfBJ1C7VoDGJ6JVDk%2F6HGG8XaxCZcFocsT8iK4VkmnzcaGbdpk1YtAs38EwEPVcCzUE%2BkwYfMOVhKBhkzCjJUtCu5UAQhZw5EE0Y0z2M6bMwpuz%2BijqTrdVOo3bFBpNpRD%2BAWYB2su2YTHm7WgPKlNMzuZSO2TYt0a7V4DAV9BLWDvVSKgUHWEwbLHBPgufGFBjO0wwMml%2B8n2Z7DLNnMcwYvWRSb75sjOTj2dvT05ZyZ1G7ZgPELKLvP159eH959vv5ZZscb5drkJhx%2BiXnMgbTpiXatRokZoIWH8I76TZfzw6AmD0H4k8jUyBfpZbWwa%2Fy8PY8vGd5eOyZYr2oXavBwYvoN8PS4lvJdOs%2B9ni7YIOEx9vceyAn2uUaMDxB3SJGw2E8O8DCu2cxLL7dVTNJUHMl%2Bc2cJ8Bv3ldtSbdXBaum0Ks8SqUj9ctwWA9XunW7RcNhXLYFlhuZORrnmhf9DHmsu%2BWorSN8vkX%2FKDo6ceVv7h%2Fxo5Nb%2F0gcnchiZBcocATmoyBG0y3%2B43wceHSOAR4f71XcXCDPi3t1cJuD2VyBAu7QdK%2Br3rQ0rnP7aou7zg%2B%2FTATEde9E369bgDtXUPz9sPksutfl5L1R173AvXODyuz5nH%2Fv3HaO8ce7rh4UzeJZ1ZXPO2dVU%2Fqic6IHXDFrL8rAda%2FaOYHj457fXPR538sOGst%2BNrmdp4v%2BwZyk0loQxCXS%2Fuwam6EfaOwqr3C%2BRCnIKGgrvVOD7PQehbwuQlqOBgR5tYUdKdpajIk3uC764wr2vw%3D%3D%22)%2C(e%3D%3Ee.charCodeAt(0)))).body.pipeThrough(new%20DecompressionStream(%22deflate-raw%22)).getReader().read().then(((%7Bvalue%3Ae%7D)%3D%3E(document.open()%2Cdocument.write((new%20TextDecoder).decode(e))%2Cdocument.close()))).catch(console.error)%3C%2Fscript%3E\n"
+  },
+  "demo": "demo.jpeg",
+  "os": "Browser",
+  "arch": "HTML",
+  "description": "A little tricky quiz to test citizens of the ADSCRAFT Nation Of Thalizar on their geography! There were 4 questions, but I had to narrow it down to 1 because they didn't fit!\n",
+  "repo": "https://github.com/QuizzityMC/Thalizar-Trivia"
+}

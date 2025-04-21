@@ -1,0 +1,14 @@
+{
+  "name": "Christmas Facts",
+  "author": "CyberZen",
+  "qr": {
+    "image": "qr.octet-stream",
+    "type": "Url",
+    "url": "data:text/html;charset=utf-8,%3Cbody%3E%3Cscript%3Enew%20Response(Uint8Array.from(atob(%22lVZtj5s4EP4rLtuVYBcISZruHoTo2tW1V%2Bl6qq69D1VVaR08BN8aD2cPSWiU%2F34yIdmXth9OSMgee555%2FMx4YP5MYEFdA6yiWi3m7s0U16sc9GJeA3FWVNxYoPzvT2%2Bi66MNNYGm3NtIQVUuYC0LiPpJKLUkyVVkC64gH3tM8xrytYRNg4YWc5KkYPEGDbUa2A3inYT56GCdW%2BoULJYoul2JmqKS11J16SsjuQot1zayYGSZCWkbxbu0VLDN%2FmktybKLBlZpAZrAZFzJlY4kQW2PpgrkqqJ0nCTrKqu5WUmdJtmSF3crg60W6Vn5i3uyAhWa9Gw6nWYEW4p6rCMKrsGUCjdpJYUAvT8rD4fZ1Xx7ECGdJkmzzRouhNSrdOwmSzQCTGS4kK1Nr53lYdyyzJa4jWzFBW7ShE2aLXN%2BzKyW3E9C98TjIGvQSpKoUwOKk1xD9i2SWsA2HSf7ZUuEenc4WUTYHEIfecwGzIFLqlHDE16zJ7yS5GpZlkc9HMuiNRZN2qDsxejTZOU3SMcvmu3AIK2cRrvHQLOXy%2Bn%2BzFbcwKOVyTW%2FejEb0hEpKMmxGHb%2BAGkMVzB9sY8L1CUQyd1JklJuQWSHDDiBh3R%2Fp%2FX0l2I8eXrw5DzjWta8R4Jto1AAm8Qzy4BbiLAlVqLZcCPsveT7X%2B%2BgKw2vwbLBZ5ec78hwbUs0ddqPFCdwKQxYfyn8cZBhwwtJXTreX%2F1k%2F5obP4rENgiHURec%2FOPJQ4Rx8hOIgqviHoddsHE8C8KH1u5oPULH1%2FfIyX4%2FHx1u5FzINZMiHyp9MW8Wn7E1bJgzaZlC7oosjuP5qFnMD4XAUBdKFne5hs1w5f1g8RaIvdJIFRg2WOejg8OCPfXsy%2BDk60j0lsVH92bvu%2B8Q5iMh14u5LYxsaFGgtsQo%2F%2BJ9xpZtpFKs4mtgnK0McGKCd8%2B80HuLKJiGjXVHQc0kWbbhXeyF3u%2B8aaQGa1mBLs%2BlwZptJFVSu%2BVXrDRgK2aJGzoEaFpiHbYOp3MqDUCvmG1NY6QFtpIluUgF1lKvTrsckz%2Fa4m4g0ZutFMAIe55fs7LVhatQ9lDQncCirUFT%2FG8LpvsICgpC43vHzsQaL4hdI7sZGjd9ec%2BpikuFaPx%2BaLgWWPvBBcUK9Iqq4GtoK9zcDLfMD%2Fan2I9TsjtK%2FH9ZZJqv5YoTmrhQslkiNyLeGEnwCbbk377vjvWVMu%2F5jvbebRBTBdr3g3zBFRjyveOHpMBGgmCE7IT1zAsekX54mO9Jr4B%2BU%2BCGr7t3wveG0F7gVl67ziH16kZJ0PQXFOQHIeZOq5IuKe57zmgS6pxiwuaS4kPvGU2yEo2vwIVKslmyoIwuL38QvnDVCAMD3xNy7QUZxYXi1v7pvqDesd952cEZ8snF49T1sw%2FvwjafJsnjtctxkoQy720FWh%2BCizbkh7mVup9nFPe3vT9Ujpdes%2FXCo42wyfVj031PvXGfh%2Fy2ssp%2Fvpu%2BfBJ7H7Kr5Dxks%2BQ8uD15W6APBhsw1Pmea1BeKHv84KdbOi%2Fkw5aTbu5fIeZNA1rcVFIJn4LQAn2SNWBLfaVQbKDGNfhBOJklSbDfP7w889HQKf4D%22)%2C(e%3D%3Ee.charCodeAt(0)))).body.pipeThrough(new%20DecompressionStream(%22deflate-raw%22)).getReader().read().then(((%7Bvalue%3Ae%7D)%3D%3E(document.open()%2Cdocument.write((new%20TextDecoder).decode(e))%2Cdocument.close()))).catch(console.error)%3C%2Fscript%3E\n"
+  },
+  "demo": "demo.png",
+  "os": "macOS",
+  "arch": "JavaScript",
+  "description": "A Simple QR Code version of Christmas Facts Website\n",
+  "repo": "https://github.com/The-UnknownHacker/Christmas-Facts/blob/main/QR%20Code%20Optimized.html"
+}

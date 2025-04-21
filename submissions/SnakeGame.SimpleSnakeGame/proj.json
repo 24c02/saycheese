@@ -1,0 +1,14 @@
+{
+  "name": "Snake Game",
+  "author": "Simple Snake Game",
+  "qr": {
+    "image": "qr.png",
+    "type": "Url",
+    "url": "data:text/html;charset=utf-8,%3C%21DOCTYPE%20html%3E%0A%3Chtml%3E%0A%3Ccanvas%20id%3D%22game%22%20width%3D%22200%22%20height%3D%22200%22%3E%3C%2Fcanvas%3E%0A%3Cscript%3E%0Alet%20c%3Ddocument.getElementById%28%22game%22%29.getContext%28%222d%22%29%2Cd%3D10%2CgridSize%3D20%2Cx%3D10%2Cy%3D10%2Cv%3D%5B1%2C0%5D%2Cb%3D%5B%5B10%2C10%5D%5D%2Cf%3D%5BMath.floor%28Math.random%28%29%2AgridSize%29%2CMath.floor%28Math.random%28%29%2AgridSize%29%5D%2Cscore%3D0%3B%0Afunction%20resetGame%28%29%7Bx%3Dy%3D10%3Bv%3D%5B1%2C0%5D%3Bb%3D%5B%5B10%2C10%5D%5D%3Bf%3D%5BMath.floor%28Math.random%28%29%2AgridSize%29%2CMath.floor%28Math.random%28%29%2AgridSize%29%5D%3Bscore%3D0%7D%0AsetInterval%28%28%29%3D%3E%7Bx%2B%3Dv%5B0%5D%3By%2B%3Dv%5B1%5D%3Bb.push%28%5Bx%2Cy%5D%29%3Bif%28x%3D%3D%3Df%5B0%5D%26%26y%3D%3D%3Df%5B1%5D%29%7Bf%3D%5BMath.floor%28Math.random%28%29%2AgridSize%29%2CMath.floor%28Math.random%28%29%2AgridSize%29%5D%3Bscore%2B%2B%7Delse%20b.shift%28%29%3Bif%28x%3C0%7C%7Cx%3E%3DgridSize%7C%7Cy%3C0%7C%7Cy%3E%3DgridSize%7C%7Cb.slice%280%2C-1%29.some%28%28%5BX%2CY%5D%29%3D%3EX%3D%3D%3Dx%26%26Y%3D%3D%3Dy%29%29resetGame%28%29%3Bc.fillStyle%3D%22%23000%22%3Bc.fillRect%280%2C0%2C200%2C200%29%3Bc.fillStyle%3D%22%23f00%22%3Bc.fillRect%28f%5B0%5D%2Ad%2Cf%5B1%5D%2Ad%2Cd%2Cd%29%3Bc.fillStyle%3D%22%230f0%22%3Bb.forEach%28%28%5BX%2CY%5D%29%3D%3Ec.fillRect%28X%2Ad%2CY%2Ad%2Cd%2Cd%29%29%3Bc.fillStyle%3D%22red%22%3Bc.font%3D%2216px%20Arial%22%3Bc.fillText%28%22%22%2Bscore%2C5%2C15%29%7D%2C200%29%3B%0Aonkeydown%3D%28e%29%3D%3E%7Bconst%20directions%3D%7B37%3A%5B-1%2C0%5D%2C38%3A%5B0%2C-1%5D%2C39%3A%5B1%2C0%5D%2C40%3A%5B0%2C1%5D%7D%3Bconst%20newV%3Ddirections%5Be.keyCode%5D%3Bif%28newV%26%26%28newV%5B0%5D%21%3D%3D-v%5B0%5D%7C%7CnewV%5B1%5D%21%3D%3D-v%5B1%5D%29%29v%3DnewV%7D%3B%0A%3C%2Fscript%3E%0A%3C%2Fhtml%3E%0A\n"
+  },
+  "demo": "demo.png",
+  "os": "Browser",
+  "arch": "any",
+  "description": "This is a simple snake game in a QR code?\n",
+  "repo": "https://github.com/samkley/Snake-SayCheese"
+}

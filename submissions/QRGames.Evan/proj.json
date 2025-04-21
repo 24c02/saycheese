@@ -1,0 +1,14 @@
+{
+  "name": "QR Games",
+  "author": "Evan",
+  "qr": {
+    "image": "qr.png",
+    "type": "Url",
+    "url": "data:text/html;utf8,%3Cscript%3Elet%20a%3D%22H4sIAAAAAAAACp1Wa2%2FbNhT9KwqzGeRCM7Rjp50kqugjGwpsLdAU2ADDQBjqyuZGPUbRjjRb%2F32g5KRJmmZAv8jmfZ5zeUgprpXVlQtcW4FAeZluDKBA2bKuS6tXukhUWdQuKEVaqk0OhYsMuEAL9CeihXhtrWzxz4Rl2hiMEKGpOOLRkLMVJVuBuzDg896071OMrktpU0Ro%2FYSvdtJtakSibFMop8siWGEgu2IByyMhENrvj9L9Hvu10HSDCV1j8grXzEHj3paFg8KJqx92ugv%2BeP%2FhykOZkLBgsAXbYiUS1Zf5KgW9s%2FIGHcKxFloIT%2B8V%2BohCT%2FNRg88bW4SBb3NFSHeHdYPJbuAND7jVb9q3Rtb1B5kDRgqMQSQqWFbaC6nWGCuaEZHsYJEtH%2FRR3b3ia0x2FtzGFosFpxM6XdLFGZ3R%2BZIuzukL%2BnJJF5ye0fMlXUzojL5Y0sWUzg%2F2Wf87pTN6vlyyuswB44WiGb1YEpEUC7UcjfxTCFEssvuLiyXp7mEFqjzWgWYmSqYsSAcHphileuu3jylP%2BDddOybT9JY0zfzqYguF8y4owGKkjFZ%2FI4qJSFZYEUK3TFYVFOnbtTYpzkhHoq%2BVYmvnEHm%2B3O55jT6zq15aHYm%2BHXDQt3tCw5lCxBv7tMZhNE0R6Y%2BMEbsmnHPahlPO6TbkHbVisaSt4FSK2zPTiB77%2FwR3UfkE%2Bb%2BhTcubAlHwemKqTMEr%2BbKSCtBohKUQYvqqwSTEUkyoYVsxPiNPTziz9XMDbsgBbz7g9aUnoxE2bHsi2GRODWtPhGFbio8sM1Cs3Hq%2Ft4vb%2F%2BPJkjXxZM7JaGRZtanXeNeEZ9wz%2Fl26NbOySMsck5%2BmnJ9MOO8ItXc6HPg14zEF1gghZi9Ho%2FbkhBrWnEx5AqwZjQxrYmDNyZz3sNoYWLvfe1h9ROuLkn4oU%2BKLC%2Bv14cD66sCaZDznhPrMZMZ5nxnfJRDqmDIg7SdQDnPKqYc%2B49w7vMwuXWtAIAspOlj6SMMaPxk65XT6ONboHNAjkvdSgTWU0zmnwFpCHzkOfLx7xvkYWDv29LpHLa6N9JvnWFb6a2%2FKqyZ4bbU0tyA%2Fe8leXarSgpd6213RiedGqDwaNvghvdW17NlzytmcPKD67aHcrLWDLyjOnkYhX6FfZQ7Bxy1YFA4iDlwZXDppHaLnfoKcEGrhnw3U7nWhc%2Bmvyl%2Bsv2dz0kUNJlGOSRSfDu%2B4JK49gOS6TNtdquvKyDbMDDTRX5va6awdq%2BGshwoKBzaSRq%2BKsXaQ17cmHz5OtYX%2BWg5teROtZBXOeNVEa9CrtQsnnG%2FXUS7tShch7477N95dv5XVaeQfYwd5ZaSDsSrNJi%2Fq0EIF0uEzOuG8akhfeF41HfPX5%2B5Gp24d9q57naomui5tCjacVE1Ql0anwTHnPPpefmXhxrX%2BFwZKamPr0oZVqb23O86MrKpHw3s0koHNU7W%2FgcLTnPCq6Y6dc%2B%2Bkkw%2FL3%2FH%2B8fu3acDUxaeDAOJUbwOdCrSSOaAvy%2BHbJIlPU739Yj2gQklc9evDV0oSn1ZJfL1xrix6e%2F9OSj5BDS4%2BHey3pR4WHIaIkljJYivrwaZQ0DP154GjYNhhgWac%2B05D5IN2%2FoJ%2Bstt%2F3J3z4NIJAAA%3D%22%2Cb%3Datob(a)%2Cc%3Dnew%20Uint8Array(b.length)%3Bfor(let%20e%3D0%3Be%3Cb.length%3Be%2B%2B)c%5Be%5D%3Db.charCodeAt(e)%3Blet%20d%3Dnew%20Response(c).body.pipeThrough(new%20DecompressionStream(%22gzip%22))%3Bnew%20Response(d).text().then((e%3D%3E%7Bdocument.open()%2Cdocument.write(e)%2Cdocument.close()%7D))%3B%3C%2Fscript%3E\n"
+  },
+  "demo": "demo.png",
+  "os": "Browser",
+  "arch": "JavaScript",
+  "description": "This qr code is barely able to fit both Flappy Bird and Tic-Tac-Toe in it.\n",
+  "repo": "https://github.com/Badbird5907/qr-games"
+}

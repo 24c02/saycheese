@@ -1,0 +1,14 @@
+{
+  "name": "PocketMatch",
+  "author": "PocketMatcher :)",
+  "qr": {
+    "image": "qr.png",
+    "type": "Url",
+    "url": "data:text/html;charset=utf-8,%3C!DOCTYPE%20html%3E%3Chtml%3E%3Chead%3E%3Cmeta%20charset%3D%22UTF-8%22%3E%3Cmeta%20name%3D%22viewport%22%20content%3D%22width%3Ddevice-width%2Cinitial-scale%3D1%22%3E%3Ctitle%3E%F0%9F%8E%AE%3C%2Ftitle%3E%3Cstyle%3E*%7Bmargin%3A0%3Bpadding%3A0%3Bbox-sizing%3Aborder-box%7Dbody%7Bfont%3A20px%20system-ui%3Btext-align%3Acenter%3Bbackground%3A%23f0f0f0%3Bmin-height%3A100vh%3Bdisplay%3Aflex%3Bflex-direction%3Acolumn%3Balign-items%3Acenter%3Bjustify-content%3Acenter%7D%23g%7Bdisplay%3Agrid%3Bgrid-template-columns%3Arepeat(4%2C1fr)%3Bgap%3A8px%3Bwidth%3Amin(95vw%2C400px)%3Bmargin%3A8px%7D%23s%7Bmargin%3A8px%7D.c%7Baspect-ratio%3A1%3Bbackground%3A%23fff%3Bcursor%3Apointer%3Bfont%3A0%20arial%3Bbox-shadow%3A0%202px%204px%20%230002%3Bborder-radius%3A4px%7D.f%7Bfont%3A24px%20arial%7D%3C%2Fstyle%3E%3C%2Fhead%3E%3Cbody%3E%3Cdiv%20id%3Ds%3EMoves%3A%3Cspan%20id%3Dm%3E0%3C%2Fspan%3E%3C%2Fdiv%3E%3Cdiv%20id%3Dg%3E%3C%2Fdiv%3E%3Cscript%3Elet%20e%3D%22%F0%9F%90%B1%F0%9F%90%B6%F0%9F%90%B0%F0%9F%90%BC%22%2Cc%3D%5B...e%2C...e%5D%2Cv%3D0%2Cf%3D%5B%5D%2Ct%3D%5B%5D%2Cp%3D1%2Cg%3Ddocument.getElementById(%22g%22)%3Bfor(let%20i%3Dc.length-1%3Bi%3E0%3Bi--)%7Blet%20j%3DMath.random()*i%7C0%3B%5Bc%5Bi%5D%2Cc%5Bj%5D%5D%3D%5Bc%5Bj%5D%2Cc%5Bi%5D%5D%7Dc.map((_%2Ci)%3D%3Eg.innerHTML%2B%3D%60%3Cdiv%20class%3D%22c%22onclick%3D%22h(%24%7Bi%7D)%22%3E%60)%3Bfunction%20h(i)%7Bif(!p%7C%7Cf.includes(i)%7C%7Ct.includes(i))return%3Blet%20d%3Dg.children%5Bi%5D%3Bd.classList.add(%22f%22)%3Bd.innerHTML%3Dc%5Bi%5D%3Bf.push(i)%3Bif(f.length%3D%3D2)%7Bdocument.getElementById(%22m%22).textContent%3D%2B%2Bv%3Bp%3D0%3BsetTimeout(_%3D%3E%7Blet%5Ba%2Cb%5D%3Df%2Cx%3Dg.children%5Ba%5D%2Cy%3Dg.children%5Bb%5D%3Bif(c%5Ba%5D%3D%3Dc%5Bb%5D)%7Bt.push(a%2Cb)%3Bif(t.length%3D%3Dc.length)s.innerHTML%2B%3D%22%3Cb%3E%F0%9F%8E%89Win!%3C%2Fb%3E%22%7Delse%7Bx.classList.remove(%22f%22)%3By.classList.remove(%22f%22)%3Bx.innerHTML%3Dy.innerHTML%3D%22%22%7Df%3D%5B%5D%3Bp%3D1%7D%2C400)%7D%7D%3C%2Fscript%3E%3C%2Fbody%3E%3C%2Fhtml%3E%0A\n"
+  },
+  "demo": "demo.png",
+  "os": "Browser",
+  "arch": "JavaScript",
+  "description": "PocketMatch is a delightful memory card game where players match pairs of cute animal emojis. The entire game, including all assets and logic, is compressed into a single scannable QR code - no internet required!\n",
+  "repo": "https://github.com/RichBytesss/sturdy-barnacle"
+}

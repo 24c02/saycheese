@@ -1,0 +1,14 @@
+{
+  "name": "Tic-Tac-Toe",
+  "author": "Muhammad Dawood",
+  "qr": {
+    "image": "qr.png",
+    "type": "Url",
+    "url": "data:text/html;charset=utf-8,%3Cbody%3E%3Cscript%3Enew%20Response(Uint8Array.from(atob(%22dVJ%2Fi%2BM2EP0qjnZJbSo7yf7ILrblpcdd6cGVQklpwRhOkcaJbhXJSOPd5Iy%2F%2B2EnuW5oz3%2FIM0%2FSvJmnl0%2BkFXhoINjiThf5DpAHYsudB2R%2FrX6NH4scFWooVkrEKy7ilYV8doRyjwcNxdrKQ1dbg3HNd0of0l%2Bc4pp6bnzswak6Q9hjzLXamFSAQXDZjruNMuk8a7iUymzSeb9ddCd0MW%2F2%2FdXacic7qXyj%2BSHdOCWzYYkRdo3mCKmDBjiGt3RRu2h2kWWvSuI2XTzOm322BbXZ4il5QxHwFm224U160%2Bz7RIDW3fHe8s21MT53UWvYZ%2BMgsULY%2BfM4X1qPqj7EwhoEg2d4zcXzxtnWyPQKALJRJK%2B%2BQnpz1%2Bwz0TpvXdpYNZw%2BdpAgfwbTnbaMHXTT9hVkf%2BXAA540itE24xDfBbxv9sEIvCWdzx%2FWdZ0Jq61Lr%2Bq6ztbWSRgKGzjFseNStT69%2FW9HR8p0a1%2FAdZd175fr2z6fHR2QbxeX%2Ftguilyql0BJNj5jkc%2BkeinydYtozQCPlYs%2FhzWfHeEi98KpBgthjccAmLSi3YHBZAP4QcMQvjt8lCEZa5KIuh8fGeuTKNOAgWHkH0KRTeZUsJKevyqpldYhIVF2ZLSsLOd0QW8qWt7SO3pf0XJJH%2BhjRcs5vaXLipYLekcfKlre0PsTfjf%2Bb%2BgdXVZVVrdGoLImEFsQz38rE0ZdbV049AGBrQMbdSNb6aihWDHIVB2K0lXT6bAyxkRp3iZYRQ6wdSYYoP4cJ8oI3UrwwwBPptU6Je8dfyX99xYcGAnu3SBWGHWQKGPA%2Fbb6%2FRMTyY43YQjURaz4PD6V0Nx7RgYPBtcdPJHRiCQlpCeB5MhjZSTsGbnuXE%2BK6w7646N%2BjpIvVpmhjR4SLuWHFzD4SXkEAy4kQivxTCiwolN1OMHTNCfNHYMEudsAJgOJB0xGnkEVN51OhpmjbhTjfAXYv9pmMJ2GyCYL6gFXage2xTCMWME1OAyPijDG4Il8xJ98wAPp%2BOuEpPAzCV6V8RMS0cU8iuhoEsaYeSJ%2FkHQwzIV8fR9R9%2BPpBsru%2F81F39jvsmR0meezk%2F%2B%2FAQ%3D%3D%22)%2C(e%3D%3Ee.charCodeAt(0)))).body.pipeThrough(new%20DecompressionStream(%22deflate-raw%22)).getReader().read().then(((%7Bvalue%3Ae%7D)%3D%3E(document.open()%2Cdocument.write((new%20TextDecoder).decode(e))%2Cdocument.close()))).catch(console.error)%3C%2Fscript%3E\n"
+  },
+  "demo": "demo.png",
+  "os": "Browser",
+  "arch": "JavaScript",
+  "description": "This is a self-contained Tic-Tac-Toe game that lives entirely inside a QR code! It’s fun, fast, and works offline. Just scan the QR code, and you’re ready to play!\n\n",
+  "repo": "https://github.com/da-wood69/saycheese-ysws-code"
+}

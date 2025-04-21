@@ -1,0 +1,14 @@
+{
+  "name": "QREX",
+  "author": "Hazel Viswanath",
+  "qr": {
+    "image": "qr.png",
+    "type": "Url",
+    "url": "data:application/octet-stream;base64,ZGF0YTphcHBsaWNhdGlvbi9vY3RldC1zdHJlYW07YmFzZTY0LGYwVk1SZ0lC\nQVFBQUFBQUFBQUFBQUFJQVBnQUJBQUFBb0lBRUNBQUFBQUJBQUFBQUFBQUFB\nQUFBQUFBQUFBQUFBQUFBQUVBQU9BQUJBQUFBQUFBQUFBRUFBQUFIQUFBQUFB\nQUFBQUFBQUFBQWdBUUlBQUFBQUFDQUJBZ0FBQUFBRUFFQUFBQUFBQUFRQVFB\nQUFBQUFBQUFRQUFBQUFBQUFTREhKU1BmUk1NRDg4cTVJOTlGSS84bElpY3JE\nU0luKzZPUC8vLys0QVFBQUFFaUp4dzhGdzBpL0VJRUVDQUFBQUFEbzN2Ly8v\nMGkvV1lFRUNBQUFBQURvei8vLy96SEFNZjlJdnN5QkJBZ0FBQUFBalJRbHpJ\nRUVDQThGU0w5L2dRUUlBQUFBQU9pcC8vLy9TTC9NZ1FRSUFBQUFBT2lhLy8v\nL1NMK2FnUVFJQUFBQUFPaUwvLy8vU0RIL1pyOEFBTGc4QUFBQUR3VlJVa1ZZ\nTmpRc0lHRWdiR2x1ZFhnZ1pXeG1OalFnWlhobFkzVjBaV0ZpYkdVZ2QybDBh\nR2x1SUdFZ2NYSWdZMjlrWlN3Z1lua2dTR0Y2Wld3Z1ZtbHpkMkZ1WVhSb0xn\nb0FRWEpsSUhsdmRTQmhJRzFsYldKbGNpQnZaaUJJWVdOcklFTnNkV0kvSUNo\nNUwyNHBDZ0JVYUdGdWF5QjViM1VnWm05eUlIbHZkWElnYVc1d2RYUTZJQUJV\nYUdGdWF5QjViM1VnWm05eUlIUnllV2x1WnlCdmRYUWdVVkpGV0RZMExpQlpZ\nWGtnU0dGamF5QkRiSFZpSVFvQQo=\n"
+  },
+  "demo": "demo.png",
+  "os": "Linux",
+  "arch": "x64",
+  "description": "Some nice messages and interactability. Contained in a 459-byte executable in a QRcode via the data URL scheme and application/octet-stream.\n",
+  "repo": "https://github.com/transdryad/qrex"
+}

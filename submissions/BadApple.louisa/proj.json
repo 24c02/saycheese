@@ -1,0 +1,14 @@
+{
+  "name": "First 30 Seconds of Bad Apple in 5.28kb",
+  "author": "louisa",
+  "qr": {
+    "image": "qr.png",
+    "type": "Url",
+    "url": "data:text/html;charset=utf-8,%3Cbody%3E%3Cscript%3Enew%20Response(Uint8Array.from(atob(%223ZhRayM3EMe%2FirAYsDWeSUsfDmQrFS19uM%2BQ3kOwNxcXZ9fEctpw3Hcv2l1ptZIMCdxxcPtkfh6N%2FhqNZrS7PbvXY3Mru4s7XdyXfx8PrqHz6X7X6NNzs3noWkcP90%2BH46t%2B6tqu%2F%2Bfr9mYYtd0fXsRhb4bBt9ub%2FeHldnvePR9O7nbXtWcnnLlb2MqzWP88WNUwWDRYs2YhalhyFVvLi%2FVCDA9HSL2TEQs5UhQzHIz1HENQaBLMJlUYcUKt0hFDgm20NpMKkU7ZyzMix96JFAUeopHjK77BYghqgqUPf%2BImiSBIpSTnWKiabiF0IjzbBiiwX6bxOzPDvXAM5hHTmDmcOdGGUHHhWyeLzPZSFREUOKbIHGuAMlTetayFarQ2hRIkTVcEFlP2AkNcE%2ByDAoUTbauBTbK4gssp%2B0dRBSsoD0nYCu9%2Fbj1klip8Q4YJZEjy9KQxxlOCnDshSboUiHGDUqxtzOWZNccATFlleFyPTKcEK0nH4zY5UVcqhPekrAWV6Q71R2YCw0IpxawpFI75zsu4oPkBHNSgzs9lOOAzgd6HVHmoxkII5SkO1WO2HIjmSdpbGcpbFirsxcAsT8IS8ynD37nAHoK1IGmOo8ZsG%2Bo4mmeYLUEFE4uadXhmMdE1LKfzl2KsY8Fcc3Jtynfiqm%2BT9Iy8X5bVnhGxpvvbCLymW1fqNyUVLwusLXqDL74K8zpYTGkrz2K9kGa6KCRYp8mXZ5WxUqEhrTWRvJI%2BdF0J%2BSLHxoJ3Qn79WgWBUqfGetItDc%2BcTLKmIRMGEgxoCqx9EGXNiaCab1vxncdk%2FGUMIAuNMMfDxjCiza6JZth4zq6J%2FWpYE2a3R6MHKdBvWiititTgn%2FQbbqYyjptjjqU6YpBSkiDSKre%2B4vtbYFCqao3ThTNiKUERmbGb%2FOArP00dKRWIzGSw4gQsyO8lUBpSNWsUxV76TTa6r0Cm6hu%2BTwShimlsvIVu7ruXxzC9YUhlwpECIQyATV9K0qL0foHFaRhoyMLMmgXFwELMA0BEGbAQxiukZFTad94tUFaxGhtEnhDhStMLnDRIFXMQWGiDEiAp%2BbUbXk0g1csjSMAMK39VUjp701Wk0DcSnVdkCP7rqVnBCizOMZQFT7IYSiYzEScNRvqwjm2mNiW84TRIhhq2JuFpYA1pU15EBJEpry15G%2F1xmAnRFDclsNIYzF%2BXGaju5O1TKgCuYJzeLBPM6UeFCfu2XPMtkxafYF93NjP8ad2Yu0%2Bbh%2B55eWycaM0vm3br%2BNi0n93jpkXzYdXw6XJ%2BXDo%2BHw%2B7ZtmuW%2Fyw4n%2B6Q7tc%2FN0uVqtNGPlwaXfu0LXictovV1%2FabTM6%2Bn2573aXp6Z1%2FLlxfx0b%2F%2FOP14%2F75WL4mrZYsWv%2Bc392rWtaZ5q79tO6RVzp3bG5f%2F7Yuub55f647FZfhw9tnTk3LuLLab%2F%2Btflttb0Zv8b9Dw%3D%3D%22)%2C(e%3D%3Ee.charCodeAt(0)))).body.pipeThrough(new%20DecompressionStream(%22deflate-raw%22)).getReader().read().then(((%7Bvalue%3Ae%7D)%3D%3E(document.open()%2Cdocument.write((new%20TextDecoder).decode(e))%2Cdocument.close()))).catch(console.error)%3C%2Fscript%3E\n"
+  },
+  "demo": "demo.png",
+  "os": "Browser",
+  "arch": "HTML/JS",
+  "description": "first 30 seconds of ascii bad apple in 30 seconds!\n",
+  "repo": "https://github.com/v1peridae/bad-apple"
+}

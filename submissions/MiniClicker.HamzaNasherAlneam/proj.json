@@ -1,0 +1,14 @@
+{
+  "name": "MiniClicker",
+  "author": "Hamza Nasher-Alneam",
+  "qr": {
+    "image": "qr.png",
+    "type": "Url",
+    "url": "data:text/html,%3C%21doctypehtml%3E%3Ctitle%3EMiniClicker%3C/title%3E%3Cstyle%3Ehtml%7Bheight%3A100vh%3Bdisplay%3Aflex%3Bjustify-content%3Acenter%3Balign-items%3Acenter%3Btext-align%3Acenter%7D.noshow%7Bdisplay%3Anone%7D%3C/style%3E%3Ch3%3EWelcome%20to%20mini%20clicker%21%3Cbr%3EClick%20button%20for%20points%3C/h3%3E%3Cp%20class%3Dpoints%3Epoints%3A%200%3C/p%3E%3Cbutton%20class%3Dclicable%20onclick%3Dclicked%28%29%3Eclickable%3C/button%3E%3Cbr%3E%3Cbutton%20class%3D%22noshow%20better%22onclick%3Dbetter%28%29%20disabled%3Ebetter%20clickable%3C/button%3E%3Cbr%3E%3Cbutton%20class%3D%22noshow%20auto%22onclick%3DaddAuto%28%29%20disabled%3Eauto%20clicker%20%280%29%3C/button%3E%3Cbr%3E%3Cp%20class%3D%22noshow%20site%22%3ELike%20the%20game%3F%20Check%20out%20%3Ca%20href%3Dhttps%3A//hnasheralneam.dev%3EHamza%27s%20site%3C/a%3E%3Cscript%3Elet%20points%3D0%2Cclicks%3D1%2CautoClickers%3D0%2CbetterClickableCost%3D50%2CautoClickerCost%3D120%2CclickerLoop%3Bconst%20pointsEl%3Ddocument.querySelector%28%22.points%22%29%2CclicableEl%3Ddocument.querySelector%28%22.clicable%22%29%2CbetterEl%3Ddocument.querySelector%28%22.better%22%29%2CautoEl%3Ddocument.querySelector%28%22.auto%22%29%3Bfunction%20clicked%28%29%7Bpoints+%3Dclicks%2CcheckShow%28%29%7Dfunction%20better%28%29%7Bpoints-%3DbetterClickableCost%2CbetterClickableCost+%3DMath.floor%28.35*betterClickableCost%29%2Cclicks++%2CclicableEl.innerText%3D%22clickable%20x%22+clicks%2CcheckShow%28%29%7Dfunction%20addAuto%28%29%7BclickerLoop%7C%7C%28clickerLoop%3DsetInterval%28%28%29%3D%3E%7Bfor%28let%20t%3D0%3Bt%3CautoClickers%3Bt++%29clicked%28%29%7D%2C1e3%29%29%2Cpoints-%3DautoClickerCost%2CautoClickerCost+%3DMath.floor%28.35*autoClickerCost%29%2CautoClickers++%2CautoEl.innerText%3D%22auto%20clicker%20%28%22+autoClickers+%22%29%22%2CcheckShow%28%29%7Dfunction%20checkShow%28%29%7BpointsEl.innerText%3D%60points%3A%20%24%7Bpoints%7D%60%2Cpoints%3E20%26%26%28betterEl.style.display%3D%22inline-block%22%29%2Cpoints%3E60%26%26%28autoEl.style.display%3D%22inline-block%22%29%2CbetterEl.title%3D%22cost%20%22+betterClickableCost%2CautoEl.title%3D%22cost%20%22+autoClickerCost%2Cpoints%3E%3DbetterClickableCost%3FbetterEl.disabled%3D%211%3AbetterEl.disabled%3D%210%2Cpoints%3E%3DautoClickerCost%3FautoEl.disabled%3D%211%3AautoEl.disabled%3D%210%2CautoClickers%3E0%26%26document.querySelector%28%22.site%22%29.classList.remove%28%22noshow%22%29%7DcheckShow%28%29%3B%3C/script%3E\n"
+  },
+  "demo": "demo.png",
+  "os": "Browser",
+  "arch": "JavaScript",
+  "description": "Y'know those times when you have to attend a meeting you don't want to, and so you sit there, wishing for something to do? MiniClicker is for those times! Click away your life in less than 2kb with MiniClicker.\n",
+  "repo": "https://github.com/hnasheralneam/miniclicker"
+}

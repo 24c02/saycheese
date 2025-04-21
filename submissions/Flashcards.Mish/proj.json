@@ -1,0 +1,14 @@
+{
+  "name": "QR Flashcards",
+  "author": "Mish",
+  "qr": {
+    "image": "qr.png",
+    "type": "Url",
+    "url": "data:text/html,<script type=\"module\">let o=n=>document.querySelector(n),l=[[],[],[]],i=()=>l[s][0],s=0,u=()=>{o(\"h2\").textContent=`Box ${s+1} (${l[s].length} cards)`,i()?o(\"p\").textContent=i()[0]:o(\"p\").textContent=\"Empty box! Add a card below.\",o(\"nav\").hidden=!i()};self.b=()=>{s=o(\"select\").value-1,u()};self.b();self.p=()=>{let n=o(\"%23q\").value,r=o(\"%23a\").value;l[0].push([n,r]),u()};self.s=()=>o(\"p\").textContent=i()[1];self.n=n=>{let r=(s+n)*n;r=r<3?r:2,i()&&l[r].push(i()),l[s].shift(),u(),l[s].length||alert(\"End of box! Select another box at the top to keep studying\")};</script><meta charset=\"UTF-8\"/><style>*{color-scheme:dark;font-family:sans-serif;background:%2324273a}p{max-width:476;background:%23181926;border-radius:9;padding:16 32;box-shadow:0 0 1em .5em %2300000050}nav{text-align:center;max-width:540}span{display:inline-block;width:80%2525}nav *{margin:0 8}button,select,textarea{background:%231e2030;border:1px solid %236e738d;border-radius:5px;margin:4}button,select{font-size:22}textarea{width:100%2525;max-width:540}%23green{background:%23a6da95;color:%23232634}%23red{background:%23ed8796;color:%23232634}%23blue{background:%238aadf4;color:%23232634}button:hover{filter:brightness(1.2)}</style><h1>Leitner box flashcards</h1>Flashcards start at Box 1, move up if you answer them correctly, and move back to Box 1 if you get them wrong.<br/>Select box <select onchange=\"b()\"><option>1</option><option>2</option><option>3</option></select> <a><div><h2></h2><p></p></div><nav><span>Think of the answer, check if you've got it correct (📖), and then press ✅ or ❌</span><br/><br/><button onclick=\"s()\" id=\"blue\">📖 Reveal answer</button><button onclick=\"n(1)\" id=\"green\">✅ Correct</button><button onclick=\"n(0)\" id=\"red\">❌ Wrong</button></nav></a><h2>Add card</h2><textarea id=\"q\">Question 1</textarea><br/><textarea id=\"a\">Answer 1</textarea><br/><button onclick=\"p()\">➕ Add</button>\n\n"
+  },
+  "demo": "demo.png",
+  "os": "Browser",
+  "arch": "JavaScript",
+  "description": "Need to get some revision done on the go? Enjoy using apps contained within QR codes? Take a look at QR flashcards :D\n\nWhat does it do?\n- You can add flashcards\n- You can view the flashcards\n- 3 virtual boxes for your flashcards\n- Flashcards move through the boxes using the Leitner system, very fancy\n\nAny important limitations?\n- I'm glad you asked!\n- Sadly, localStorage can't be used in this context, so your flashcards aren't saved\n- In other words, all your work gets lost if you reload the page\n- But, perhaps the real flashcards are the key words that we learnt along the way\n",
+  "repo": "https://github.com/RandomSearch18/qr-tool"
+}

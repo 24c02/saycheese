@@ -1,0 +1,14 @@
+{
+  "name": "Dice Roller",
+  "author": "Aaryav Behl, the first of his name",
+  "qr": {
+    "image": "qr.png",
+    "type": "Url",
+    "url": "data:text/html;charset=utf-8,%3Chead%3E%3Ctitle%3EATB%3C/title%3E%3Cstyle%3Ebody%7Bfont-family%3AArial%2C%20sans-serif%3Btext-align%3Acenter%3Bmargin-top%3A20%25%3Bbackground%3A%23000000%3Bcolor%3Awhite%7D%23dice%7Bfont-size%3A5rem%3Banimation%3Aroll%200.5s%3B%7D%40keyframes%20roll%7Bfrom%7Btransform%3Arotate%280deg%29%7Dto%7Btransform%3Arotate%28360deg%29%7D%7Dbutton%7Bmargin-top%3A20px%3Bpadding%3A10px%2020px%3Bfont-size%3A1.2rem%3Bcursor%3Apointer%3Bborder%3Anone%3Bborder-radius%3A5px%3Bbackground%3Alinear-gradient%2890deg%2Cred%2C%20orange%2C%20yellow%2C%20green%2C%20blue%2C%20indigo%2C%20violet%29%3Bbackground-size%3A400%25%20400%25%3Banimation%3Argb-cycle%203s%20infinite%3Bcolor%3Awhite%7D%40keyframes%20rgb-cycle%7B0%25%7Bbackground-position%3A0%25%2050%25%7D50%25%7Bbackground-position%3A100%25%2050%25%7D100%25%7Bbackground-position%3A0%25%2050%25%7D%7D%3C/style%3E%3C/head%3E%3Cbody%3E%3Ch1%3ERoll%20the%20Dice%3C/h1%3E%3Cdiv%20id%3D%22dice%22%3E%E2%9A%80%3C/div%3E%3Cbutton%20onclick%3D%22rollDice%28%29%22%3ERoll%3C/button%3E%3Cscript%3Efunction%20rollDice%28%29%7Bconst%20faces%3D%5B'%E2%9A%80'%2C%20'%E2%9A%81'%2C%20'%E2%9A%82'%2C%20'%E2%9A%83'%2C%20'%E2%9A%84'%2C%20'%E2%9A%85'%5D%3Bdocument.getElementById%28'dice'%29.textContent%3Dfaces%5BMath.floor%28Math.random%28%29*6%29%5D%7D%3C/script%3E%3C/body%3E\n"
+  },
+  "demo": "demo.png",
+  "os": "Browser",
+  "arch": "JavaScript",
+  "description": "It is a basic dice roller you can use if you lose your physical dice while playing Snakes and Ladder. ;)\n",
+  "repo": "https://github.com/aaryavbehl/diceroller/"
+}

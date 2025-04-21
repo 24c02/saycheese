@@ -1,0 +1,14 @@
+{
+  "name": "uwu-chase-game",
+  "author": "itsmehecker",
+  "qr": {
+    "image": "qr.png",
+    "type": "Url",
+    "url": "data:text/html;charset=utf-8,%3Cbody%3E%3Cscript%3Enew%20Response(Uint8Array.from(atob(%22jVUNb9s2EP0rSjZEUkzLtLNkhWwKSPPRdkvXLR%2FrtqJYafEcEZFFlaJsa7b%2F%2B45SFNvNug0wZPJ4fHd8744c7QkVmyoHJzHTNBrZr5Py7J5BFo2mYLgTJ1wXYNjd7WX3RWtTmYHMsP25FCZhAmYyhm49ITKTRvK0W8Q8BdbfdzI%2BBTaTMM%2BVNtHISJNCdPf%2BzjlLeAHOK1we9RrrqDAV%2Fo2VqJZTru9lFtJ1zLMZL5ZCFnnKq3CcqvhhOFZagA77%2BcIpVCqF8w2ldM2XuSowvMpCPkZ7aWBoVB72ab4YpjAxzShWqdIh7pgMDSxMV0CsNK%2B3ZSqD9ajX5DHiTqJhwhJj8iLs9aQpppBA%2FAA6uJcmKceBVL3P%2Bh6P4BjMF2n6c4z0PUSXZZo%2BHo1Ho%2BYITgLyPjHshFJHCmZ3nTULDY0vKI1GvcYXqYi1zE2EVBfGAYY6lVPkPMAgFynY4cvqjfDcDYzrE8PAOpxZfRbGcwcCjZwtF%2BF3lJIqPMJvIf%2BCcID%2FOYAIj4klha6JYh8%2BIkfG0WyvTzJ2zg0EmZp7PpGMDidlFluGHIS%2F5plQ0yswBrTnL9sUZwp1oEMNptSZe%2Fry7Pzi8tXrNz%2F8ePX2p3c%2F%2F3J9c3v36%2Fvffv%2FD%2FfCWmySYpEppb3ByWM90jen5%2Fsf1UyhbSk2UAsNM0NvmZzCb48gMTafjqyAvi8TD8%2B2AHELQFGP1zN5o8AUJA2KrPHx2tLW%2FSabMBTKCeciJxwMTUQyOKV3wOPGARUsIFiMeLA4OPBx1UIca2ic4i57s3W17hf5Vba92%2FKvoyb7lXx8Eq7qGQUAfd9tTHBxsrVS4Um1WbKJd1sdzDCEtYInS0mEr15YI3kbsbub3%2BnCEGyKJAJKBv96QIDSfNxSYIE6B62uIjUcJJS3jLcM%2B0X5TCY5BnvCycI%2Bw95xTjZeDS9Am0%2FTGthlzNYjWcluXrW0c590MtNvi9gbd74%2BfwHsDn7Sog6%2BhYiPGDy6pq3IL%2FNNrRHBusOMhdL5dyrVTYPtnovj0tVidI%2BoPH8M1zHb225j7O3mX89IlqA2xKpDd%2BngEgH8DgMDWoS0ZWwYo21d5qnnvU4K%2FwSGqjAP%2FUVnxX8r%2BX%2Ba2SbuV05ousUUXxj6mWx1ib6IrpXIskLZZSFMwRK9WGj6XUJjTTE7rq%2FZSo7vX7vHXTxccF%2BJihoMrWeAjg23oPkAl1DzDjJBH91RrNb%2FL3T3GTIBLqxW1DYOVX3fKauXZGTs55G3rNFvOLcRmEzp1Hj06japRK3kD0XkOcYVPyBdxFztxF%2F8Q99pC7gRePA9cF14DsR0XK2DnEiQbjvGRal6IvwE%3D%22)%2C(e%3D%3Ee.charCodeAt(0)))).body.pipeThrough(new%20DecompressionStream(%22deflate-raw%22)).getReader().read().then(((%7Bvalue%3Ae%7D)%3D%3E(document.open()%2Cdocument.write((new%20TextDecoder).decode(e))%2Cdocument.close()))).catch(console.error)%3C%2Fscript%3E\n"
+  },
+  "demo": "demo.png",
+  "os": "Browser",
+  "arch": "JavaScript",
+  "description": "use arrow keys \n\nbe careful of alphabets they might kill you coz you murdered their kids\n",
+  "repo": "https://github.com/itsmehecker/qrgame"
+}

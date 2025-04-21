@@ -1,0 +1,14 @@
+{
+  "name": "Jumping ass",
+  "author": "Rohan",
+  "qr": {
+    "image": "qr.png",
+    "type": "Url",
+    "url": "data:text/html;charset=utf-8,%3Cbody%3E%3Cscript%3Enew%20Response(Uint8Array.from(atob(%22hVR%2Fb9s2EP0qWgdEYkLRsgcDhSIKSIp2zbBhxdZhf5%2Bps0WEIj3qbEtT%2Fd0HykpsZxgGAzJ5v%2Fje4x2L7yqnqN9iVFNjyiJ8IwN2I9GWRYMEkarBt0jyj6%2Bf0vcvNmcJLcl3B11RLSvca4XpuOHaatJg0laBQTl%2FF1loUO41HrbOU1mQJoPlT7tmq%2B0megRjoh%2BhwWJ27YC2LVrqDZYrV%2FVDA36jbZ7duz36tXGHvNZVhfZ%2BBep5493OVvn36yz8jgrsHtqh0u3WQJ%2BvjFPPx2J2qlacvJGu5AYaLIvZyVAWrfJ6S6VytqUIZeXUrkFLYoP00WBYPvZPVRKHtJhxkhhcH4IUHSXxoorZPYqTIgdtK3cQ2lr0f46yoKhRb2q6cn0eTfcGKQI5dPmUPlvwPn9JSJcZ9%2Fki45QvuM7TecZNLpbc5eL9kVv54D30Yu1dkwwG7YbqfHnkCZOl8giEv65aAmUwYex%2BvbOKtLPRW9fgkXbeDl3%2BC1AtPNjKNQm7TSZE6TJjvP%2B3c4K4yDLGW%2F035svseHw9pfJwCBecsIHECjfafgGqE8ZJgFcJiI6D6DkIzzO%2BuB2rf3kK7rU25vdwXzJemR3Gk2lMXTtLMp4vtl304DWY%2BDr%2BUGsaE8K1PBi9sTJWaAn9i%2FERWjTaoowbXVXmtfrX8R6hbWM%2BQWPXXF70akdClxi9O9iYW7F2%2FiOoOkFZThG%2FoaIERcdR9BxFEGn6u%2BCS%2FR%2BXM7ytc9uYo%2BjuTlVmi1D5dcOOF5g9tkhhuBI2gOjkub1A9PKywUCQDFYt03l2LqBqVM8fnDG61c4mbLhmCKK7A%2BFLFN3NDYguBeGLM7Rg66eAftxMAf1rwAXCS%2BC7bQWEo8rKIPhRxIxnfGLwOk0sMLmTIHS4srCgwCIsDD%2Bffgq%2BuUmueIe%2BA6FvZQrCMZ6c6YyHfPuWlRMpNqbSrUznjJ%2B7mr9pCv5WL%2B7xrx229GB1A4HZJx%2B4nuixY4v0FBpzDyYJAzv81zRfjys78iX%2BwPiLSnx6UqCqPu7R0s%2B6JbTok1gZrZ7j8TEYQOhUzrMjK2bTS%2FcP%22)%2C(e%3D%3Ee.charCodeAt(0)))).body.pipeThrough(new%20DecompressionStream(%22deflate-raw%22)).getReader().read().then(((%7Bvalue%3Ae%7D)%3D%3E(document.open()%2Cdocument.write((new%20TextDecoder).decode(e))%2Cdocument.close()))).catch(console.error)%3C%2Fscript%3E\n"
+  },
+  "demo": "demo.png",
+  "os": "Browser",
+  "arch": "x64",
+  "description": "So, in simple words this game works by spamming your left mouse button to make the ass(i meant the animal) jump to not touching its poop and its companions.\n",
+  "repo": "https://github.com/RohanSeshasaiVasa/Jumping-ball/blob/main/index.html"
+}

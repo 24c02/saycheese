@@ -1,0 +1,14 @@
+{
+  "name": "Bouncing Square",
+  "author": "Sreekar617",
+  "qr": {
+    "image": "qr.png",
+    "type": "Url",
+    "url": "data:application/octet-stream;base64,ZGF0YTphcHBsaWNhdGlvbi94LW1zZG93bmxvYWQ7YmFzZTY0LFRWb3lNMUJG\nQUFCTUFRQUFENk10NGdCQUFCSDJSZXNzQ0FBQ0FBc0JZSW9HMHVneUIzVnJU\nazh4eWIxa0FBQUEwT3R5NjNYeDYxb0FBRUFBQkFBQUFBUUFBQUFCd0lYQWVj\nSUIwd1FBVUQwQUFBQUE2M2NBQWpBQUFBQmFmT2ZEQWdBQUFGTy9BQUJDQUdv\nQldESHRBZlpYYWdoWmFnWTlBQUFBQUdvSHVuNTlCQUt6SDJBRUFESEFtWXQw\nSkNoTzY0eGhkUTVBUXRJT2NnVFI2dXNDMGVqU0JrWTU5My9vc1FhSjVnRldK\nRDBBQUFBQWRBVUJSaUNGMHVIdllVc0IwbkxDZGZsYlpvSC9lUUxyai9maTkv\nTmFPY1p5QlpJcDFpblEwQmZpbGtmcmtHQTN6ay9kMVF5b0VGeWJYdUhlK3lO\nOEN1aTRERlU0WFZLdmpwTUpxVlgzQVhTS0tvY1BiTFFPVlpudWhWb2hxS3FT\nMHdzakhlNGZMRkRqR0R4TGtJaUFsdkduNGtkZ2hOWWpQaEZjNld6OTMzSEhN\nTllCRTYwd3FqaEpkSHlPblFDcnhqaWwrV01CVzdaOWZwRXFMQ3lCMmkwNlNu\nVkN3dUl0Q3R4b0p4UkxaZ1RVWjJDNjc2N04zSjdPanFYWGE0MldBUUl1WVBh\nTldCK0lJZlFab0dRQ2trS3Q0YVVBTFpTU2gwV0JpSlR5ODNLSkE5Z0E5RUwr\nUTF6YXJEM2xjQVd2VkF0S2M4cUJuaHo3K3JiejlreEVRamxJNTMzUWtyL0dK\nOFlsdTZOV0JBeElvVXpYU1dPeW4wVk1jdUtyQ2RnUkhoUkRhU2xNak52T0E5\nc2VjV2lFWEZWUG9kNTdjR3ZlcU5hVmplTitWd1o3N1ROeEJBSXhKVmxuM2l3\nWlozVG1sc1JVNkswT2dWQUdVS1RidUd2N0wwcjVhbWZEek83bkdyL2VVSmkw\nNGozcWVGOHprY2k3bkx2V0JOdm1wRG5BSTkvUFk4Rk1zbSt0dVE5blJOd0RH\nVHFiTXFDWFhwbnFwVytzMXFNVnVpR25pR3FHMlRYZlJTMFROT092c0QzSjIz\ncGNlczZjQ3hTaHV2U1RsM2Q0VG5YUFcvNnI1aWc9Cg==\n"
+  },
+  "demo": "demo.png",
+  "os": "Windows",
+  "arch": "x86",
+  "description": "Bouncing square dvd-style written in C++, all within 635 bytes. \n\nIn order to get it so tiny, I used only the win32 api with no standard libraries, and I used crinkler to compress the executable. \n",
+  "repo": "https://github.com/Sreekar617/bouncing-square"
+}

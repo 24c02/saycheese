@@ -1,0 +1,14 @@
+{
+  "name": "QR Code Piano",
+  "author": "Clément Marty",
+  "qr": {
+    "image": "qr.png",
+    "type": "Url",
+    "url": "data:text/html,<!DOCTYPE html><body></body><script>document.write('<style>.g{display:grid;grid-template-columns:repeat(16,40px);gap:5px}.c{width:40px;height:40px;background-color:lightgray;border:1px solid gray;cursor:pointer}.a{background-color:green}</style><div id=\"gc\"></div><button onclick=\"p()\">Play</button>');const i=['C','D','E','F','G','A','B'],g=Array(i.length).fill().map(()=>Array(16).fill(!1)),c=new AudioContext();function t(e,t){g[e][t]=!g[e][t],r()}async function p(){for(let e=0;e<16;e++){for(let t=0;t<i.length;t++)g[t][e]&&n(i[t]);await a(125)}}function n(e){const t={C:261.63,D:293.66,E:329.63,F:349.23,G:392,A:440,B:493.88}[e];t&&o(t)}function o(e){const t=c.createOscillator(),n=c.createGain();t.connect(n),n.connect(c.destination),n.gain.exponentialRampToValueAtTime(1e-5,c.currentTime+1),t.frequency.value=e,t.start(),t.stop(c.currentTime+1)}function a(e){return new Promise(t=>setTimeout(t,e))}function r(){const e=document.getElementById('gc');e.innerHTML='',i.forEach((n,o)=>{const a=document.createElement('div');a.classList.add('g'),g[o].forEach((g,s)=>{const l=document.createElement('div');l.classList.add('c'),g&&l.classList.add('a'),l.onclick=()=>t(o,s),a.appendChild(l)}),e.appendChild(a)})}r();</script>\n"
+  },
+  "demo": "demo.png",
+  "os": "Browser",
+  "arch": "JavaScript",
+  "description": "This project is a QR Code Music Game that allows to create and play music by interacting with a grid-based interface.\nYou can create music by toggling cells in the grid, similar to playing notes on a piano. The game logic is implemented in the code, and the entire code is embedded in a QR code.\n",
+  "repo": "https://github.com/clement-marty/qr_code_music_game"
+}

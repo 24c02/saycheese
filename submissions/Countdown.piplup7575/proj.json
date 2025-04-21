@@ -1,0 +1,14 @@
+{
+  "name": "Countdown QR",
+  "author": "piplup7575",
+  "qr": {
+    "image": "qr.png",
+    "type": "Url",
+    "url": "data:text/html;charset=utf-8,%3Cbody%3E%3Cscript%3Enew%20Response(Uint8Array.from(atob(%22lVTtbpswFH0VxlQJNBLIpyYwTFo7qZWWP1tfwNiXxKqxLfuShlX91997hb3iHmEiabpEjG6TELrcc8%2Bx77nYBAVKKH7%2B%2BP7kXW6scFhT513qRiHX98rrABIfiojDVkIxZqAQ7ENN7VqoNMmMdgKFViktnZYNQobapIvkIpNQ4T5AS5WrtK3TfSQpQjBaJBdR9wozhB2OqBRrlR7EH0vN24dKKxxVtBayTb%2FoUqPO9iknvkE6nZtdn5iVlN2trW4UHzEttU3fTspJOYHs%2BauqqscxO%2FZ3bII2qP8gxoUzkrapUFIoGJVSs7vMUM6FWqczs8u2YFEwKp9pqM3JDmdLsztdlsQHA4ljVhgsttR6kCu49646P%2FwrYN50EXnTZLrwkiTdP344XgPeihqCMMLcX4G17e9RvfGjJneAN91%2Bt1QGQZgXD52yyoOj9KkEzWGkIpavKG7GldTaBjR%2Bv5zDIozsWfZin41nyw7i51CXjJcwD6P6HFjCPJ7ALMy4Zk0NCrulP0nowo%2FtDQ98Tls%2FHAulwF7frj7nPmmKK9o6EjcFKW3hv2PRIHlje9xr3dgTsh0m10L12CuhGoQTPh%2FmO2A9%2FldgWvETfh0lBf0QMAnUvgylCV9piRpz7ggOF%2FfM8%2F%2Fdq1dKe868UttzwQ%2FT%2F2jO9x%2Bj7gch8fMpIFxsPSapc%2Fnh1BVkM%2FnbhbSZFMQcWS%2BY4Dmn7QCysQNALdQA4oAVJDb7yQ6Idv0VJOZiW%2FwC%22)%2C(e%3D%3Ee.charCodeAt(0)))).body.pipeThrough(new%20DecompressionStream(%22deflate-raw%22)).getReader().read().then(((%7Bvalue%3Ae%7D)%3D%3E(document.open()%2Cdocument.write((new%20TextDecoder).decode(e))%2Cdocument.close()))).catch(console.error)%3C%2Fscript%3E\n"
+  },
+  "demo": "demo.png",
+  "os": "Browser",
+  "arch": "JavaScript",
+  "description": "really cool countdown website in a qr code!\ncan you believe it guys? christmas! just a week away!\n",
+  "repo": "https://github.com/Piplup7575/countdown-qr"
+}

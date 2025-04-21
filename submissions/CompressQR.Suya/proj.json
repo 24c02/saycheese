@@ -1,0 +1,14 @@
+{
+  "name": "CompressQR",
+  "author": "Suya",
+  "qr": {
+    "image": "qr.png",
+    "type": "Url",
+    "url": "data:text/html;charset=utf-8,%3Cbody%3E%3Cscript%3Enew%20Response(Uint8Array.from(atob(%22hVZtb9s2EP4rrLIGdkcpttM0rmR56NYWK1BsaJp%2BGgaUks4SF4oUSMqO4%2Fq%2F70jJL3Fa9IthUg%2Fvjs%2Fdc8fZs0Lldt0AqWwt5jP3SwSTZQpyPqvBMpJXTBuw6Zfb9%2BF0t6ekBWnTYMULW6UFLHkOoV9QLrnlTIQmZwLScUAkqyFdclg1Stv5zHIrYP6HqhsNxny6mV10OzOTa95Y4qJJa1W0uId%2BjCUyxSDbGh1GJdh3Atzf39cfikGw4AJCLpvWBkOqfoxzMexx8GNcoVZSKFaEgsu7sHzgTTBMVKSkP5sOhul8A9EOlapoyUQLvwZR%2BRBQiLiUoG%2Fh3qZf3%2FYY8sumR20R9HWbdHeyP46BNc6pjVhRvFvi7kdukGzQGJ1mpVqCDqjEOGSEDDrAW1iwVtjBcDuk3z%2BmmoAys5Y5UXhwyTQBavFepwaobIV4lg4Ab1Ywy241k2YBenh%2BDpHj2vwz%2Bvf8fCC7RergaTqwp%2FDflooXZBTbDucCk0gilpIsIT2JZM9Ibw3S3vzeDKDXxJ6fNwM73BHY9GZkb8Zdx9OMp122exhLJazIrtq4kp%2BtBlYPgi63NEe46baGUcMbuK20astqwIZUpGzFONYfWrgB06BBGOTDKBMqQ65M%2BuXmY5TjWQt%2FZ%2F9BbnE9EMMEokrDIjVYELlgxvzlBBAE9IitvqCG377ZCHUiBoo6Lz5xg6Av1OF2dtGJAsVh1wJIrpUxSvOSS6JBpH7XVAB2Hmul7GaBwgwXrOZiHX9AjWpq1lgGddhy%2BgaNc03%2FBLEEy3NG32jUKTWYs9CA5osEix7CCnhZ2XgcXSXe2qpbvxyNkFKhNAq7wmqNhdsmBdN3ScbyuxJpk0XoId230H0biLwaTKdkfEkm0yvkFJcTck0mr0fDYfJd9PgVceBxB56O3MqjfTiYdFuB4SaWSkJiUWyhBlngBWQZq8bymj%2FARyh5xgW36wQvkN1xZMWfrpGlyiGZdF2KMwNFEtbqIVTm%2FhRTarb2bWybqWK9qZlG4uNRUnDTCLaOFwLuE%2FyHvY8jySbOwXGe1Fx2zTC%2BnIyae7%2Fe0ToaLattNe4yZTDU%2BDKaQH3C%2FXh7hm0APd73hsaTqbfUh0BYa1XSoNZdnBONBjwTeKNS7sIoWROP3addvKXmReJ%2BQowWdyzEgW%2B%2BxP8G5KifkqOWSR73RfJoFWyjA3TjrTPURHzY3EYHs0eAw2aStxrLOm4Ud4Ef43EYZSA2PQmj0fPkQOTzR8DO%2FJKbPvFxxYsCZNIogwNJyZhlRonWQqIaljvA6Pj8%2FMXmJApM0iFYT9D27Ol8OMI8%2Bngkivjs9XQ6Loq%2B3M8m%2BWTy8nqfPZ%2BiTGks4VCzgrcGs425Plbf9QiD7W54bDe%2Fzq9h%2BnO7nVb2TGDrYJYv4cTr5Aq9PqptX06Pa%2Fu%2F1li%2BWIf9E2C3fRJsYt0o6Lz5vwulaxJNDAFUXKhcUXT52ewcuhC3L2jMFq5txRngEdhk6t6pxN2nDxZ3ti%2F2WuyUedq4fq75bc7kkhnK65I2PLetBmqWJV3yAtQ%2BJuz0%2BV1ypEJXdFlrrZLUZ4MaENj4qROfqwEv65jLCtuRxQqi1YRWl7R6SasrWr2izcbN74VQq3ClUZ4ZnrkLV3izbbPxCvbbOKysXT89fwTJGD7TcnAjwg2B%2BazgS8KLFNsGPuPG8zfEVSdxBY7PtW78KZy2SAGmf41yIYx8usFvBZAMctYaIItWyvXsAo97c356pd04IkdPrfms2%2Bq%2Bexfo%2BUiL%2Fg3n1nMy8wImmMwjwPyzp83bnF14xHx2gS4fWw6ediL0c1gS33srJbAu0uC9i8PN2gC9st5EV2T7jpXuqIACX2PEz%2BkzZ%2FSpsOe7F9yz2QXro%2Fsf%22)%2C(e%3D%3Ee.charCodeAt(0)))).body.pipeThrough(new%20DecompressionStream(%22deflate-raw%22)).getReader().read().then(((%7Bvalue%3Ae%7D)%3D%3E(document.open()%2Cdocument.write((new%20TextDecoder).decode(e))%2Cdocument.close()))).catch(console.error)%3C%2Fscript%3E\n"
+  },
+  "demo": "demo.png",
+  "os": "Browser",
+  "arch": "JavaScript",
+  "description": "A dead simple gzip file compressor using native JS features.\n",
+  "repo": "https://github.com/Suya1671/CompressQR"
+}

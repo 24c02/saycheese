@@ -1,0 +1,14 @@
+{
+  "name": "Types Of Cheese!!",
+  "author": "Hamdan",
+  "qr": {
+    "image": "qr.png",
+    "type": "Url",
+    "url": "data:text/html;charset=utf-8,%3Cbody%3E%3Cscript%3Enew%20Response(Uint8Array.from(atob(%22bZRha%2BNGEIb%2Fypzvgx2IFLumpdiS4C7kSqCUQq8%2FYLw7soasZtXdkRNh%2FN%2FLyrKb%2BvJFSKvR%2B7zz7qyKT9YbHTqCRltXFekKDmVfklRFS4pgGgyRtPz7%2B7fs18uaFyXRcvbKVpvS0oENZePDPQsro8uiQUflagaCLZUHptfOB60KZXVUPTZEkeD70FEsHs5rRdTBUbXzdjjWXjSrsWU3bL4ERncfUWIWKXC93aF52Qffi82Mdz5sPtd1vSPcthj2LJvltkNrWfabn5bd23aqWa%2FXp2Z1VHrTDB3vZWNIlML2qoG75fKUm9Fa5jjqMV2y0dZGvNBV9%2F9l4Ph4ebNKxMnHz90bLD90S9aY7c4HSyELaLmPqXhr%2BhB92HSeR2MaUCIre9ncikC%2BjrceNo0%2FUDh%2ByFvi%2BvR5Kmep%2FfFsMVPfnUO6%2Bk8%2BPgx4Tb9Mljer7g2id2xhSu2DXizHzuEw5nYqHs57WzSr6umtcz5Mew%2B%2BhvMsFA%2FNqiq66tGxeQEvkEZvHJJxPtWDIwwCbfoWd75XYP1U9A6MwxjLd1lUhWOwqDi2Ws4eG7IWA3AEhAaDvSo3qOAD71lQyQILPMneodgcnhUaTB%2FEBkMHKBYUZT%2BAYlTKn8H5AwHrfUchekHnhnxWTagbA18D05kefa0Xeh18C98CiqERxxFMIGyHEdays%2FDK2iTPLJqSkl6VhWLMZ1XSvMH8iaGliPJjoyPqWdENF1LEgw9nkq%2BVBPZhjCCNEHQYFfNZdRG84fzme4tTP9Ry9gNJG4I%2FSBsKKct4Zbbep37EQnS8b9QNEF%2BJNJ9Vo%2BZtbK6niy5HeBH%2FKlD7AKwRdt5ZqF1qY1TcpeIDsVxx5%2B0aaWkL8%2FPqWMcC42DPqpFxmcDeVYXlA7At352VqniwfKiKaAJ3WhkvUcGU1pu%2BJdH8n57C8Bc5MurDF%2BcW85uDOb%2B7p%2F%2FK96RPjtLt1%2BHZLubvSPO7rclrH57QNAtTVkeTo7VPBxL9naOSUFjMTTog8%2FvFXVkdKU%2B%2Fs8fpd2yS9hfVwLteaTG%2FRpkM5OMJzKdjWc53zpuX%2BenudFc8TJ39Cw%3D%3D%22)%2C(e%3D%3Ee.charCodeAt(0)))).body.pipeThrough(new%20DecompressionStream(%22deflate-raw%22)).getReader().read().then(((%7Bvalue%3Ae%7D)%3D%3E(document.open()%2Cdocument.write((new%20TextDecoder).decode(e))%2Cdocument.close()))).catch(console.error)%3C%2Fscript%3E\n"
+  },
+  "demo": "demo.png",
+  "os": "Windows",
+  "arch": "JavaScript",
+  "description": "This is a simple website about the types of cheese(only a few!!!)\n",
+  "repo": "https://github.com/Hamdan-debug/SayCheese-"
+}

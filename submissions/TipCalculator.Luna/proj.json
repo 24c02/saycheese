@@ -1,0 +1,14 @@
+{
+  "name": "tip calculator ",
+  "author": "luna",
+  "qr": {
+    "image": "qr.png",
+    "type": "Url",
+    "url": "data:text/html;charset=utf-8,%3C!DOCTYPE%20html%3E%3Chtml%3E%3Chead%3E%3Ctitle%3Etip%3C%2Ftitle%3E%3Cstyle%3Ebody%7Bfont-family%3A%20Arial%2C%20sans-serif%3Bdisplay%3A%20flex%3Bjustify-content%3A%20center%3Balign-items%3A%20center%3Bheight%3A%20100vh%3Bmargin%3A%200%3Bbackground-color%3A%20%23fef3ff%7D.calculator%20%7Bbackground-color%3A%20%23fff%3Bpadding%3A%2020px%3Bborder-radius%3A%208px%3Bbox-shadow%3A%200%200%2010px%20rgba(0%2C%200%2C%200%2C%200.2)%3Btext-align%3A%20center%3B%7Dinput%7Bwidth%3A%20calc(100%25-20px)%3Bpadding%3A%2010px%3Bmargin-bottom%3A%2015px%3Bborder%3A%201px%20solid%20%23ddd%3Bborder-radius%3A%204px%3Bfont-size%3A%2016px%7Dbutton%7Bbackground-color%3A%20%23007bff%3Bcolor%3A%20white%3Bpadding%3A%2010px%2015px%3Bborder%3A%20none%3Bborder-radius%3A%204px%3Bcursor%3A%20pointer%3Bfont-size%3A%2016px%3B%7Dp%20%7Bfont-size%3A%2016px%3Bfont-weight%3A%20bold%3Bcolor%3A%20%23333%3B%7D%3C%2Fstyle%3E%3C%2Fhtml%3E%3Cbody%3E%3Cdiv%20class%3D%22calculator%22%3E%3Ch1%3Etip%20calculator%3C%2Fh1%3E%3Clabel%20for%3D%22b%22%3Ebill(%24)%3A%3C%2Flabel%3E%3Cinput%20type%3D%22text%22%20id%3D%22b%22%20name%3D%22b%22%20placeholder%3D%22bill%22%20required%3E%3Cbr%3E%3Clabel%20for%3D%22t%22%3Etip(%25)%3A%3C%2Flabel%3E%3Cinput%20type%3D%22text%22%20id%3D%22t%22%20name%3D%22t%22%20placeholder%3D%22tip%22%20required%3E%3Cbr%3E%3Cbutton%20onclick%3D%22c()%22%20type%3D%22submit%22%3Esubmit%3C%2Fbutton%3E%3Cp%20id%3D%22x%22%3E%3C%2Fp%3E%3Cp%20id%3D%22o%22%3E%3C%2Fp%3E%3C%2Fdiv%3E%3Cscript%3Efunction%20c()%7Bconst%20b%20%3D%20document.getElementById(%22b%22).value%3Bconst%20t%20%3D%20document.getElementById(%22t%22).value%3Bif(!isNaN(b)%20%26%26%20!isNaN(t))%7Bconst%20tip%20%3D%20parseFloat(b*(t%2F100))%3Bconst%20tot%3DparseFloat(b%2Bt)%3Bdocument.getElementById(%22x%22).innerHTML%3D%60tip%3A%20%24%24%7Btip.toFixed(2)%7D%60%3Bdocument.getElementById(%22o%22).innerHTML%3D%60total%3A%20%24%24%7Btot.toFixed(2)%7D%60%3B%7Delse%7Bdocument.getElementById(%22x%22).innerHTML%20%3D%20'please%20enter%20a%20valid%20number'%3Bdocument.getElementById(%22o%22).innerHTML%20%3D%20''%3B%7D%7D%3C%2Fscript%3E%3C%2Fbody%3E%3C%2Fhtml%3E\n"
+  },
+  "demo": "demo.png",
+  "os": "Browser",
+  "arch": "JavaScript",
+  "description": "it isnt much but as someone with hardly any javascript experience, i think its decent \n\n(sorry,,, previous one didnt work)\n",
+  "repo": "https://github.com/ellipticobj/saycheese-tip-generator"
+}

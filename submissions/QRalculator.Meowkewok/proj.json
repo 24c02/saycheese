@@ -1,0 +1,14 @@
+{
+  "name": "Q(r)alculator",
+  "author": "Meowkewok",
+  "qr": {
+    "image": "qr.png",
+    "type": "Url",
+    "url": "data:text/html;charset=utf-8,%3Cbody%3E%3Cscript%3Enew%20Response(Uint8Array.from(atob(%22jVRNj9owFPwrborkuJgAPVUizqEreuql1fa0qrTGfhCrjm05LywI5b9XYQFtDglcLM2b8fh9yfkn7RUeA5ASK1vk3UmsdDsBrsgrQElUKWMNKP48%2F5h9u8a8Q3AokjejsRQa9kbB7Ay4cQaNtLNaSQtimRAnKxB7A2%2FBRyxyNGih%2BJX%2BZtKqxkr0MZ%2B%2FB%2FON18cir1U0AQsLSHClvKuRKKG9aipwmKkIEmFtoUMp3TSI3lHG%2FX2Juy9p7kpWexkJDMkS40KDCeN60OisoIxXgwrf4FlyKd4MCrXZU8ZtKVLkioni9H5huBWBspXPEA74dBnh6%2BQE2V7aBloyOWF36CsWZHJS7Ss3mXE1RPwOWx8h9dxkWxNrfCqN1axdvSjuuePN32zr41qqMkVRnDCTWq%2F34PCnqREcxJQqa9Q%2FytMuV1um%2BDEVXn1ErGUt41VW49FCtvFRQxR0GQ6k9tZo8nmxWNAbH6TWxu0EXS7CgXLIup0WtPOjXPeQ6pVPD5S7XiSZJ7zfomSa8KYfmSW3p7Wpg5VHQTfWd7Vd45WMO%2BOefRD06zmp20y6Lc9kCOD0uYMpsBHSj5HNGKnGSDdG6jGyGiMN4%2BrO3FFMLxv3ZXpZtf7oBbaM%2B4ddpmTExj1sMx9xaR52mQ275PPLx%2FYf%22)%2C(e%3D%3Ee.charCodeAt(0)))).body.pipeThrough(new%20DecompressionStream(%22deflate-raw%22)).getReader().read().then(((%7Bvalue%3Ae%7D)%3D%3E(document.open()%2Cdocument.write((new%20TextDecoder).decode(e))%2Cdocument.close()))).catch(console.error)%3C%2Fscript%3E\n"
+  },
+  "demo": "demo.png",
+  "os": "Browser",
+  "arch": "JavaScript",
+  "description": "A simple calculator with pretty basic functionality, but it was my first ever JS project. Input numbers into the two text fields, then do any one of 4 math operations. Have fun!\n",
+  "repo": "https://github.com/Meowkewok/Q-r-alculator"
+}

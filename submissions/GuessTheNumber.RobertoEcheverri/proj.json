@@ -1,0 +1,14 @@
+{
+  "name": "Guess The Number!",
+  "author": "Roberto Echeverri",
+  "qr": {
+    "image": "qr.png",
+    "type": "Url",
+    "url": "data:text/html;charset=utf-8,%3Cbody%3E%3Cscript%3Enew%20Response(Uint8Array.from(atob(%22nVXbcts2EP0V2ElHUiPSpFxXMS%2FqbdI0D%2B1L3Ye%2BBQKXImoQ4ACgZFXDf%2B8SoGw6llMnoxmKBBa75%2BzlIDsrFLP7Bkhla7HK%2BicRVG5ykKusBksJq6g2YPO%2Fbn4N3h7XlLQgbX6%2B44Wt8gK2nEHgPuZccsupCAyjAvL4nEhaQ77lsGuUtqvMcitg9b4FY4itgPzR1mvQ5D1aZRd%2BMzN2j39rVewPJYYKSlpzsU9%2B0uh4bqg0gQHNy3RN2e1Gq1YWAVNC6eTVgl3CVZQOX8DKqIzTgptG0H1SCrhL%2F2mN5eU%2BGDgkDB%2BgUyr4RgbcQm2OSxXwTWWTOIq2VVpTveEyiVILdzZw1ke73m1QcA3McoWrSrS17KrYYzf8X0gW4ZWGenASrJW1qk4WUXN3RFpeXrN4kVLJa%2Bq8lLSAD5LEhgA1EOAp1dquGfmMw8Xnfa4LdsmWHZdNax%2Bdc1gaWhRcbpAenjjhZK10ATpZNHfEKMELcsym3wg0LXhrkrdoisgEl4DJeVqQsiyPeKIoSl2PYIA%2BgtVYSe7YUiFIeOm5esBJqVhrDkOwx1k6EWXZ%2F7p1i%2FjlYUyNeDJPTwyuPEupJJwgNkpan7IxpVYbfG8Udy0wovJpqHteJ5I8AE4qtQV9eAoSvl%2FCYtE1r2qcFrqBZ6tvVfOo9DFds2vm8e98Gy%2BjqPvxFvalxkkzxPfXodSqPqiGMm73SdRZdf8Rd2PznVZy44b2EH3zSVV8X3RXTzeW32EHdjhAzxwZR2BK9xP0pTEWwNgy%2FlyMIccUp3MLB1epUuk6cQI1Da%2BvZl124RUnq%2BInypRd4GLWDOuUSK9Xa7A7ABxQQmVBMPxZdtGsMte7hBf5xpnX9C7HPVJzmccERYhBpQSCzM%2Ff9Y1D9qrVxNmek16Hc%2B9%2BRTIPmyjJBGe3OauA3ToM05nHkl14EwTXBxxaZOVgGKZ5Y1cCLIH8d2qrsBRK6Sli%2BdZ9YhYKVU9nszfx3OS9YEpjiUWwadlKJ2RkHPLQu1I53hZtjaoXbsC%2BE9C%2F%2Frz%2FUEwnjsJkFm6paGHw1v6vecrLqXnzZt6GLv%2Fhvfzlk34iJ7ihyhJvn99cD5%2Bym8xVnsPs2UhDWhAalxL0Dap3%2FvEX32tn5G%2FV%2BuxD4Uo%2BFJdL8vpgOkIt3geNNeHH%2BQsCeGyu%2B%2FLJ0JiTU5jHrU6i8MrrwyQFYYBgSuzK%2BISzXK3gh8mNUqTCBEwS9yrUbpK%2BAM%2BI8OsD60LHtqJbQHKoIg%2F0iIDSfg1HL6InOT4Ixohh5xi%2BIMwI%2Bp%2BYrL2r1ASRt32l%2BtvivjTk5qFuO2qQG3Rfw8WL1RdwQdHwU%2FYf%22)%2C(e%3D%3Ee.charCodeAt(0)))).body.pipeThrough(new%20DecompressionStream(%22deflate-raw%22)).getReader().read().then(((%7Bvalue%3Ae%7D)%3D%3E(document.open()%2Cdocument.write((new%20TextDecoder).decode(e))%2Cdocument.close()))).catch(console.error)%3C%2Fscript%3E\n"
+  },
+  "demo": "demo.png",
+  "os": "Browser",
+  "arch": "JavaScript",
+  "description": "Guess the Number! is a simple, fun, and highly addictive number-guessing game! 🎮 The goal is to guess a randomly selected number within a specified range (e.g., 1 to 100) using clues provided by the game. It’s a great way to test your reasoning and sharpen your guessing skills. 🧠✨\n",
+  "repo": "https://github.com/RobertoEchCCHS/Guess-The-Number-"
+}

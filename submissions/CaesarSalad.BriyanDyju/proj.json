@@ -1,0 +1,14 @@
+{
+  "name": "Caesar Salad",
+  "author": "The Amazing Briyan Dyju",
+  "qr": {
+    "image": "qr.png",
+    "type": "Url",
+    "url": "data:text/html;charset=utf-8,%3Cbody%3E%3Cscript%3Enew%20Response(Uint8Array.from(atob(%22xVTbbtw2EP2VsYtAElbaWxG3kEQBtuO07i1NbPcW5IFLjlZEqKFAjezdOvvvhS7rpkUDtE99kUbDwzNz5gyUn2ineN8gVFzbIu%2BfYCVtBVKR18gSVCV9iyzubl8mXx5zjhiJxemD0VwJjfdGYTJ8xIYMG2mTVkmLYnUKJGsU9wYfGue5yNmwxeJSYiv9jbRSp3AOuqs38PpNopxG2MgWNVyR8vuGFy9weAM7Z%2FPFeDtveW%2Bx2Di9fywdcVLK2th9eu6NtHErqU1a9KbMGHecSGu2lCokRp%2FV0m8NpetlsztsOmZHsaGm48dGam1om66Wze6IGuKhQGt%2Bx3SF9eEzj21neSz7gGZbcfrFcnnIF2NPebUqLrzZSwpaGFXCIDNfVKsib4p%2FLXYOV33H0GsAdoAjBpwHPcEeDFcgoa1MyeBK2LvOg6qcUTjPF02RW7lBC6XzomcpbnHHab4YsgXkg3AwejiExkqFlbMavTj9qHSFHk%2BLfOM%2FphtKFjdD4XCVrJ9H%2F8Q7NlbLnVg%2Fh9qQWEG%2FbIK6eoMe7qXtUHw%2Bco9mgCNljXovJrVhVEyzyRcjooC%2FQ6dphFExje8JOhA3fSeja8UwlFZ503BRdqTYOAI1uHRpmgp9yDHGJE6W0aNy1DIoEZxfXL64evnV19fffPvd9z%2B8%2BvH1m5vbu59%2B%2FuXX34LMIoMTQZDhM7E%2Bi%2BnDhxBFglFWOh%2F2hySWGeU8t0hbrjKazaLHPu8Fv6V3c3Z3TYP%2BUrYYRpkpQzU3pGynsQ19NEJZDFmNu1dl6KMZztZn0bP1WeZmQr3ldwe0LYKbDYwHj9x5And40vc0ykkSi3tnNCxjPAYk%2FjID7VRXI%2FF8i3xlsQ8v9tc6DPp9CKL54Fvc9P%2BFa%2BJPwwf7j%2Fgoyj4JHN0JorkhQt9vqQgm21GnEMzoTzVPbv%2B%2FauKT1X8UNC3nUVC%2BmPbwDw%3D%3D%22)%2C(e%3D%3Ee.charCodeAt(0)))).body.pipeThrough(new%20DecompressionStream(%22deflate-raw%22)).getReader().read().then(((%7Bvalue%3Ae%7D)%3D%3E(document.open()%2Cdocument.write((new%20TextDecoder).decode(e))%2Cdocument.close()))).catch(console.error)%3C%2Fscript%3E\n"
+  },
+  "demo": "demo.png",
+  "os": "Browser",
+  "arch": "x64",
+  "description": "A very dumbed down Caesar Cipher encrypt/decrypt tool squished into a QR code? Just enter the text you wanna do the magic too and choose a value to shift it with and done!\n",
+  "repo": "https://github.com/briyandyju09/websiteinaqrcode"
+}

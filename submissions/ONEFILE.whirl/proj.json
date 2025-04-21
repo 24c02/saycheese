@@ -1,0 +1,14 @@
+{
+  "name": "ONEFILE - Web Bundler",
+  "author": "whirl",
+  "qr": {
+    "image": "qr.png",
+    "type": "Url",
+    "url": "data:text/html,<script>let e=atob(\"nVRRb9s2EP4rClcEZEZTQYG82KIKxAnQFSk6dOnDYHkILZ4sejQlUKckruv/PlASX4wUKPYi6nS6+7473ndZjXubZ5tGH/JMm+fEaEm0b1qSdHiwIMmm8Rr8/H37mmjV1aCT325ubhat0tq47fz9dfu6QHjFmbJm6+YlOAS/KHvfNX7eNiaYJL/zTZsurSn/zVJtnvOstwOUNR1GqMGYDe9z1ziIGPNrkmdpH2j2iI0bAje90xZIok2nNhYC6+mN5LeDL0vH3/OsK71pMS8b12GipW7Kfg8O+XepxRbw3kIwbw9/aDrWzrg9d2k6cmV8c+7SNLJhvJLHeu56a3k5HrvhOC2q3pVoGpfsP1JgRw/Ye5eA8NBaVQJNs4vZbFV0xV/rqw+zWZ5uOSEsumladL+HTwlhp5gq2S/fTlWkxVVMVVwV6S/l+vQ/c6VFuvqncIVfX/0KTk/Z0QrjHPiPj58fJCH8y2YHJQpw6A10tGKiavy9KmtK6Qo4rpnMj6aiyI4WMAGpRelBIUxXEG6GsAWIMIbLxiE4lCic2gO3QrUtOL2sjdUU2OnEGN+IOCvyglai/vGjEmV47CLRxiXb0I+VEAJEZSx068iKUpD5wAQlDCiia61BSgRhom1ayhYrEnRFOCm7jnCy68haGFfaXkNHkV1e0mqFq+v1WgLvKWMnxk7fhdL6/hkcPpgOwYGnpAyKIZxSNkGeF4+UGNf2ONZ/aEGSwJZwEPveomktyItrDm/lrpXbAuGhnC0FgcpvARljHMSASwMt/hYt7dW2eQY/BoNoPYQf7qBSvUXKfhYWtDWE0PMYynjgoBWqR69cV4FnbLiqnzWFU9UdXBk7k4CsRP1BvSiDSSXqYRgom5Ps4u7L8vHvP++TcdVNT1A6z9Cghbgu0tHK0tE3rsR0OoYowlFWoowgoowghHArK7GLHrGLHkIWIAfJc7y8pCCjtICSCYnwp2xYevm7435JkZ2ydLSnH54Y4/Y8eGI2BI/r7d1x/4naKL+wUYp0cgUVZkU0c8JO0Wox1vjE2CL00Z1PGCWKsIUTtYdKfvv6MHlH1X77+kAdvCS3ttnQFaz5MQzhnITyh6aRMENO6ObF2UbFxQ1i1IeLk3ZiLDsjNDX9Pw==\"),n=new Uint8Array(e.length);for(let t=0;t<e.length;t++)n[t]=e.charCodeAt(t);new Response(new ReadableStream({start(e){e.enqueue(n),e.close()}}).pipeThrough(new DecompressionStream(\"deflate-raw\"))).text().then((e=>document.write(e)))</script>\n"
+  },
+  "demo": "demo.png",
+  "os": "Browser",
+  "arch": "JavaScript",
+  "description": "i made a simple program which generates one minified html file out of your css and js combining them and removing unnecessary items\n",
+  "repo": "https://github.com/whirlxd/onefile"
+}

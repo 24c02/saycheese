@@ -1,0 +1,14 @@
+{
+  "name": "Add Cheese",
+  "author": "candy",
+  "qr": {
+    "image": "qr.png",
+    "type": "Url",
+    "url": "data:text/html;charset=utf-8,%3Cbody%3E%3Cscript%3Enew%20Response(Uint8Array.from(atob(%22lZXbk7I6EsD%2FFdevtmpmnRlARcBbVUAU8QqKom8BAkQuQQggnjr%2F%2B9Zcvj0Pe%2FZhX1LdXV3pdLr71%2BN%2FeMSlTYZaIU3i6ZhiGqPppUzGzLc4LmgToylOgj8yUmCKSTqETkHikqJRjT0aDjmW%2FecoRDgI6bdMc5j%2Bdo3jFleM3DIvSD7MCE4pyv8cM9%2B3jh3iNa0veXIrC4r95t0lKUUpHbro03UEYxyk75iipPht8nCRxbAZ%2BjF6jD6Pdw%2FnyP2K55K4TNKRA90oyEmZeu8uiUk%2B%2FOUj3%2FW703HI%2FcTzSUrfC%2FxEQz5HyTSBEWpl%2BPmEYybkpmMPVy3sTbIf7%2F%2FknqMYUlz9zr3Lstnjd%2FJfynSMk6BV5O7EgxQOcQIDxGRpMHJggQb9N3ySd2bNrhYBAQCA7cEKVSsAAKifqgwUcAEAKHdoa%2BjTAuztwWSXIC%2F67sAAAKS6bqpzC%2BlPmuTzHYhUIwy822ARbohiXFTMZtlsA5WMkR%2BqME%2B2tyzqhumlOF4SP7DMxU6ToZWYC319ibZaUJ825Zx2ncSp5sWx8GXbFUqOCpXUnd8CMFdPZqzN9I6ZE54572CYpdqWDB79riT2n7NjfHtuCsLouSWzhaFVlgAPNQDGeg63tcRvreXWnfXkKK%2BJCNFTHvi5tu36ZyI9zRxDAq7LHbfWD4%2B9rzmUykmH72wN1bwbjWH0gl2Ej0%2Be9OWup57DvQVW%2FOyxnKm8xqZPMl%2B4CiTAaCLgPSEzqKKjVR%2FtBZVFAAuFIZFQoVwuBs%2FzqntLSMwdA67en%2Bcn7jZQRFHmrat4WXkGuCeaMeCCm53Z0dF98OY5O18wZ4CB4VV8QdcPv5jX%2BbnP2yG7qfq7jdTcm%2FSuCbV8EEQ5RpqRpJCxlBk9K0d50SgluOJdLtgr20Bhjn36GKgLV%2B41PdspKigKDi9ouc3YUq7XWkIAd5npt%2B59O7jOUyhIc6FTrnthaoFVFsZVozJXOgNA7pfOwQmUxyDuzAA66MnsuDXBAC%2F8NfJADS6cma07%2Fl3jqxCKvBZJJgr1DRbE3pkLD4wG9huu9lDPqDNbrfndIQD1nhVZ5O8HbC9DIrguq6CKAJg1Pcc5yVupbrydcFTS7jpez7LIt4BSFQW7KGR0LQNVCnphYSeHS2Ajaom3ip5r5cIYV3JKpbtw2MsLcXYONhiaHMXHPqkDWCfLrb6PEqdRr8%2BO9DiIAK0EyVf7Uu94Oocbw2YvQTK7KbojScf9YL%2B5XGBfI8q1Xh04I5T7Eb7zssotd119Hm6MyFRdtjBMrmOYW3dmGyt%2BsdsBzr3ug9kJWOZJtfTTowNOLBaFZH4OteRrxtR4fowOpZEoynTMeLiajp2SUpL%2BjH%2F7b4ACkeMJI4fkHsqH%2FezRKkiMvdYvlmVHGfQ8nAZD7pMOCcwDnL5Tkg17n%2Fpf5OnmKPlWfZjguBkWKMd%2Be%2BqGCBVozHy%2FYTou3BxndOqStKAtMPGIWyYopR%2F3EuXNAcXIpSR%2Faf%2FK2q9vdFIR7LXY0f%2Fy%2Br60%2FfpBUjfGbjR5eZ1M%2F4gRbdFJiurW8pNYI%2FrxibD2%2F8kw%2Bes3jW%2BGAV9kpPBvGaZ9M2y37NFore4CBWxMWVqcnh2N4RlJm8NFGZpHYp3SfmNFlpbbA3Gxl7amcagvxnLREzZ%2BXQErvjeGHhxWOnZrtF2onLh8AvZ5Obpz84D5xkEzBqjdUtCrrCdwm8XJ4FzfJVET7RxwrmBz3pfKNk7DZsPZLlgLW4VUs4vLOvUXj3XT4tU80oMgmEzab%2FTjpyH%2Bexl%2BbT2f5MkwJxRS9NLu9AbsvzaQhh85TD2SvLx22h4KXttv4ANmGUq9F%2Fr6ViB6xAkiJX35qsRPiA%2BSQRfTZsK%2B0Q%2BS%2FrVTUep9lYx%2B5CghFXp5%2FfOti3qvn1v1u0%2F%2BDQ%3D%3D%22)%2C(e%3D%3Ee.charCodeAt(0)))).body.pipeThrough(new%20DecompressionStream(%22deflate-raw%22)).getReader().read().then(((%7Bvalue%3Ae%7D)%3D%3E(document.open()%2Cdocument.write((new%20TextDecoder).decode(e))%2Cdocument.close()))).catch(console.error)%3C%2Fscript%3E\n"
+  },
+  "demo": "demo.png",
+  "os": "Browser",
+  "arch": "JavaScript",
+  "description": "Add cheese to a pizza!\n",
+  "repo": "https://github.com/codingkatty/qrwebsite"
+}

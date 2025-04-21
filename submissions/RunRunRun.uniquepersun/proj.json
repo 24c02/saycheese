@@ -1,0 +1,14 @@
+{
+  "name": "RunRunRun",
+  "author": "uniquepersun",
+  "qr": {
+    "image": "qr.png",
+    "type": "Url",
+    "url": "data:text/html;charset=utf-8,%3Cbody%3E%3Cscript%3Enew%20Response(Uint8Array.from(atob(%22jVVdb9s2FP0rioq6Uk0ptFunnSRqaNI2KNBhRbOhG4I80NSVzYUmNer6a4aBPW2vw35if8lASf5IlxSFAYO65Dk699zLq%2BykMALXFXhTnKk8c%2F%2Be4nrCQOfZDJB7YsptDch%2B%2Fult9HIXMxpBI%2FOXssApK2AhBUTNA5FaouQqqgVXwAa%2Bp%2FkM2ELCsjIW8wwlKsinBr2x0nGcnbaBrMa1gnxsivVmxu1E6oSmFS8KqScJTQtZV4qvk1LBKv1tXqMs11EnIxGgEWzKlZzoSCLM6l1oCnIyxWRA6WKajrm4nVgz10XyqBy4X2oWYEtllslUFgXotDQao5LPpFonr6zkaiu4XvB6Mza2AJsMq5VXGyUL7xGlNG2jkeWFnNfJWbXaxk6TNareVKaWKI1O%2BLg2ao6Qjg2imSUDWq1SBSUmI%2Fo4Rct1XRo7S5qV4gi%2FBNGIPg4PXN54jmj0ZmdHw7AzyRtVq1Z3Lf%2BAZHBWrVIxt7WxSWVk40InXhsNX0geOcm1MBbu0YumSgRXIhjRx17kDb8bVauwVb4P972BUxMeKRjSnaBl6%2F4LSg%2B5xNzauqtw1DkycohvqfCEV03y25hv7lTzxbh8%2FnKbnbZNlBVy4QnF65o1uXmyYFev8yu3TjyanRZykWdtZb22RdgZpe7Y5Sev7ennlObZaXvmmHCXx3HM3xfKJefnWVsvz2ihpLhlT2ZmAedcKWN04DsD%2FfBJh%2BX557%2F%2ByU5bRO59HWqd1LvYf%2FfYLq0vCYQIfAuFQzXusCPjLBT55z%2F%2F%2FsrrHXpiAfS9%2BGbnGxjGag73EjyitPwG%2FBqUMsv7GcqS3mHobKiFlRXmCtADVhgxn4HGeAL4RoFbnq%2FfFYF%2F%2BckPCTJwGxeu11YY%2BMPCD4l9GHT12g%2BJYY2rRLPrGyIYxE3bnA4JZ0MiGU3LuRbuPnlCBBBuDIPtPnRxHoSbBbceEmQBsuuWq3OatH6RXdo34fUPHKdxqYyxQbO0XBdmFoRPMVagJzgNb4hlA0qf3tnujygx7C4i6KRGNkx1XM3rabBZJYask2hESbOVWNINziElwihjEySYnAy24SGHeVVwhCDc6Lg09g0X0wBZvsF43WecnGCMvR7G6xzilqvXCzBGdkKJjCJiY%2Bf1xe470l1Nvy%2FDrZslNnCF4yzQTMelVAjWsWO8jrDjy3bEYdh5EA1SnjOa8ijq3GX6mt%2Bksgycqh1wryg6o43EPVP0nPZ6oj%2BkOcarXk9EQ5phvOpj61i4aZgaQ04YM6EFnFvtcQUWA%2F%2BSz8D7cQH2xPvVzK1XH3IiCyMLz14GYSr7%2FYeTJzquKyUFBJwMwu324LbDbh7qtYcJDwSF5csg3GAsFHD7EQQGlFDScZG9mQTjMUyk%2FsBxGrgnbkUg9vuuR4YOOGw77cM7d6aUSl01N9N0Tw1UKFNDR3ToEmi65ACB1tEO2CiDeEUgXv9f3XEDTlQQbnZdSNr8iIXf51DjKy1n3J16a%2FkMgok6wh1PVAw37TxmjGGvJ%2FIh%2FV5E7BlNulnbxbPdpRnSXi8QffaMhtsa8J37LC24Ci7OyRCehWQ%2FNHhRvFmAxveyRtBgA%2F8W1oVZap%2B4a%2BK%2FstYs3%2B9eHd%2FCun29o3cCQtIe%2BbiX0Z25V0pInBvZaTf1%2FgM%3D%22)%2C(e%3D%3Ee.charCodeAt(0)))).body.pipeThrough(new%20DecompressionStream(%22deflate-raw%22)).getReader().read().then(((%7Bvalue%3Ae%7D)%3D%3E(document.open()%2Cdocument.write((new%20TextDecoder).decode(e))%2Cdocument.close()))).catch(console.error)%3C%2Fscript%3E\n"
+  },
+  "demo": "demo.png",
+  "os": "Browser",
+  "arch": "JavaScript",
+  "description": "what is this?? its a challenge! Yep, to make your application as smoll as possible while keeping it engaging🙆.\n\nBut what is my application??\nits a game!\nwhere you(player), have to match the color of the barriers falling on you to cross them w/o fearr! and you HAVE TO CROSS THEM TOUCHING, if not you lose a point.. BUTT if you do so also matching the right color you get 🍬(if you meet me in person :yayy:)\n",
+  "repo": "https://github.com/uniquepersun/RunRunRun"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "YABA-QR (Yet Another Bad Apple QR!)",
+  "author": "Daniel Benge",
+  "qr": {
+    "image": "qr.png",
+    "type": "Url",
+    "url": "data:text/html,%3Cscript%3Enew%20Response(Uint8Array.from(atob(%22nVhbT+w2EH7vr9iuKNo9G8BJYBPYhKrnJvHUqj19qI4QCs6YjRqyq11TQIj/3vEtmVwWtrX0KY7t+Txjz9iTJD9+/vXTt79++zJayvvy8odEPUZlVt2lY6jGl8kSsvwyuQeZjfgy22xBpuM/v309irFPFrKEy49ZPvplvS4hOTENyVY+44Nn1T/ZdvRS3Gd3cLSBKodNUd1drIsnKDMJ+eKxyOXywp+z9dNiCcXdUtqX1+TEcCQnZv7bVf58mVjGIk/HW74B1G+kKdKxPx+PDIOuo5wZi7rwTbGWl3xVbeVIbLJ7SL+P2dhr8H7xCXrFUEQIQRARhB2KHhVSiJj5grMQnwqRfYbY5us+B6bBulAUWMMhQuAIEXeg+hBgEFFwC6QAJYqTGkQdmHbQT18AAbfQhpBZ+QBi1sBoFWkYo5UWPRGwaNF0qAi0FgKrYQMeGdC22BjShjFSUeRUnEC3DSxxB4qiqzQMGTNgBDfQayHI0LCP1ib3YVzLrC6vIXYg0i7YQLucojBq2PWrHYRMRdTwmUJoPVVTaQpV1LZYfwLrS+DokPoWYUSdT7iAMBTnisKJD1AgzhVFvJsibnsy9WJhvTiOLbT9oQ3LZi1iJ+4PijcRy7DO6jbOAvW+DwUN+F0UNiSd/W6Io4p7NG5TA6WZdq3aH8Ie3Nq4DcZdAQVmoDa23lTlGy0XbM4aV29FfGAx11qEuCO+BYsjsnFzxCkBI0tq6YHVWmCBgfhQeKdQil1FUQ9Fswh3UmhtBg5AGNaoRxGRGUmUuvPjvxiilO8EO1iIsEvBGAlt3BHEHBEgMKR5GzsvRHNxosR5TG6q2AcBHTNB7be+JFsUUR13djZgAT4DMzO2AzYIcolprxDs3JikKJrLyvphaIHK+AT1teqTMYG6itgcp52Hoo4S387CIoIccY44I+IGvfxibgIIWVEUVyZU4Mb8uc0XMAdifmZWz4fBFAV72Cl5P7XiHHbtyN4ZT/x2N6F7swzmSj2at8vpO/37pW99N40J9qNoqaRAj6J3KVq+/f8ogmEt3EG4D0Vbkx4F7KnFgCHvUQRE1LdO36fhjBqiNKUJtHsX5N0l1mFnfPSmIdxXwb3z+LJlJ4UKMz9nTZrfLsTvbZwIUCd51Nwh+nyKhk/qXae6TpyEefK9RVsU/YKnaH2d4qq8eVcOUNQ2he2rF6Im36YgFK0ums1GDXoUYUMRknvQby4zYO0cewiOwmWzQwlDDTI9+WqoDenS76uGSe3FLdHedsUkZwroNW1BptAUw7O7TzodlHPW0axDIUQnLzfof/817dCgpoi6Skb1uxPh9kOE2RTfR+SK4tozn+tpvuIP91DJ4zuQX0pQ1Y/PV/nEfe9PPS6fUjNYjfm0qiQ8yck4yLHv0fXovwLe0r2aPwML8VBxWayqUb7JHr+qXwGTg+lLISYYpmmaYh3Jj0VRln+onw/p+LbM+N9jz7X+DlxOmMe8R285XWxAPmyq1xLkSKRqCGqYSbhSfzs+ZzKbqFHeTcoWYrWZqGEc6zw5OC6hupPLBZ+lwfRFdUC6Vn9Wrio5OTjelgWHCff4LJh6/nxai2coniXx4eFN8vhhuchmM+9mNjMMMoVDP0mio+zn4OzsgnllevrhZiGOc9Tke3mdutrMJ/XgOpVe/RZepyj7+qpsWT/IxhCBJrOpsVSt2lWVw5Oyy63nusyeJ9OXZln1sO/N4OupRyQnTX3mT3/Sb3ZRvC3Ib8U9rB7kRLF6ZwxnNvyL5MT+zElOzP+gE/3P6l8=%22),c=%3Ec.charCodeAt(0))).body.pipeThrough(new%20DecompressionStream(%22deflate-raw%22)).pipeTo(new%20WritableStream(%7Bwrite(e,t)%7Bdocument.open(),document.write(new%20TextDecoder().decode(e)),document.close()%7D%7D))%3C/script%3E\n"
+  },
+  "demo": "demo.png",
+  "os": "Browser",
+  "arch": "JavaScript",
+  "description": "Yep, this is another bad apple video ported to a QR code! It uses python to convert the frames to hexadecimal, before rendering them on a HTML canvas. When I started I didn't realise just how many people would have exactly the same idea as me, but honestly I'm really happy with how it turned out :)\n",
+  "repo": "https://github.com/Dragon863/BadAppleQR"
+}

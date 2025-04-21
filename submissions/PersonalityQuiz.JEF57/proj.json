@@ -1,0 +1,14 @@
+{
+  "name": "Personality quiz",
+  "author": "JEF57",
+  "qr": {
+    "image": "qr.png",
+    "type": "Url",
+    "url": "data:text/html;charset=utf-8,%3Cbody%3E%3Cscript%3Enew%20Response(Uint8Array.from(atob(%22lVYJj9o4FP4rrrurAdVkYGba7gaSqjPtHlK7PVdVBUhrkhfijuOX2i8MFPHfV7m4yuwBUuTY7%2Fi%2B53dk9CDGiFY5sJQyHY7KJ9PSzAMw4SgDkixKpXVAwZ8ff%2Bn91O6hITAU8DsVUxrEsFAR9KoXoYwiJXXPRVJDMODMyAyChYK7HC2FI1KkIXwL1qGRWtGKvSvUt9F5vT9ytNIQzjBerRM01EtkpvTKf26V1MJJ43oOrEqGmbRzZfz%2BMJdxrMzc7w9nMrqdWyxM3ItQo%2FUfJlflfxgrl2u58hMNy%2BGXwpFKVr2Ggx%2BBIbBDqdXc9BRB5tqtFNQ8JX%2FQ7y%2FSjVfKS2XAriue%2Fs%2F9H4eZXNas%2Fat%2BP1%2FuIfAfJkkynKGNwfasjFXh%2FEElgsueS2WMd36fXeVL9iRfMjufyU5flH9v0N1SuigVCJbUq9A1uDbpYN3wu7y83Dz8WoAjhaaOl1PfwB94F5A1IerNkAizytjGk8bdgXVsVhChWTdRLJGxx%2Fly67naqNzvGYWsIeQbNHBE7vEB%2FfYC%2Bv2nsyQZttdRLgvr0Po5qirGZKVxqoTvH2sz79IdA%2FZTXIBdn3L0%2BMnscjM6r%2FNnFKsFi7R0Ltje2%2F6mI2mpl8s5hKN0EH4CHWEGjJBRCuw4OR%2BMztNBOKohMDSRVtFtbaM87nTDD%2BW6SeRaLBydx2qx7%2FNrob71tmhYBTRoU7OMaC2s4qC90e9ttNFQcbtsZfafLrIqpzBC44hBMF6jzz%2BlKkoZJiVBB6wKm2MxshUWTKtbqJhn6OgZF%2BSP%2BXuIueC%2FWgDDBb%2FWBfCpUP54IC7FYLoRpdEXtTqYL7hid2hvlZkzZZhkBDJrDH0GxwX%2FA7fqh8qVbxkvwFBh4aTOxdbhp1TSmSv1LEvkAq0iYNKoTOpG8wXOueA3kkrQypYc3lAKtrZ0KQbiQlydgm9BlqnPZoi37gDGB8yAVHYAqTK0BXUQ2lxLQ%2F8Y2jc2SlWJ7K20TsOqAhxR4VrbpwmrGKRmCxnJMjmYy7E1eA0ySrngr7Go0qtEeqNodUj%2BQpR3dzXdTAUGY%2F4ZCyYtMMmuUcfsFcgY7AMudgeGPW%2FuBQvHXi5zjfZIhH1MsZinlBSavbAgs%2FJ8OtRAzAR9QUF%2FmBQmqgHvCmYdY1RkYMj7WoBdfQANEaHtnHm7yjzrelWNeE2NBGdlkZyJe1UPC%2Bx79ZnG6PZMaJTxu6bCOt3NFt7h%2FrquHgy27uZALzWUy%2BvV73GHt1XKu4Lul2rKlHeFC2BspkP0yo5%2B00xQ56EgTxkD9rePr18FnAvnkZegfSmjtNMBgd0gbMCYnZvIgiRoPHV43XN4d2gOrIMwXtuuOt0gTKWJNTyvIHWwK8iTeQ4mvkmVjjumu9kLx5Hsmh5V%2BD01xqkwjx4J8DSYOaWheXYYOr%2BJ%2BHtwhab9EB8drMs0gSEEFD59RuHg6hmOL6Y%2Bjgfloz%2B976r5bhjz7l7w%2FpoYdvQru%2FsPa9hUHfzE8VFP5xb2spSH74HkLRw29kMrf%2B3YHeium%2FT%2Fvxz4CZC7%2Fj%2Fhu%2FqY8BOEWs7%2FaaLdo34Uk8ZnTWvCT826E5irSfQvXA4LdsKbmTjh7VRk1YfG%2FUSbeTnZ1uKEh%2Fd5%2Fs57U5kTXpvYvt5r4dQ%2BLz856nH7Nw%3D%3D%22)%2C(e%3D%3Ee.charCodeAt(0)))).body.pipeThrough(new%20DecompressionStream(%22deflate-raw%22)).getReader().read().then(((%7Bvalue%3Ae%7D)%3D%3E(document.open()%2Cdocument.write((new%20TextDecoder).decode(e))%2Cdocument.close()))).catch(console.error)%3C%2Fscript%3E\n"
+  },
+  "demo": "demo.png",
+  "os": "Browser",
+  "arch": "JavaScript",
+  "description": "Simple quiz that indicates your personality based on carefully picked questions.\n",
+  "repo": "https://gist.github.com/JosefEliasFormanek/e8ebfcfc1de052b94f2a887c0d1838db"
+}
