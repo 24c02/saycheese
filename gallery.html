@@ -316,7 +316,7 @@
             </div>
             <div class="modal-inner">
                 <a id="modal-qr-anchor">
-                    <img id="modal-qr" alt="selected project qr-code" />
+                    <img id="modal-qr" alt="selected project qr-code" loading="lazy" />
                 </a>
                 <div class="flex-column mobile-center">
                     <h1 id="modal-title"></h1>
@@ -400,9 +400,9 @@
             }
 
             let img = document.createElement("img");
-            img.setAttribute('data-src', base + submission.qr.image);
+            img.src=  base + submission.qr.image
             img.alt = submission.name + " qr-code";
-            img.className = 'lazy'
+            img.loading = 'lazy'
             submission_el.appendChild(img);
 
             let title = document.createElement("h2");
@@ -429,35 +429,6 @@
                     appendSubmission(base, submission, i);
                 });
             }
-        });
-        document.addEventListener("DOMContentLoaded", function () {
-            var lazyloadImages = document.querySelectorAll("img.lazy");
-            var lazyloadThrottleTimeout;
-
-            function lazyload() {
-                if (lazyloadThrottleTimeout) {
-                    clearTimeout(lazyloadThrottleTimeout);
-                }
-
-                lazyloadThrottleTimeout = setTimeout(function () {
-                    var scrollTop = window.pageYOffset;
-                    lazyloadImages.forEach(function (img) {
-                        if (img.offsetTop < (window.innerHeight + scrollTop)) {
-                            img.src = img.dataset.src;
-                            img.classList.remove('lazy');
-                        }
-                    });
-                    if (lazyloadImages.length == 0) {
-                        document.removeEventListener("scroll", lazyload);
-                        window.removeEventListener("resize", lazyload);
-                        window.removeEventListener("orientationChange", lazyload);
-                    }
-                }, 20);
-            }
-
-            document.addEventListener("scroll", lazyload);
-            window.addEventListener("resize", lazyload);
-            window.addEventListener("orientationChange", lazyload);
         });
     </script>
 </body>
