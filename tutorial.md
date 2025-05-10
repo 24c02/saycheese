@@ -1,68 +1,41 @@
-# Tutorial-ish
+# Tutorial-Ish
 
-Starting a project like this can be daunting,
-which is why I've put together a semi-tutorial that gives a quick introduction to optimizing for size!
-The limits of QR codes require our entire program to fit inside a binary that is less than 3 kilobytes large.
-Size optimization on this scale brings a whole slew of challenges,
-namely the fact that most high-level languages are unable to fit in such a small size.
-Even a simple hello world program in C takes up a whopping 297 kilobytes!
+Starting a project like this can feel overwhelming. That's why I’ve put together this semi-tutorial to give you a quick introduction to optimizing for size. The limits of QR codes require your entire program to fit inside a binary that's less than 3 kilobytes. Size optimization on this scale introduces numerous challenges, especially since many high-level languages can't fit within such a small footprint. For example, even a simple "Hello World" program in C takes up a hefty 297 kilobytes!
 
-There are a few different ways to get around this,
-namely using languages that allow you either fine-grain control of the binary size,
-or offload much of the processing to the host device.
-This makes either a form of assembly language ideal for binaries,
-or HTML+JavaScript for a web app
+There are a few strategies to work around this limitation. The key is using languages that allow you to either have fine-grain control over the binary size or offload much of the processing to the host device. This makes assembly language ideal for binary optimization, or HTML and JavaScript perfect for web apps.
 
-For both of these methods,
-you'll need a way for your users to actually use your program ~~obviously~~.
-Although you could just use a binary QR-code,
-this adds lots of extra steps for your users.
-The method I recommend is to use the [Data URI Scheme](https://developer.mozilla.org/en-US/docs/Web/URI/Schemes/data).
-This scheme is able to accomodate both webpages and native binaries
-(with the "text/html" and "application/octet-stream" media types respectively).
-While this does reduce the total size of your program from 3kB to 2kB,
-a pretty substantial reduction,
-but it allows your users to simply scan your QR code and have you program 
-either automatically opened or downloaded without any additional steps!
+But how can users actually interact with your program? Obviously, you want to make it easy for them. While you could use a binary QR code, this adds extra steps for your users. I recommend a much simpler approach: using the [Data URI Scheme](https://developer.mozilla.org/en-US/docs/Web/URI/Schemes/data). This scheme supports both webpages and native binaries (with the "text/html" and "application/octet-stream" media types, respectively).
 
-## Assembly
+While using the Data URI Scheme reduces your program size from 3kB to 2kB (a significant saving!), it allows your users to simply scan your QR code and have your program open or download automatically with no additional steps!
 
-Assembly is just about the only way to build native binaries small enough to fit inside a QR code,
-unless you're prepared to do some major fiddling with your preferred compiler while avoiding breaking your program.
-An important aspect of assembly is that it is often architecture (and operating-system) specific.
-This is both a blessing and a curse,
-since you will only be able to create a program for a single system,
-but you are also able to create a program for any system you can dream of.
+---
 
-Say Cheese is platform agnostic, meaning you're allowed to build a program for anything,
-be it a common platform like x64 Windows,
-or something outlandish like the TI-84 Graphing Calculator or the Nintendo GameBoy.
-Whatever you desire, you can build for!
+## Assembly: The Key to Small Binaries
 
-A consequence of this, however,
-is that I can't possibly tell you how to optimize for every single platform.
-Although, if you're looking for a way to get into Assembly programming,
-make sure to check out Hack Club's own [Some Assembly Required](https://github.com/hackclub/some-assembly-required), an approchable introduction to assembly.
+Assembly is one of the best ways to build native binaries small enough to fit inside a QR code—unless you’re willing to do some major tweaking with your preferred compiler. The advantage of assembly is that it provides near-total control over binary size. However, it's important to note that assembly is architecture (and operating system) specific. 
 
-If you're building for Linux and you're stuck on getting the ELF file smaller than 3kB,
-take a look at this [incredible guide](https://www.muppetlabs.com/~breadbox/software/tiny/teensy.html) to ELF size optimization!
+This specificity is both a blessing and a curse. On the one hand, you can create a program for any platform you desire, whether that’s a common system like x64 Windows or something more niche, like the TI-84 Graphing Calculator or the Nintendo GameBoy. On the other hand, you’re limited to a single system. 
 
-## HTML+JavaScript
+For example, Say Cheese is platform-agnostic, meaning you can build a program for virtually anything. The downside is, I can't cover every possible platform in detail. If you’re new to assembly programming and looking for a starting point, I highly recommend checking out [Some Assembly Required](https://github.com/hackclub/some-assembly-required), an approachable introduction to assembly programming.
 
-JavaScript is what's called an interpretted language,
-which means that much of the actual work is done by another program.
-For JS, this is typically a browser ~~or Node/Bun/Deno if you're feeling silly~~.
-The ability of JavaScript to offload it's functionality allows it to fit in much smaller file sizes than a typical binary.
+If you're developing for Linux and struggling to get your ELF file smaller than 3kB, check out this [incredible guide](https://www.muppetlabs.com/~breadbox/software/tiny/teensy.html) for ELF size optimization!
 
-This offloading, however,
-does not fully counter the heavy size constraints of a QR code.
-Even the [Hackatime dashboard](https://waka.hackclub.com),
-used for [High Seas](httpps://highseas.hackclub.com),
-has a single base (`base.js`) that is 33kB, 
-10x bigger than we can fit!
+---
 
-The main way to combat size in JavaScript and HTML is something called "minifying".
-Essentially, getting rid of all unnecesarry blank space and long variable names.
-This makes the code much less readable, but also shrinks the size considerably!
-I'm much too lazy to make a custom minifyer for this site,
-so I reccomend just searching for one on your favorite search engine.
+## HTML + JavaScript: Offloading for Smaller Files
+
+JavaScript is an interpreted language, meaning the heavy lifting is done by another program—typically a browser (or Node, Bun, or Deno if you prefer a more adventurous approach). JavaScript’s ability to offload functionality allows it to fit into much smaller file sizes compared to a typical binary.
+
+However, this offloading doesn't completely negate the strict size constraints of a QR code. Even the [Hackatime dashboard](https://waka.hackclub.com), used for [High Seas](https://highseas.hackclub.com), has a base file (`base.js`) that is 33kB—10x bigger than the QR code limit!
+
+The main way to combat size in JavaScript and HTML is by **minifying**. Minification removes unnecessary whitespace, long variable names, and comments, making the code harder to read but drastically reducing its size. While I’m too lazy to build a custom minifier for this tutorial, I suggest searching for one online (there are plenty of good options available).
+
+---
+
+## Turning Your Website into a QR Code
+
+If you're ready to convert your website into a QR code, you can do so easily using the programs available at [Html-To-QR](https://github.com/The-UnknownHacker/Html-To-QR). This tool will allow you to create a QR code from your html file directly. Make sure if you use this tool that your html file is under the file limit otherwise the tool will fail
+
+---
+
+Now that you know the basics of size optimization, you’re ready to start building small, efficient programs that can fit perfectly into QR codes. Happy coding!
